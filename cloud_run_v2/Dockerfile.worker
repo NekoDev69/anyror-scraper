@@ -1,0 +1,27 @@
+# Cloud Run Job Worker - Parallel Browser Scraping
+FROM python:3.11-slim
+
+# Install Playwright dependencies
+RUN apt-get update && apt-get install -y \
+    wget gnupg curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python deps
+COPY requirements-worker.txt /tmp/
+RUN pip install --no-cache-dir -r /tmp/requirements-worker.txt
+
+# Install Playwright browsers
+RUN playwright install chromium --with-deps
+
+WORKDIR /app
+
+# Copy code
+COPY parallel_worker.py .
+COPY gujarat-anyror-complete.json .
+
+# Run as non-root
+RUN useradd -m worker && chown -R worker /app
+USER worker
+
+# Entry point
+CMD ["python", "parallel_worker.py"]

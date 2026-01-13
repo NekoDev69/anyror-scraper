@@ -1,0 +1,956 @@
+{
+  "district": {
+    "code": "30",
+    "name": "બોટાદ"
+  },
+  "search_type": "survey",
+  "search_value": "1",
+  "started_at": "2026-01-14T04:41:52.597954",
+  "talukas_searched": 5,
+  "villages_searched": 2,
+  "matches": [],
+  "errors": [
+    {
+      "taluka": "બોટાદ",
+      "village": "કેરીયા નં. ૨ - 040",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "કાનીયાડ - 013",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "કારીયાણી - 043",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ખાખોઇ - 030",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ગઢડીયા - 007",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ચકમપર - 051",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "જોટીંગડા - 033",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ઝમરાળા - 042",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ઝરીયા - 023",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ઝીંઝાવદર - 047",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ઢાંકણીયા - 029",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ઢ઼ીંકવાળી - 026",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "તુરખા - 021",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "તરઘરા - 018",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "તાજપર - 035",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "નાગલપર - 028",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "નાના છૈડા - 005",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "નાના પાળીયાદ - 014",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "નાના ભડલા - 001",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "નાની વીરવા - 015",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "પાટી - 045",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "પીપરડી - 003",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "પીપળીયા - 004",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "બાબરકોટ - 010",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "બોડી - 011",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ભદ્રાવડી - 020",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "ભાંભણ - 034",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "મોટા છૈડા - 006",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "મોટા પાળીયાદ - 053",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "મોટી વીરવા - 008",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "રંગપર - 022",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "રતનપર - 009",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "રતનવાવ - 041",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "રાજપરા - 032",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "રોહીશાળા - 050",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "લાખેણી - 049",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "લાઠીદડ - 036",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "લીંબોડા - 002",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "વજેલી - 038",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "શિરવાણીયા - 024",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સજેલી - 037",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સેંથળી - 025",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સમઢીયાળા નં.-૧ - 027",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સમઢીયાળા નં.-૨ - 039",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સરવઈ - 044",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સરવા - 016",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સાંકરડી - 012",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સાંગાવદર - 048",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "સાલૈયા - 031",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ",
+      "village": "હડદડ - 019",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "અડતાળા - 030",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "અનીડા - 067",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "આંકડીયા - 058",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ઇંગોરાળા (ખા.) - 007",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ઇંગોરાળા (ગી.) - 048",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ઇતરીયા - 035",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ઇશ્વરીયા - 027",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ઉગામેડી - 024",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "કેરાળા - 032",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "કાંપરડી - 055",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ખીજડીયા - 064",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ખોપાળા - 043",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ગઢડા - 076",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ગઢાળી - 054",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ગુંદાળા - 046",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ગાળા - 015",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ગોરડકા - 012",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ઘોઘા સમડી - 052",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ચભાડીયા - 056",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ચીરોડા - 045",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ચોસલા - 065",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "જનડા - 008",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "જુનવદર - 062",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "જલાલપર - 071",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ટાટમ - 004",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ઢસા(ગામ) - 069",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "તતાણા - 028",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "દેરાળા - 001",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ધ્રુફણીયા - 002",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "નાના ઉમરડા - 072",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "નાના ઝીંઝાવદર - 025",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "નીંગાળા - 009",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "પડવદર - 047",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "પ્રહલાદ઼ગઢ - 075",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "પાટણા - 060",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "પાડાપાણ - 061",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "પીપરડી - 051",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "પીપળ - 029",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "પીપળીયા - 006",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "બોડકી - 040",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ભંડારીયા - 068",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "ભીમડાદ - 003",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "મેઘવડીયા - 013",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "માંડવધાર - 031",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "માંડવા - 070",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "માલપરા - 059",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "મોટા ઉમરડા - 073",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "મોટી કુંડળ - 036",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "રતનપર - 017",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "રતનવાવ - 019",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "રળીયાણા - 039",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "રસનાળ - 063",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "રાજપીપળા - 057",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "રામપરા - 033",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "રાયપર - 018",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "રોજમાળ - 022",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "લાખણકા - 042",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "લીંબડીયા - 049",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "લીંબાળા - 066",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "લીંબાળી - 034",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "વનાળી - 041",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "વાવડી - 037",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "વિકળીયા - 074",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "વિરડી - 044",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "વિરાવાડી - 021",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "સખપર નાના - 011",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "સખપર મોટા - 020",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "સમઢીયાળા - 038",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "સુરકા - 010",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "સાંજણાવદર - 053",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "સાળંગપર નાનુ - 014",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "સીતાપર - 050",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "સીયાનગર - 026",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "હરીપર - 023",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "હામાપર - 005",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "ગઢડા",
+      "village": "હોળાયા - 016",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "અણીયાળી-કસ્બાતી - 025",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "અણીયાળી-કાઠી - 034",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "અલઉ - 033",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "અલમપુર - 032",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ઊમરાળા - 010",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "કુંડલી - 013",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "કેરીયા - 026",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "કીનારા - 016",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ખસ - 031",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ખોખરનેશ - 029",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ગઢીયા - 023",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ગુંદા - 003",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ગોધાવટા - 004",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ચંદરવા - 036",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ચારણકી - 006",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "જાળીલા - 001",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "દેરડી - 024",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "દેવગાણા - 015",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "દેવળીયા - 002",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "ધારપીંપળા - 008",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "નાગનેશ - 035",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "નાનીવાવડી - 012",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "પાટણા - 021",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "પાણવી - 014",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "બગડ - 009",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "બુબાવાવ - 007",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "બરાનીયા - 017",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "બોડીયા - 011",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "માલણપુર - 005",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "મોટીવાવડી - 018",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "રાજપરા - 028",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "રાણપુર - 027",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "વેજલકા - 019",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "સુંદરીયાણા - 020",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "સાંગણપુર - 022",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "રાણપુર",
+      "village": "હડમ઼તાળા - 030",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "અંકેવાળીયા - 005",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "કુંડળ - 003",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "કાપડીયાળી - 025",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "ખડસલીયા - 001",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "ખમીદાણા - 022",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "ખાંભડા - 019",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "ચાંચરીયા - 027",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "ચોકડી - 018",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "ઝરવલીયા - 002",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "ટીંબલા - 030",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "ઢાઢોદર - 026",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "નભોઇ - 012",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "નાવડા - 008",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "પીપરીયા - 011",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "પોલારપુર - 017",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "બરવાળા - 014",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "બેલા - 021",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "રેફડા - 032",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "રાણપરી - 031",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "રામ઼પરા - 024",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "રોજીદ - 006",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "વહીયા - 007",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "વાઢેલા - 010",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "શાહપુર - 004",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બરવાળા",
+      "village": "સાળંગપુર - 020",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "taluka": "બોટાદ શહેર",
+      "village": "બોટાદ (સીટી) - 001",
+      "error": "Page.goto: Target page, context or browser has been closed"
+    }
+  ],
+  "completed_at": "2026-01-14T04:44:42.203346",
+  "total_matches": 0
+}

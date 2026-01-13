@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VF-7 Land Record - સીસવા</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8em; margin-bottom: 5px; }
+        .header .subtitle { opacity: 0.9; font-size: 0.95em; }
+        .header .record-type {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-size: 0.85em;
+        }
+        .content { padding: 30px; }
+        .section {
+            margin-bottom: 25px;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .section-header {
+            background: #f8f9fa;
+            padding: 12px 20px;
+            font-weight: 600;
+            color: #333;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section-header .icon { font-size: 1.2em; }
+        .section-body { padding: 20px; }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .info-item {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            border-radius: 8px;
+        }
+        .info-item .label {
+            font-size: 0.75em;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        .info-item .value {
+            font-size: 1.1em;
+            color: #333;
+            font-weight: 500;
+        }
+        .info-item .value.gujarati {
+            font-size: 1.2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #555;
+            font-size: 0.85em;
+            text-transform: uppercase;
+        }
+        tr:hover { background: #fafafa; }
+        .owner-row td:first-child { font-weight: 500; }
+        .badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+        .badge-primary { background: #e3f2fd; color: #1565c0; }
+        .badge-success { background: #e8f5e9; color: #2e7d32; }
+        .badge-warning { background: #fff3e0; color: #ef6c00; }
+        .badge-danger { background: #ffebee; color: #c62828; }
+        .encumbrance-card {
+            background: #fff8e1;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 0 8px 8px 0;
+        }
+        .encumbrance-card:last-child { margin-bottom: 0; }
+        .encumbrance-card .type {
+            font-weight: 600;
+            color: #f57c00;
+            margin-bottom: 5px;
+        }
+        .encumbrance-card .desc { color: #555; line-height: 1.5; }
+        .encumbrance-card .entry-no {
+            font-size: 0.85em;
+            color: #888;
+            margin-top: 8px;
+        }
+        .area-display {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-radius: 12px;
+        }
+        .area-display .raw {
+            font-size: 2em;
+            font-weight: 700;
+            color: #2e7d32;
+            margin-bottom: 5px;
+        }
+        .area-display .converted {
+            color: #558b2f;
+            font-size: 0.95em;
+        }
+        .footer {
+            background: #f5f5f5;
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 0.85em;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        .disclaimer {
+            background: #fff3e0;
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            color: #e65100;
+            margin-top: 20px;
+        }
+        .no-data {
+            color: #999;
+            font-style: italic;
+            padding: 20px;
+            text-align: center;
+        }
+        @media print {
+            body { background: white; padding: 0; }
+            .container { box-shadow: none; }
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏛️ Gujarat Land Record</h1>
+            <div class="subtitle">AnyROR Rural Land Record</div>
+            <div class="record-type">VF-7 / RoR (7-12)</div>
+        </div>
+        
+        <div class="content">
+            <!-- Location Section -->
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon">📍</span> Location / સ્થાન
+                </div>
+                <div class="section-body">
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="label">District / જિલ્લો</div>
+                            <div class="value gujarati">વડોદરા</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="label">Taluka / તાલુકો</div>
+                            <div class="value gujarati">વડોદરા</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="label">Village / ગામ</div>
+                            <div class="value gujarati">સીસવા</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Property Identity Section -->
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon">🏠</span> Property Identity / મિલકત ઓળખ
+                </div>
+                <div class="section-body">
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="label">Khata Number / ખાતા નંબર</div>
+                            <div class="value">648</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="label">Survey Number / સર્વે નંબર</div>
+                            <div class="value">45</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="label">Land Type / જમીન પ્રકાર</div>
+                            <div class="value">Unknown</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Land Area Section -->
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon">📐</span> Land Area / ક્ષેત્રફળ
+                </div>
+                <div class="section-body">
+                    <div class="area-display">
+                        <div class="raw">૧-૩પ-પ૭</div>
+                        <div class="converted">
+                            1 Hectare - 35 Are - 57 Sq.m<br><strong>Total: 13,557 sq.m</strong> (16,214.04 sq.yd)
+                        </div>
+                    </div>
+                    
+            <div style="text-align: center; margin-top: 15px; color: #666;">
+                Assessment Tax / આકાર: <strong>₹ 16.06</strong>
+            </div>
+                </div>
+            </div>
+            
+            <!-- Owners Section -->
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon">👥</span> Owners / ખાતેદારો (1)
+                </div>
+                <div class="section-body">
+                    
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Owner Name / ખાતેદાર નામ</th>
+                    <th>Type / પ્રકાર</th>
+                    <th>Entry No.</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr class="owner-row">
+                <td>1</td>
+                <td>મનસુખભાઈ નરસીંહભાઈ તુરખીયા</td>
+                <td><span class="badge badge-success">ખાતેદાર</span></td>
+                <td><span class="badge badge-primary">Entry: 3653</span></td>
+            </tr></tbody>
+        </table>
+                </div>
+            </div>
+            
+            <!-- Encumbrances Section -->
+            
+            
+            <!-- Disclaimer -->
+            <div class="disclaimer">
+                ⚠️ અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.
+                <br><small>The information provided online is updated and is not an official copy.</small>
+            </div>
+        </div>
+        
+        <div class="footer">
+            Generated on 13 January 2026, 11:04 PM
+            &nbsp;|&nbsp; Data scraped from AnyROR Rural Land Record
+        </div>
+    </div>
+</body>
+</html>

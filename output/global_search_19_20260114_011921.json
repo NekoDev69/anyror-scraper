@@ -1,0 +1,15 @@
+{
+  "district": {
+    "code": "19",
+    "name": "વડોદરા"
+  },
+  "search_type": "survey",
+  "search_value": "3",
+  "started_at": "2026-01-14T01:02:17.199071",
+  "talukas_searched": 1,
+  "villages_searched": 10,
+  "matches": [],
+  "errors": [],
+  "completed_at": "2026-01-14T01:19:21.103943",
+  "total_matches": 0
+}

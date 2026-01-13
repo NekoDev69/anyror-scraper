@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "portal_name": "AnyROR Rural Land Record",
+    "module": "SURVEY_NUMBER_SEARCH",
+    "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+    "state": "Gujarat",
+    "record_type": "VF-7 / RoR (7-12)",
+    "data_status_time_local": "",
+    "scrape_timestamp_utc": "2026-01-13T17:24:14.914647+00:00",
+    "language": "gu",
+    "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+    "disclaimer_english": "The information provided online is updated and is not an official copy.",
+    "owner_count": 1,
+    "encumbrance_count": 0
+  },
+  "search_input": {
+    "district": "19",
+    "taluka": "02",
+    "village": "011",
+    "survey_or_block_number": "45",
+    "sub_division_number": "",
+    "fetch_mode": "survey_search"
+  },
+  "location": {
+    "district": {
+      "name_en": "",
+      "name_local": "વડોદરા"
+    },
+    "taluka": {
+      "name_en": "",
+      "name_local": "વડોદરા"
+    },
+    "village": {
+      "name_en": "",
+      "name_local": "સીસવા"
+    }
+  },
+  "property_identity": {
+    "khata_number": "648",
+    "survey_number": "45",
+    "block_number": "",
+    "sub_division_number": "",
+    "old_survey_number": "",
+    "land_type": "Unknown"
+  },
+  "owners": [
+    {
+      "owner_name": "મનસુખભાઈ નરસીંહભાઈ તુરખીયા",
+      "owner_father_or_husband_name": "",
+      "ownership_type": "ખાતેદાર",
+      "share": "",
+      "entry_number": "3653",
+      "owner_address_or_remark": ""
+    }
+  ],
+  "land_details": {
+    "total_area_raw": "૧-૩પ-પ૭",
+    "area_hectare": 1,
+    "area_are": 35,
+    "area_sqm": 57,
+    "area_total_sqm": 13557,
+    "area_sq_yd": 16214.04,
+    "assessment_tax": "16.06",
+    "land_revenue": "",
+    "land_use": "",
+    "irrigation_type": "",
+    "soil_type": "",
+    "crop_details": "",
+    "boundaries": {
+      "north": "",
+      "south": "",
+      "east": "",
+      "west": ""
+    }
+  },
+  "entry_numbers": [
+    "184",
+    "187",
+    "394",
+    "493",
+    "807",
+    "1245",
+    "1266",
+    "1290"
+  ],
+  "rights_and_remarks": {
+    "entry_details": [],
+    "notes_raw": ""
+  },
+  "related_documents": {
+    "vf6": {
+      "available": false,
+      "url": ""
+    },
+    "vf8a": {
+      "available": false,
+      "url": ""
+    },
+    "vf7": {
+      "available": false,
+      "url": ""
+    },
+    "mutation_register": {
+      "available": false,
+      "url": ""
+    }
+  },
+  "raw_page_text_backup": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૮૪,૧૮૭,૩૯૪,૪૯૩,૮૦૭,૧૨૪પ,૧૨૬૬,૧૨૯૦,\n\t\t\n\t\t\t ૧૨૯૯,૧૪૯૦,૩૨૯પ,૩પ૬૪,૩પ૭૬,૩૬પ૩,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૬૪૮ | ૧-૩પ-પ૭ | ૧૬.૦૬મનસુખભાઈ નરસીંહભાઈ તુરખીયા(૩૬પ૩)"
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VF-7 - ભાદરોલીખુર્દ</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            font-size: 14px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border: 1px solid #ccc;
+        }
+        
+        /* Header Section */
+        .header-section {
+            background: #ffffcc;
+            border: 2px solid #999;
+            padding: 10px 15px;
+            margin: 10px;
+        }
+        .status-time {
+            color: red;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .location-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .location-item .label {
+            font-weight: bold;
+            color: #006600;
+        }
+        .location-item .value {
+            color: #000;
+        }
+        .upin-row {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+        }
+        .upin-label {
+            font-weight: bold;
+            color: #006600;
+        }
+        .upin-value {
+            color: blue;
+            font-weight: bold;
+        }
+        
+        /* Land Details Section */
+        .land-section {
+            background: #ffffcc;
+            border: 2px solid #999;
+            padding: 10px 15px;
+            margin: 10px;
+        }
+        .section-title {
+            font-weight: bold;
+            color: #006600;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .land-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+        .land-row {
+            display: flex;
+        }
+        .land-label {
+            font-weight: bold;
+            color: #000;
+            min-width: 350px;
+        }
+        .land-value {
+            color: #000;
+        }
+        
+        /* Tables Section */
+        .tables-section {
+            background: #ffffcc;
+            border: 2px solid #999;
+            margin: 10px;
+            padding: 10px;
+        }
+        .tables-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .table-container {
+            border: 1px solid #999;
+        }
+        .table-header {
+            background: #ccffcc;
+            padding: 8px;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 1px solid #999;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            background: #e6ffe6;
+            padding: 8px;
+            border: 1px solid #999;
+            font-weight: bold;
+            text-align: center;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #999;
+            vertical-align: top;
+        }
+        
+        /* Disclaimer */
+        .disclaimer {
+            padding: 10px;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+            border-top: 1px solid #ccc;
+        }
+        
+        @media print {
+            body { background: white; padding: 0; }
+            .container { border: none; }
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header with Location -->
+        <div class="header-section">
+            <div class="status-time">* તા.22/08/2025 01:25:36 ની સ્થિતિએ</div>
+            
+            <div class="location-grid">
+                <div class="location-item">
+                    <div class="label">District (જીલ્લો)</div>
+                    <div class="value">પંચમહાલ</div>
+                </div>
+                <div class="location-item">
+                    <div class="label">Taluka (તાલુકો)</div>
+                    <div class="value">કાલોલ</div>
+                </div>
+                <div class="location-item">
+                    <div class="label">Village (ગામ)</div>
+                    <div class="value">ભાદરોલીખુર્દ</div>
+                </div>
+                <div class="location-item">
+                    <div class="label">Survey/ Block Number (સરવે/ બ્લોક નંબર)</div>
+                    <div class="value">16</div>
+                </div>
+            </div>
+            
+            <div class="upin-row">
+                <span class="upin-label">UPIN (Unique Property Identification Number)</span><br>
+                <span class="upin-value">GJ813773043855</span>
+            </div>
+        </div>
+        
+        <!-- Land Details -->
+        <div class="land-section">
+            <div class="section-title">Land Details (જમીનની વિગતો)</div>
+            
+            <div class="land-grid">
+                <div>
+                    <div class="land-row">
+                        <span class="land-label">Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :</span>
+                        <span class="land-value">૦-૧૦-૨૧</span>
+                    </div>
+                    <div class="land-row">
+                        <span class="land-label">Total Assessment Rs. (કુલ આકાર રૂ. ) :</span>
+                        <span class="land-value">0.12</span>
+                    </div>
+                    <div class="land-row">
+                        <span class="land-label">Tenure (સત્તાપ્રકાર) :</span>
+                        <span class="land-value">જુની શરત (જુ.શ)</span>
+                    </div>
+                    <div class="land-row">
+                        <span class="land-label">Land Use (જમીનનો ઉપયોગ) :</span>
+                        <span class="land-value">ખેતીલાયક ઉપયોગ</span>
+                    </div>
+                    <div class="land-row">
+                        <span class="land-label">Name of farm (ખેતરનું નામ) :</span>
+                        <span class="land-value"></span>
+                    </div>
+                    <div class="land-row">
+                        <span class="land-label">Other Details (રીમાર્ક્સ) :</span>
+                        <span class="land-value"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ownership and Boja Tables -->
+        <div class="tables-section">
+            <div class="tables-grid">
+                <!-- Ownership Details -->
+                <div class="table-container">
+                    <div class="table-header">Ownership Details (ખાતેદારની વિગતો)</div>
+                    <table>
+                        <tr>
+                            <th>ખાતા નંબર | ક્ષેત્રફળ | આકાર |</th>
+                            <th>નોંધ નંબરો તથા ખાતેદાર</th>
+                        </tr>
+                        
+        <tr>
+            <td>126 | ૦-૧૦-૨૧ | 0.12</td>
+            <td>માવસિંહ શાભઇભાઈ<br>અજમલસિંહ શાભઇભાઈ<br>તખતસીહ કાભઇભાઇ(1510)<br>અદેસીહ કાભઇભાઇ(1510)<br>અજબસીહ કાભઇભાઇ(1510)<br>માલીબેન પ્રભાતસિંહ ની વિઘવા(1773)<br>મંજુલાબેન પ્રભાતસિંહ ની દિકરી(1773)<br>શકુન્તલાબેન પ્રભાતસિંહ ની દિકરી(1773)<br>વિજયસિંહ પ્રભાતસિંહ(1773)<br>સજજનબેન પ્રભાતસિંહ ની દિકરી(1773)<br>કાશીબેન લક્ષ્મણસિંહ પરમાર(2042)<br>લક્ષ્મીબેન લક્ષ્મણસિંહ પરમાર(2042)<br>સંજયકુમાર લક્ષ્મણસિંહ પરમાર(2042)<br>દલીબેન અનોપસિંહ પરમાર(2054)</td>
+        </tr>
+        
+                    </table>
+                </div>
+                
+                <!-- Boja and Other Rights -->
+                <div class="table-container">
+                    <div class="table-header">Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)</div>
+                    <table>
+                        <tr>
+                            <th>બોજા અને બીજા હક્ક ની વિગતો</th>
+                        </tr>
+                        <tr><td>જમન.જુશ./એસ.આર.નં./૧૩૧૨/૧૮ - તા.૦૪/૦૭/૨૦૧૮&lt;1933&gt;<br><br>બરોડા ગુજરાત ગ્રામીણ બેંક, BGGB KALOL માંથી અંકે રૂપીયા ૧,પ૦,૦૦૦/-  નો બોજો&lt;2270&gt;<br><br>બરોડા ગુજરાત ગ્રામીણ બેંક, BGGB KALOL માંથી અંકે રૂપીયા ૧,પ૦,૦૦૦/- નો બોજો&lt;2273&gt;</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Disclaimer -->
+        <div class="disclaimer">
+            * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.
+        </div>
+        
+    </div>
+</body>
+</html>

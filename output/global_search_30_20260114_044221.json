@@ -1,0 +1,15 @@
+{
+  "district": {
+    "code": "30",
+    "name": "બોટાદ"
+  },
+  "search_type": "survey",
+  "search_value": "1",
+  "started_at": "2026-01-14T04:39:07.808992",
+  "talukas_searched": 1,
+  "villages_searched": 5,
+  "matches": [],
+  "errors": [],
+  "completed_at": "2026-01-14T04:42:21.111520",
+  "total_matches": 0
+}

@@ -1,0 +1,1 @@
+gemini key - AIzaSyDQ8yj7I1LOvZJQuhzPXODIDAF3ChE9YO4
