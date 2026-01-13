@@ -33,7 +33,7 @@ class AnyRORScraper:
         "captcha_image": "#ContentPlaceHolder1_imgCaptcha",
     }
     
-    def __init__(self, headless: bool = False):
+    def __init__(self, headless: bool = True):
         self.headless = headless
         self.captcha_solver = CaptchaSolver(GEMINI_API_KEY)
         self.extractor = VF7Extractor()
