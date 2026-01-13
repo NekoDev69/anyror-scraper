@@ -563,7 +563,7 @@ def main():
     num_scrapes = 1
     results = []
     
-    scraper = AnyRORScraper(headless=False)
+    scraper = AnyRORScraper()
     
     try:
         scraper.start()
