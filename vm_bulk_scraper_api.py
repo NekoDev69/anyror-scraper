@@ -142,6 +142,7 @@ def scrape_village(page, village, survey_filter=None):
         # Select village
         page.locator(SELECTORS["village"]).select_option(village["value"])
         wait_for_page(page)
+        time.sleep(1)  # Extra wait for dropdown to populate
         
         # Get surveys
         surveys = get_options(page, SELECTORS["survey_no"])
@@ -154,19 +155,31 @@ def scrape_village(page, village, survey_filter=None):
         # Select first survey
         survey = surveys[0]
         page.locator(SELECTORS["survey_no"]).select_option(survey["value"])
-        time.sleep(0.5)
+        time.sleep(1)  # Wait for captcha to load
         
         # Try captcha
         for attempt in range(MAX_CAPTCHA_ATTEMPTS):
             try:
-                captcha_img = page.locator(SELECTORS["captcha_image"]).screenshot()
+                # Wait for captcha image to be visible
+                captcha_locator = page.locator(SELECTORS["captcha_image"])
+                captcha_locator.wait_for(state="visible", timeout=10000)
+                time.sleep(0.5)  # Let image fully render
+                
+                captcha_img = captcha_locator.screenshot(timeout=10000)
                 captcha_text = solve_captcha(captcha_img)
                 
                 if not captcha_text:
+                    log(f"Empty captcha response, retrying...")
+                    try:
+                        page.locator("text=Refresh Code").click()
+                        time.sleep(1)
+                    except:
+                        pass
                     continue
                 
                 page.locator(SELECTORS["captcha_input"]).fill(captcha_text)
                 page.locator(SELECTORS["captcha_input"]).press("Enter")
+                
                 time.sleep(2)
                 wait_for_page(page)
                 
@@ -175,14 +188,19 @@ def scrape_village(page, village, survey_filter=None):
                     data = extract_data(page)
                     return {"success": True, "survey": survey, "data": data}
                 
+                # Check for error message (wrong captcha)
+                if "Invalid" in content or "ખોટો" in content:
+                    log(f"Wrong captcha, refreshing...")
+                
                 # Refresh captcha
                 try:
                     page.locator("text=Refresh Code").click()
-                    time.sleep(0.5)
+                    time.sleep(1)
                 except:
                     pass
             except Exception as e:
-                log(f"Captcha attempt {attempt+1} error: {str(e)[:50]}")
+                log(f"Captcha attempt {attempt+1} error: {str(e)[:80]}")
+                time.sleep(1)
         
         return {"success": False, "reason": "captcha_failed"}
         
