@@ -16,8 +16,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from captcha_solver import CaptchaSolver
 
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "output")
-NUM_CONTEXTS = int(os.environ.get("NUM_CONTEXTS", 5))
-TABS_PER_CONTEXT = int(os.environ.get("TABS_PER_CONTEXT", 10))
+NUM_CONTEXTS = int(os.environ.get("NUM_CONTEXTS", 1))
+TABS_PER_CONTEXT = int(os.environ.get("TABS_PER_CONTEXT", 5))
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AIzaSyDBkyScEIGGUm2N1JwFrW32CCoAOWTbhXw"
 
 os.makedirs(f"{OUTPUT_DIR}/raw", exist_ok=True)
