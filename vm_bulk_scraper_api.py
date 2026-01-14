@@ -1,6 +1,6 @@
 """
 VM Bulk Scraper - API Version
-Uses AnyRORScraper class directly (same as local)
+Uses AnyRORScraper class directly with real-time progress updates
 """
 
 import os
@@ -29,6 +29,55 @@ def log(msg: str):
 
 def progress():
     print(f"PROGRESS:{stats['total']}:{stats['done']}:{stats['success']}", flush=True)
+
+
+def scrape_village(scraper: AnyRORScraper, village_code: str, village_name: str, survey_filter: str = None, max_captcha_attempts: int = 3):
+    """Scrape a single village - assumes district/taluka already selected"""
+    try:
+        # Select village
+        scraper.page.locator(scraper.SELECTORS["village"]).select_option(village_code)
+        scraper.wait_for_page()
+        
+        # Get survey options
+        surveys = scraper.get_options(scraper.SELECTORS["survey_no"])
+        if survey_filter:
+            surveys = [s for s in surveys if survey_filter in s["text"]]
+        
+        if not surveys:
+            return {"village_code": village_code, "village_name": village_name, "success": False, "reason": "no_surveys"}
+        
+        # Select first survey
+        survey = surveys[0]
+        scraper.page.locator(scraper.SELECTORS["survey_no"]).select_option(survey["value"])
+        time.sleep(0.5)
+        
+        # Try captcha
+        for attempt in range(max_captcha_attempts):
+            if scraper.solve_and_enter_captcha():
+                scraper.submit()
+                data = scraper.extract_data()
+                
+                if data["success"]:
+                    return {
+                        "village_code": village_code,
+                        "village_name": village_name,
+                        "survey": survey["text"],
+                        "success": True,
+                        "data": data
+                    }
+            
+            # Refresh captcha for retry
+            if attempt < max_captcha_attempts - 1:
+                try:
+                    scraper.page.locator("text=Refresh Code").click()
+                    time.sleep(0.5)
+                except:
+                    pass
+        
+        return {"village_code": village_code, "village_name": village_name, "success": False, "reason": "captcha_failed"}
+        
+    except Exception as e:
+        return {"village_code": village_code, "village_name": village_name, "success": False, "error": str(e)}
 
 
 def main():
@@ -69,44 +118,53 @@ def main():
     if survey_filter:
         log(f"Survey filter: {survey_filter}")
     
-    # Use AnyRORScraper - same as local!
+    # Use AnyRORScraper
     scraper = AnyRORScraper(headless=True)
     
     try:
         scraper.start()
-        log("Browser ready")
+        log("Browser started")
         
         for taluka in talukas_to_process:
-            log(f"Processing taluka: {taluka['label']} ({len(taluka['villages'])} villages)")
+            log(f"Taluka: {taluka['label']} ({len(taluka['villages'])} villages)")
             
-            # Get village codes for this taluka
-            village_codes = [v["value"] for v in taluka["villages"]]
+            # Navigate and setup session for this taluka
+            scraper.navigate()
+            scraper.select_vf7()
             
-            # Use the batch scrape method from AnyRORScraper
-            results = scraper.scrape_multiple_villages(
-                district_code=district_code,
-                taluka_code=taluka["value"],
-                village_codes=village_codes,
-                survey_filter=survey_filter if survey_filter else None,
-                max_captcha_attempts=3
-            )
+            # Select district
+            scraper.page.locator(scraper.SELECTORS["district"]).select_option(district_code)
+            scraper.wait_for_page()
             
-            # Process results
-            for result in results:
+            # Select taluka
+            scraper.page.locator(scraper.SELECTORS["taluka"]).select_option(taluka["value"])
+            scraper.wait_for_page()
+            
+            log(f"Session ready for {taluka['label']}")
+            
+            # Process each village with real-time updates
+            for village in taluka["villages"]:
+                village_code = village["value"]
+                village_name = village["label"]
+                
+                log(f"[{stats['done']+1}/{stats['total']}] {village_name[:35]}")
+                
+                result = scrape_village(scraper, village_code, village_name, survey_filter)
+                
                 stats["done"] += 1
                 
                 if result.get("success"):
                     stats["success"] += 1
-                    log(f"✅ {result.get('village_name', result.get('village_code', ''))[:30]} - {result.get('survey', '')}")
+                    log(f"✅ {village_name[:30]} - {result.get('survey', '')}")
                     
                     # Save result
                     ts = datetime.now().strftime('%Y%m%d_%H%M%S')
-                    filename = f"{district_code}_{taluka['value']}_{result.get('village_code', '')}_{ts}"
+                    filename = f"{district_code}_{taluka['value']}_{village_code}_{ts}"
                     
                     full_result = {
                         "district": {"value": district_code, "label": district["label"]},
                         "taluka": {"value": taluka["value"], "label": taluka["label"]},
-                        "village": {"value": result.get("village_code"), "label": result.get("village_name")},
+                        "village": {"value": village_code, "label": village_name},
                         "survey": {"text": result.get("survey")},
                         "data": result.get("data"),
                         "success": True
@@ -116,9 +174,20 @@ def main():
                         json.dump(full_result, f, ensure_ascii=False, indent=2)
                 else:
                     reason = result.get("reason", result.get("error", "unknown"))
-                    log(f"❌ {result.get('village_name', result.get('village_code', ''))[:30]} - {reason}")
+                    log(f"❌ {village_name[:30]} - {reason}")
                 
                 progress()
+                
+                # Go back to form for next village (preserves district/taluka)
+                if not scraper.go_back_to_form():
+                    # Reset session if back fails
+                    log("Resetting session...")
+                    scraper.navigate()
+                    scraper.select_vf7()
+                    scraper.page.locator(scraper.SELECTORS["district"]).select_option(district_code)
+                    scraper.wait_for_page()
+                    scraper.page.locator(scraper.SELECTORS["taluka"]).select_option(taluka["value"])
+                    scraper.wait_for_page()
         
     except Exception as e:
         log(f"ERROR: {e}")
