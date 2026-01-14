@@ -140,34 +140,57 @@ class ParallelScraper:
                         
                         if captcha_text and len(captcha_text) >= 5:
                             await page.locator(SELECTORS["captcha_input"]).fill(captcha_text)
-                            await asyncio.sleep(0.2)
+                            await asyncio.sleep(0.3)
                             await page.locator(SELECTORS["captcha_input"]).press("Enter")
-                            await asyncio.sleep(2.5)
                             
+                            # Wait longer for results to load
+                            await asyncio.sleep(3)
                             try:
-                                await page.wait_for_load_state("networkidle", timeout=15000)
+                                await page.wait_for_load_state("networkidle", timeout=20000)
                             except:
                                 pass
+                            await asyncio.sleep(1)  # Extra wait for AJAX
                             
-                            # Check for error message first
-                            error_text = ""
-                            try:
-                                error_elem = page.locator("[id*='lblError'], [id*='lblMsg'], .error")
-                                if await error_elem.count() > 0:
-                                    error_text = await error_elem.first.text_content()
-                            except:
-                                pass
-                            
-                            # Check for results
-                            tables = await page.locator("table").all()
+                            # Check for results - look for specific result indicators
                             has_data = False
                             table_data = []
                             
+                            # Method 1: Check for result tables with actual data
+                            tables = await page.locator("table").all()
                             for table in tables:
-                                text = await table.text_content()
-                                if len(text.strip()) > 200:
-                                    has_data = True
-                                    table_data.append(text.strip())
+                                try:
+                                    text = await table.text_content()
+                                    # Look for Gujarati text or specific keywords that indicate real data
+                                    if len(text.strip()) > 300 and ("ક્ષેત્રફળ" in text or "માલિક" in text or "હક્ક" in text or "જમીન" in text):
+                                        has_data = True
+                                        table_data.append(text.strip())
+                                except:
+                                    continue
+                            
+                            # Method 2: Check for result panel/div
+                            if not has_data:
+                                try:
+                                    result_panel = page.locator("#ContentPlaceHolder1_pnlResult, [id*='pnlResult'], [id*='Result']")
+                                    if await result_panel.count() > 0:
+                                        panel_text = await result_panel.first.text_content()
+                                        if len(panel_text.strip()) > 200:
+                                            has_data = True
+                                            table_data.append(panel_text.strip())
+                                except:
+                                    pass
+                            
+                            # Method 3: Check page content for VF-7 specific data
+                            if not has_data:
+                                try:
+                                    page_content = await page.content()
+                                    if "VF-7" in page_content or "સર્વે નંબર" in page_content:
+                                        # Get all visible text
+                                        body_text = await page.locator("body").text_content()
+                                        if len(body_text) > 1000 and ("ક્ષેત્રફળ" in body_text or "માલિક" in body_text):
+                                            has_data = True
+                                            table_data.append(body_text)
+                                except:
+                                    pass
                             
                             if has_data:
                                 # Go back for next village
