@@ -553,6 +553,99 @@ class AnyRORScraper:
             }
         }
 
+    def scrape_multiple_villages(self, district_code: str, taluka_code: str, village_codes: list, survey_filter: str = None, max_captcha_attempts: int = 3):
+        """
+        Scrape multiple villages efficiently by reusing browser session.
+        After each record, clicks 'RURAL LAND RECORD' to go back - district/taluka stay selected!
+        """
+        results = []
+        
+        print(f"[SETUP] Setting up session for district={district_code}, taluka={taluka_code}")
+        self.navigate()
+        self.select_vf7()
+        
+        self.page.locator(self.SELECTORS["district"]).select_option(district_code)
+        self.wait_for_page()
+        self.page.locator(self.SELECTORS["taluka"]).select_option(taluka_code)
+        self.wait_for_page()
+        
+        print(f"[SETUP] Session ready - will scrape {len(village_codes)} villages")
+        
+        for i, village_code in enumerate(village_codes):
+            print(f"\n[{i+1}/{len(village_codes)}] Village: {village_code}")
+            
+            try:
+                self.page.locator(self.SELECTORS["village"]).select_option(village_code)
+                self.wait_for_page()
+                
+                village_text = ""
+                try:
+                    for opt in self.page.locator(self.SELECTORS["village"]).locator("option").all():
+                        if opt.get_attribute("value") == village_code:
+                            village_text = opt.text_content().strip()
+                            break
+                except:
+                    pass
+                
+                if village_text:
+                    print(f"  → {village_text[:40]}")
+                
+                surveys = self.get_options(self.SELECTORS["survey_no"])
+                if survey_filter:
+                    surveys = [s for s in surveys if survey_filter in s["text"]]
+                
+                if not surveys:
+                    print(f"  ⚠️ No surveys found")
+                    results.append({"village_code": village_code, "success": False, "reason": "no_surveys"})
+                    continue
+                
+                survey = surveys[0]
+                print(f"  Survey: {survey['text']}")
+                self.page.locator(self.SELECTORS["survey_no"]).select_option(survey["value"])
+                time.sleep(0.5)
+                
+                success = False
+                data = None
+                
+                for attempt in range(max_captcha_attempts):
+                    if self.solve_and_enter_captcha():
+                        self.submit()
+                        data = self.extract_data()
+                        
+                        if data["success"]:
+                            print(f"  ✅ Got record!")
+                            success = True
+                            break
+                    
+                    if attempt < max_captcha_attempts - 1:
+                        try:
+                            self.page.locator("text=Refresh Code").click()
+                            time.sleep(0.5)
+                        except:
+                            pass
+                
+                results.append({
+                    "village_code": village_code,
+                    "village_name": village_text,
+                    "survey": survey["text"],
+                    "success": success,
+                    "data": data
+                })
+                
+                self.go_back_to_form()
+                
+            except Exception as e:
+                print(f"  ❌ Error: {e}")
+                results.append({"village_code": village_code, "success": False, "error": str(e)})
+                if not self.go_back_to_form():
+                    self.navigate()
+                    self.select_vf7()
+                    self.page.locator(self.SELECTORS["district"]).select_option(district_code)
+                    self.wait_for_page()
+                    self.page.locator(self.SELECTORS["taluka"]).select_option(taluka_code)
+                    self.wait_for_page()
+        
+        return results
 
 def main():
     print("="*50)
