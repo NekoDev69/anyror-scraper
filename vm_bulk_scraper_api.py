@@ -123,62 +123,79 @@ class ParallelScraper:
             # Select first survey
             survey = surveys[0]
             await page.locator(SELECTORS["survey_no"]).select_option(survey["value"])
-            await asyncio.sleep(0.3)
+            await asyncio.sleep(0.5)
             
-            # Try captcha up to 3 times
-            for attempt in range(3):
-                # Get captcha image
-                img = page.locator(SELECTORS["captcha_image"])
-                if await img.count() > 0:
-                    img_bytes = await img.screenshot()
-                    captcha_text = self.captcha_solver.solve(img_bytes)
+            # Try captcha up to 5 times with better error handling
+            for attempt in range(5):
+                try:
+                    # Clear any previous captcha input
+                    await page.locator(SELECTORS["captcha_input"]).fill("")
+                    await asyncio.sleep(0.3)
                     
-                    if captcha_text:
-                        await page.locator(SELECTORS["captcha_input"]).fill(captcha_text)
-                        await page.locator(SELECTORS["captcha_input"]).press("Enter")
-                        await asyncio.sleep(2)
+                    # Get fresh captcha image
+                    img = page.locator(SELECTORS["captcha_image"])
+                    if await img.count() > 0:
+                        img_bytes = await img.screenshot()
+                        captcha_text = self.captcha_solver.solve(img_bytes)
                         
-                        try:
-                            await page.wait_for_load_state("networkidle", timeout=10000)
-                        except:
-                            pass
-                        
-                        # Check for results
-                        tables = await page.locator("table").all()
-                        has_data = False
-                        table_data = []
-                        
-                        for table in tables:
-                            text = await table.text_content()
-                            if len(text.strip()) > 200:
-                                has_data = True
-                                table_data.append(text.strip())
-                        
-                        if has_data:
-                            # Go back for next village
-                            try:
-                                await page.get_by_role("link", name="RURAL LAND RECORD").click()
-                                await page.wait_for_load_state("networkidle", timeout=10000)
-                            except:
-                                await self.setup_page(page)
+                        if captcha_text and len(captcha_text) >= 5:
+                            await page.locator(SELECTORS["captcha_input"]).fill(captcha_text)
+                            await asyncio.sleep(0.2)
+                            await page.locator(SELECTORS["captcha_input"]).press("Enter")
+                            await asyncio.sleep(2.5)
                             
-                            return {
-                                "village_code": village_code,
-                                "village_name": village_name,
-                                "survey": survey["text"],
-                                "success": True,
-                                "data": {"tables": table_data}
-                            }
+                            try:
+                                await page.wait_for_load_state("networkidle", timeout=15000)
+                            except:
+                                pass
+                            
+                            # Check for error message first
+                            error_text = ""
+                            try:
+                                error_elem = page.locator("[id*='lblError'], [id*='lblMsg'], .error")
+                                if await error_elem.count() > 0:
+                                    error_text = await error_elem.first.text_content()
+                            except:
+                                pass
+                            
+                            # Check for results
+                            tables = await page.locator("table").all()
+                            has_data = False
+                            table_data = []
+                            
+                            for table in tables:
+                                text = await table.text_content()
+                                if len(text.strip()) > 200:
+                                    has_data = True
+                                    table_data.append(text.strip())
+                            
+                            if has_data:
+                                # Go back for next village
+                                try:
+                                    await page.get_by_role("link", name="RURAL LAND RECORD").click()
+                                    await page.wait_for_load_state("networkidle", timeout=10000)
+                                except:
+                                    await self.setup_page(page)
+                                
+                                return {
+                                    "village_code": village_code,
+                                    "village_name": village_name,
+                                    "survey": survey["text"],
+                                    "success": True,
+                                    "data": {"tables": table_data}
+                                }
+                except Exception as e:
+                    pass
                 
-                # Refresh captcha
-                if attempt < 2:
+                # Refresh captcha for retry
+                if attempt < 4:
                     try:
                         await page.locator("text=Refresh Code").click()
-                        await asyncio.sleep(0.5)
+                        await asyncio.sleep(1)
                     except:
                         pass
             
-            # Failed after 3 attempts - go back
+            # Failed after 5 attempts - go back
             try:
                 await page.get_by_role("link", name="RURAL LAND RECORD").click()
                 await page.wait_for_load_state("networkidle", timeout=10000)
