@@ -313,6 +313,20 @@ class AnyRORScraper:
         
         return True
     
+    def go_back_to_form(self) -> bool:
+        """
+        Click 'RURAL LAND RECORD' link to go back to form.
+        This preserves district/taluka selection - much faster than fresh navigation!
+        """
+        try:
+            self.page.get_by_role("link", name="RURAL LAND RECORD").click()
+            self.wait_for_page()
+            print("[INFO] Navigated back to form (session preserved)")
+            return True
+        except Exception as e:
+            print(f"[WARN] Back navigation failed: {e}, will navigate fresh")
+            return False
+
     def extract_data(self) -> dict:
         """Extract results including all property details"""
         data = {
