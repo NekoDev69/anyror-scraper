@@ -15,7 +15,7 @@ from vf7_extractor import VF7Extractor
 
 
 # Gemini API Key
-GEMINI_API_KEY = "AIzaSyDQ8yj7I1LOvZJQuhzPXODIDAF3ChE9YO4"
+GEMINI_API_KEY = "AIzaSyDBkyScEIGGUm2N1JwFrW32CCoAOWTbhXw"
 
 
 class AnyRORScraper:
