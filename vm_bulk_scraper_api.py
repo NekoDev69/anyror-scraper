@@ -102,16 +102,20 @@ class ParallelScraper:
         try:
             # Select village
             await page.locator(SELECTORS["village"]).select_option(village_code)
-            await page.wait_for_load_state("networkidle", timeout=10000)
-            await asyncio.sleep(0.3)
+            await page.wait_for_load_state("networkidle", timeout=15000)
+            await asyncio.sleep(1)  # Wait for survey dropdown to populate via AJAX
             
-            # Get surveys
+            # Get surveys - retry if empty (AJAX might be slow)
             surveys = []
-            for opt in await page.locator(SELECTORS["survey_no"]).locator("option").all():
-                val = await opt.get_attribute("value")
-                txt = await opt.text_content()
-                if val and val not in ["0", "-1", ""]:
-                    surveys.append({"value": val, "text": txt.strip()})
+            for retry in range(3):
+                for opt in await page.locator(SELECTORS["survey_no"]).locator("option").all():
+                    val = await opt.get_attribute("value")
+                    txt = await opt.text_content()
+                    if val and val not in ["0", "-1", ""] and "પસંદ" not in txt and "select" not in txt.lower():
+                        surveys.append({"value": val, "text": txt.strip()})
+                if surveys:
+                    break
+                await asyncio.sleep(1)  # Wait more if empty
             
             if not surveys:
                 return {"village_code": village_code, "village_name": village_name, "success": False, "reason": "no_surveys"}
