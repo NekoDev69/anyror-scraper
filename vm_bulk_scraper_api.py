@@ -1,26 +1,41 @@
 """
-VM Bulk Scraper - API Version
-Uses AnyRORScraper class directly with real-time progress updates
+VM Bulk Scraper - Parallel Version
+5 browser contexts × 10 tabs each = 50 parallel scrapers
 """
 
 import os
 import sys
 import json
 import time
+import asyncio
 from datetime import datetime
+from playwright.async_api import async_playwright
 
-# Add current dir to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from anyror_scraper import AnyRORScraper
+from captcha_solver import CaptchaSolver
 
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "output")
+NUM_CONTEXTS = int(os.environ.get("NUM_CONTEXTS", 5))
+TABS_PER_CONTEXT = int(os.environ.get("TABS_PER_CONTEXT", 10))
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY") or "AIzaSyDBkyScEIGGUm2N1JwFrW32CCoAOWTbhXw"
 
 os.makedirs(f"{OUTPUT_DIR}/raw", exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/structured", exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/reports", exist_ok=True)
 
 stats = {"total": 0, "done": 0, "success": 0}
+stats_lock = asyncio.Lock()
+
+SELECTORS = {
+    "record_type": "#ContentPlaceHolder1_drpLandRecord",
+    "district": "#ContentPlaceHolder1_ddlDistrict",
+    "taluka": "#ContentPlaceHolder1_ddlTaluka",
+    "village": "#ContentPlaceHolder1_ddlVillage",
+    "survey_no": "#ContentPlaceHolder1_ddlSurveyNo",
+    "captcha_input": "[placeholder='Enter Text Shown Above']",
+    "captcha_image": "img[id*='captcha']",
+}
 
 
 def log(msg: str):
@@ -31,140 +46,175 @@ def progress():
     print(f"PROGRESS:{stats['total']}:{stats['done']}:{stats['success']}", flush=True)
 
 
-def scrape_village(scraper: AnyRORScraper, village_code: str, village_name: str, survey_filter: str = None, max_captcha_attempts: int = 3):
-    """Scrape a single village - assumes district/taluka already selected"""
-    try:
-        # Select village
-        scraper.page.locator(scraper.SELECTORS["village"]).select_option(village_code)
-        scraper.wait_for_page()
+class ParallelScraper:
+    def __init__(self, district_code: str, taluka_code: str, villages: list, district_label: str, taluka_label: str):
+        self.district_code = district_code
+        self.taluka_code = taluka_code
+        self.villages = villages
+        self.district_label = district_label
+        self.taluka_label = taluka_label
+        self.captcha_solver = CaptchaSolver(GEMINI_API_KEY)
+        self.browser = None
+        self.contexts = []
+    
+    async def start_browser(self):
+        self.playwright = await async_playwright().start()
+        self.browser = await self.playwright.chromium.launch(headless=True)
+        log(f"Browser started - {NUM_CONTEXTS} contexts × {TABS_PER_CONTEXT} tabs = {NUM_CONTEXTS * TABS_PER_CONTEXT} parallel")
+    
+    async def close(self):
+        for ctx in self.contexts:
+            try:
+                await ctx.close()
+            except:
+                pass
+        if self.browser:
+            await self.browser.close()
+        if self.playwright:
+            await self.playwright.stop()
+    
+    async def setup_page(self, page):
+        """Setup a page with district/taluka selected"""
+        await page.goto("https://anyror.gujarat.gov.in/LandRecordRural.aspx")
+        await page.wait_for_load_state("networkidle", timeout=15000)
+        await asyncio.sleep(0.5)
         
-        # Get survey options
-        surveys = scraper.get_options(scraper.SELECTORS["survey_no"])
-        if survey_filter:
-            surveys = [s for s in surveys if survey_filter in s["text"]]
+        # Select VF-7
+        await page.locator(SELECTORS["record_type"]).select_option("1")
+        await page.wait_for_load_state("networkidle", timeout=15000)
+        await asyncio.sleep(0.5)
         
-        if not surveys:
-            return {"village_code": village_code, "village_name": village_name, "success": False, "reason": "no_surveys"}
+        # Select district
+        await page.locator(SELECTORS["district"]).select_option(self.district_code)
+        await page.wait_for_load_state("networkidle", timeout=15000)
+        await asyncio.sleep(0.5)
         
-        # Select first survey
-        survey = surveys[0]
-        scraper.page.locator(scraper.SELECTORS["survey_no"]).select_option(survey["value"])
-        time.sleep(0.5)
+        # Select taluka
+        await page.locator(SELECTORS["taluka"]).select_option(self.taluka_code)
+        await page.wait_for_load_state("networkidle", timeout=15000)
+        await asyncio.sleep(0.5)
+    
+    async def scrape_village(self, page, village, ctx_id, tab_id):
+        """Scrape a single village using existing page session"""
+        village_code = village["value"]
+        village_name = village["label"]
         
-        # Try captcha
-        for attempt in range(max_captcha_attempts):
-            if scraper.solve_and_enter_captcha():
-                scraper.submit()
-                data = scraper.extract_data()
+        try:
+            # Select village
+            await page.locator(SELECTORS["village"]).select_option(village_code)
+            await page.wait_for_load_state("networkidle", timeout=10000)
+            await asyncio.sleep(0.3)
+            
+            # Get surveys
+            surveys = []
+            for opt in await page.locator(SELECTORS["survey_no"]).locator("option").all():
+                val = await opt.get_attribute("value")
+                txt = await opt.text_content()
+                if val and val not in ["0", "-1", ""]:
+                    surveys.append({"value": val, "text": txt.strip()})
+            
+            if not surveys:
+                return {"village_code": village_code, "village_name": village_name, "success": False, "reason": "no_surveys"}
+            
+            # Select first survey
+            survey = surveys[0]
+            await page.locator(SELECTORS["survey_no"]).select_option(survey["value"])
+            await asyncio.sleep(0.3)
+            
+            # Try captcha up to 3 times
+            for attempt in range(3):
+                # Get captcha image
+                img = page.locator(SELECTORS["captcha_image"])
+                if await img.count() > 0:
+                    img_bytes = await img.screenshot()
+                    captcha_text = self.captcha_solver.solve(img_bytes)
+                    
+                    if captcha_text:
+                        await page.locator(SELECTORS["captcha_input"]).fill(captcha_text)
+                        await page.locator(SELECTORS["captcha_input"]).press("Enter")
+                        await asyncio.sleep(2)
+                        
+                        try:
+                            await page.wait_for_load_state("networkidle", timeout=10000)
+                        except:
+                            pass
+                        
+                        # Check for results
+                        tables = await page.locator("table").all()
+                        has_data = False
+                        table_data = []
+                        
+                        for table in tables:
+                            text = await table.text_content()
+                            if len(text.strip()) > 200:
+                                has_data = True
+                                table_data.append(text.strip())
+                        
+                        if has_data:
+                            # Go back for next village
+                            try:
+                                await page.get_by_role("link", name="RURAL LAND RECORD").click()
+                                await page.wait_for_load_state("networkidle", timeout=10000)
+                            except:
+                                await self.setup_page(page)
+                            
+                            return {
+                                "village_code": village_code,
+                                "village_name": village_name,
+                                "survey": survey["text"],
+                                "success": True,
+                                "data": {"tables": table_data}
+                            }
                 
-                if data["success"]:
-                    return {
-                        "village_code": village_code,
-                        "village_name": village_name,
-                        "survey": survey["text"],
-                        "success": True,
-                        "data": data
-                    }
+                # Refresh captcha
+                if attempt < 2:
+                    try:
+                        await page.locator("text=Refresh Code").click()
+                        await asyncio.sleep(0.5)
+                    except:
+                        pass
             
-            # Refresh captcha for retry
-            if attempt < max_captcha_attempts - 1:
-                try:
-                    scraper.page.locator("text=Refresh Code").click()
-                    time.sleep(0.5)
-                except:
-                    pass
-        
-        return {"village_code": village_code, "village_name": village_name, "success": False, "reason": "captcha_failed"}
-        
-    except Exception as e:
-        return {"village_code": village_code, "village_name": village_name, "success": False, "error": str(e)}
-
-
-def main():
-    global stats
-    
-    district_code = os.environ.get("DISTRICT_CODE", "")
-    taluka_code = os.environ.get("TALUKA_CODE", "")
-    survey_filter = os.environ.get("SURVEY_FILTER", "")
-    
-    if not district_code:
-        log("ERROR: DISTRICT_CODE not set")
-        sys.exit(1)
-    
-    # Load data
-    with open("gujarat-anyror-complete.json", 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    # Find district
-    district = next((d for d in data["districts"] if d["value"] == district_code), None)
-    if not district:
-        log(f"ERROR: District {district_code} not found")
-        sys.exit(1)
-    
-    # Build task list
-    talukas_to_process = []
-    for taluka in district["talukas"]:
-        if taluka_code and taluka["value"] != taluka_code:
-            continue
-        talukas_to_process.append(taluka)
-    
-    # Count total villages
-    total_villages = sum(len(t["villages"]) for t in talukas_to_process)
-    stats["total"] = total_villages
-    progress()
-    
-    log(f"Starting: {len(talukas_to_process)} talukas, {total_villages} villages")
-    log(f"District: {district['label']}")
-    if survey_filter:
-        log(f"Survey filter: {survey_filter}")
-    
-    # Use AnyRORScraper
-    scraper = AnyRORScraper(headless=True)
-    
-    try:
-        scraper.start()
-        log("Browser started")
-        
-        for taluka in talukas_to_process:
-            log(f"Taluka: {taluka['label']} ({len(taluka['villages'])} villages)")
+            # Failed after 3 attempts - go back
+            try:
+                await page.get_by_role("link", name="RURAL LAND RECORD").click()
+                await page.wait_for_load_state("networkidle", timeout=10000)
+            except:
+                await self.setup_page(page)
             
-            # Navigate and setup session for this taluka
-            scraper.navigate()
-            scraper.select_vf7()
+            return {"village_code": village_code, "village_name": village_name, "success": False, "reason": "captcha_failed"}
             
-            # Select district
-            scraper.page.locator(scraper.SELECTORS["district"]).select_option(district_code)
-            scraper.wait_for_page()
+        except Exception as e:
+            # Reset page on error
+            try:
+                await self.setup_page(page)
+            except:
+                pass
+            return {"village_code": village_code, "village_name": village_name, "success": False, "error": str(e)}
+    
+    async def worker(self, ctx_id: int, tab_id: int, page, village_queue: asyncio.Queue):
+        """Worker that processes villages from queue"""
+        while True:
+            try:
+                village = village_queue.get_nowait()
+            except asyncio.QueueEmpty:
+                break
             
-            # Select taluka
-            scraper.page.locator(scraper.SELECTORS["taluka"]).select_option(taluka["value"])
-            scraper.wait_for_page()
+            result = await self.scrape_village(page, village, ctx_id, tab_id)
             
-            log(f"Session ready for {taluka['label']}")
-            
-            # Process each village with real-time updates
-            for village in taluka["villages"]:
-                village_code = village["value"]
-                village_name = village["label"]
-                
-                log(f"[{stats['done']+1}/{stats['total']}] {village_name[:35]}")
-                
-                result = scrape_village(scraper, village_code, village_name, survey_filter)
-                
+            async with stats_lock:
                 stats["done"] += 1
-                
                 if result.get("success"):
                     stats["success"] += 1
-                    log(f"✅ {village_name[:30]} - {result.get('survey', '')}")
+                    log(f"✅ C{ctx_id}T{tab_id} {result['village_name'][:25]} - {result.get('survey', '')}")
                     
                     # Save result
-                    ts = datetime.now().strftime('%Y%m%d_%H%M%S')
-                    filename = f"{district_code}_{taluka['value']}_{village_code}_{ts}"
+                    ts = datetime.now().strftime('%Y%m%d_%H%M%S_%f')
+                    filename = f"{self.district_code}_{self.taluka_code}_{result['village_code']}_{ts}"
                     
                     full_result = {
-                        "district": {"value": district_code, "label": district["label"]},
-                        "taluka": {"value": taluka["value"], "label": taluka["label"]},
-                        "village": {"value": village_code, "label": village_name},
+                        "district": {"value": self.district_code, "label": self.district_label},
+                        "taluka": {"value": self.taluka_code, "label": self.taluka_label},
+                        "village": {"value": result["village_code"], "label": result["village_name"]},
                         "survey": {"text": result.get("survey")},
                         "data": result.get("data"),
                         "success": True
@@ -174,27 +224,95 @@ def main():
                         json.dump(full_result, f, ensure_ascii=False, indent=2)
                 else:
                     reason = result.get("reason", result.get("error", "unknown"))
-                    log(f"❌ {village_name[:30]} - {reason}")
+                    log(f"❌ C{ctx_id}T{tab_id} {result['village_name'][:25]} - {reason}")
                 
                 progress()
-                
-                # Go back to form for next village (preserves district/taluka)
-                if not scraper.go_back_to_form():
-                    # Reset session if back fails
-                    log("Resetting session...")
-                    scraper.navigate()
-                    scraper.select_vf7()
-                    scraper.page.locator(scraper.SELECTORS["district"]).select_option(district_code)
-                    scraper.wait_for_page()
-                    scraper.page.locator(scraper.SELECTORS["taluka"]).select_option(taluka["value"])
-                    scraper.wait_for_page()
+    
+    async def run_context(self, ctx_id: int, village_queue: asyncio.Queue):
+        """Run a single context with multiple tabs"""
+        context = await self.browser.new_context()
+        self.contexts.append(context)
         
+        # Create tabs and setup each
+        pages = []
+        for tab_id in range(TABS_PER_CONTEXT):
+            page = await context.new_page()
+            await page.set_viewport_size({"width": 1280, "height": 900})
+            
+            # Handle dialogs
+            page.on("dialog", lambda d: asyncio.create_task(d.accept()))
+            
+            try:
+                await self.setup_page(page)
+                pages.append((tab_id, page))
+                log(f"C{ctx_id}T{tab_id} ready")
+            except Exception as e:
+                log(f"C{ctx_id}T{tab_id} setup failed: {e}")
+        
+        # Run workers for all tabs in parallel
+        tasks = [self.worker(ctx_id, tab_id, page, village_queue) for tab_id, page in pages]
+        await asyncio.gather(*tasks)
+    
+    async def run(self):
+        """Main run - parallel contexts and tabs"""
+        await self.start_browser()
+        
+        # Create village queue
+        village_queue = asyncio.Queue()
+        for v in self.villages:
+            await village_queue.put(v)
+        
+        log(f"Starting {NUM_CONTEXTS} contexts for {len(self.villages)} villages")
+        
+        # Run all contexts in parallel
+        tasks = [self.run_context(ctx_id, village_queue) for ctx_id in range(NUM_CONTEXTS)]
+        await asyncio.gather(*tasks)
+        
+        await self.close()
+
+
+async def main():
+    global stats
+    
+    district_code = os.environ.get("DISTRICT_CODE", "")
+    taluka_code = os.environ.get("TALUKA_CODE", "")
+    
+    if not district_code:
+        log("ERROR: DISTRICT_CODE not set")
+        sys.exit(1)
+    
+    # Load data
+    with open("gujarat-anyror-complete.json", 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    district = next((d for d in data["districts"] if d["value"] == district_code), None)
+    if not district:
+        log(f"ERROR: District {district_code} not found")
+        sys.exit(1)
+    
+    # Get villages
+    villages = []
+    taluka_label = ""
+    for taluka in district["talukas"]:
+        if taluka_code and taluka["value"] != taluka_code:
+            continue
+        taluka_label = taluka["label"]
+        villages.extend(taluka["villages"])
+    
+    stats["total"] = len(villages)
+    progress()
+    
+    log(f"District: {district['label']}, Taluka: {taluka_label}")
+    log(f"Villages: {len(villages)}")
+    
+    scraper = ParallelScraper(district_code, taluka_code, villages, district["label"], taluka_label)
+    
+    try:
+        await scraper.run()
     except Exception as e:
         log(f"ERROR: {e}")
         import traceback
         traceback.print_exc()
-    finally:
-        scraper.close()
     
     log(f"Done: {stats['success']}/{stats['total']} successful")
     
@@ -223,10 +341,10 @@ def main():
                 with open(f"{OUTPUT_DIR}/reports/{filename.replace('.json', '.html')}", 'w', encoding='utf-8') as f:
                     f.write(html)
             except Exception as e:
-                log(f"Report error for {filename}: {e}")
+                log(f"Report error: {e}")
     except ImportError as e:
         log(f"Report generation skipped: {e}")
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
