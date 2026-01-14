@@ -148,10 +148,6 @@ def run_scraper(job: Job):
                 elif "❌" in line or "ERROR" in line or "WARN" in line:
                     log_type = "error"
                 job.log(line, log_type)
-                    log_type = "error"
-                job.log(msg, log_type)
-            else:
-                job.log(line, "info")
             
             # Check stop request
             if job.stop_requested:
