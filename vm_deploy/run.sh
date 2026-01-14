@@ -5,8 +5,8 @@
 cd ~/anyror-scraper
 source venv/bin/activate
 
-# Set defaults
-export GEMINI_API_KEY="${GEMINI_API_KEY:-AIzaSyDQ8yj7I1LOvZJQuhzPXODIDAF3ChE9YO4}"
+# Set defaults - API key should be set in ~/.bashrc or passed as env var
+export GEMINI_API_KEY="${GEMINI_API_KEY:-}"
 export DISTRICT_CODE="${1:-}"
 export TALUKA_CODE="${2:-}"
 export SURVEY_FILTER="${3:-}"
