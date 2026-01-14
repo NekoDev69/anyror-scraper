@@ -1,0 +1,25 @@
+# Output files
+output/raw/*
+output/structured/*
+output/reports/*
+output/screenshots/*
+output/debug/*
+output/summary.json
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+*.png
+*.log
+full_page_debug.png
+
+# API keys (keep api key.md for reference but don't commit real keys)

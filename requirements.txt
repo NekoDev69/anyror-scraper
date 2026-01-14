@@ -1,3 +1,10 @@
-playwright==1.41.0
-google-genai==1.0.0
-google-cloud-storage==2.14.0
+# Core dependencies
+playwright>=1.41.0
+google-genai>=1.0.0
+Pillow>=10.0.0
+
+# Optional: GCS for cloud storage
+# google-cloud-storage>=2.14.0
+
+# Optional: Local OCR (heavy, only if needed)
+# easyocr>=1.7.0
