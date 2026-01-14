@@ -135,9 +135,19 @@ def run_scraper(job: Job):
             elif line.startswith("LOG:"):
                 msg = line[4:]
                 log_type = "info"
-                if "✅" in msg:
+                if "✅" in msg or "SUCCESS" in msg:
                     log_type = "success"
-                elif "❌" in msg:
+                elif "❌" in msg or "ERROR" in msg:
+                    log_type = "error"
+                job.log(msg, log_type)
+            else:
+                # Capture all other output too
+                log_type = "info"
+                if "✅" in line or "SUCCESS" in line or "Got record" in line:
+                    log_type = "success"
+                elif "❌" in line or "ERROR" in line or "WARN" in line:
+                    log_type = "error"
+                job.log(line, log_type)
                     log_type = "error"
                 job.log(msg, log_type)
             else:
