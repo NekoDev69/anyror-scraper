@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "portal_name": "AnyROR Rural Land Record",
+    "module": "SURVEY_NUMBER_SEARCH",
+    "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+    "state": "Gujarat",
+    "record_type": "VF-7 / RoR (7-12)",
+    "data_status_time_local": "",
+    "scrape_timestamp_utc": "2026-01-14T20:12:44.874257+00:00",
+    "language": "gu",
+    "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+    "disclaimer_english": "The information provided online is updated and is not an official copy.",
+    "owner_count": 0,
+    "encumbrance_count": 0
+  },
+  "search_input": {
+    "district": "12",
+    "taluka": "15",
+    "village": "073",
+    "survey_or_block_number": "29",
+    "sub_division_number": "",
+    "fetch_mode": "survey_search"
+  },
+  "location": {
+    "district": {
+      "name_en": "",
+      "name_local": "જુનાગઢ"
+    },
+    "taluka": {
+      "name_en": "",
+      "name_local": "જુનાગઢ સીટી"
+    },
+    "village": {
+      "name_en": "",
+      "name_local": "ભવનાથ"
+    }
+  },
+  "property_identity": {
+    "khata_number": "",
+    "survey_number": "29",
+    "block_number": "",
+    "sub_division_number": "",
+    "old_survey_number": "",
+    "old_survey_notes": "",
+    "upin": "",
+    "land_type": "Unknown"
+  },
+  "owners": [],
+  "land_details": {
+    "total_area_raw": "",
+    "area_hectare": null,
+    "area_are": null,
+    "area_sqm": null,
+    "area_total_sqm": null,
+    "area_sq_yd": null,
+    "assessment_tax": "",
+    "land_revenue": "",
+    "tenure": "",
+    "tenure_local": "",
+    "land_use": "",
+    "land_use_local": "",
+    "farm_name": "",
+    "irrigation_type": "",
+    "soil_type": "",
+    "crop_details": "",
+    "remarks": "",
+    "boundaries": {
+      "north": "",
+      "south": "",
+      "east": "",
+      "west": ""
+    }
+  },
+  "entry_numbers": [],
+  "rights_and_remarks": {
+    "entry_details": [],
+    "notes_raw": ""
+  },
+  "related_documents": {
+    "vf6": {
+      "available": false,
+      "url": ""
+    },
+    "vf8a": {
+      "available": false,
+      "url": ""
+    },
+    "vf7": {
+      "available": false,
+      "url": ""
+    },
+    "mutation_register": {
+      "available": false,
+      "url": ""
+    }
+  },
+  "raw_page_text_backup": ""
+}

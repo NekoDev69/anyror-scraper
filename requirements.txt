@@ -1,10 +1,16 @@
-# Core dependencies
-playwright>=1.41.0
-google-genai>=1.0.0
-Pillow>=10.0.0
-
-# Optional: GCS for cloud storage
-# google-cloud-storage>=2.14.0
-
-# Optional: Local OCR (heavy, only if needed)
-# easyocr>=1.7.0
+playwright>=1.49.0
+google-cloud-aiplatform>=1.38.1
+google-cloud-vision>=3.5.0
+google-auth>=2.27.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-genai
+pandas>=2.1.4
+openpyxl>=3.1.2
+python-dotenv>=1.0.0
+asyncpg>=0.29.0
+async_timeout>=4.0.3
+flask
+fastapi
+uvicorn
+httpx

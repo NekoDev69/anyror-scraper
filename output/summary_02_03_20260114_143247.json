@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "district_code": "02",
+    "taluka_code": "03",
+    "start_time": "2026-01-14T14:31:12.691651",
+    "end_time": "2026-01-14T14:32:47.037289",
+    "duration_seconds": 94.35,
+    "num_contexts": 2,
+    "tabs_per_context": 2,
+    "total_workers": 4
+  },
+  "statistics": {
+    "total_villages": 5,
+    "successful": 3,
+    "failed": 2,
+    "success_rate_percent": 60.0,
+    "villages_per_minute": 3.18
+  },
+  "results": [
+    {
+      "village_code": "043",
+      "village_name": "અનાપુર ગઢ - 043",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C0-T0",
+      "error": null
+    },
+    {
+      "village_code": "042",
+      "village_name": "અનાપુર છોટા - 042",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C0-T1",
+      "error": null
+    },
+    {
+      "village_code": "067",
+      "village_name": "આલવાડા - 067",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C1-T1",
+      "error": null
+    },
+    {
+      "village_code": "056",
+      "village_name": "આશિયા - 056",
+      "survey_no": "2",
+      "success": false,
+      "worker_id": "C1-T0",
+      "error": null
+    },
+    {
+      "village_code": "011",
+      "village_name": "",
+      "survey_no": "",
+      "success": false,
+      "worker_id": "C0-T0",
+      "error": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlVillage\")\n    - locator resolved to <select class=\"form-control\" id=\"ContentPlaceHolder1_ddlVillage\" onclick=\"return Village_Validation();\" name=\"ctl00$ContentPlaceHolder1$ddlVillage\" onchange=\"javascript:setTimeout('__doPostBack(\\'ctl00$ContentPlaceHolder1$ddlVillage\\',\\'\\')', 0)\">↵↵</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n      - waiting 100ms\n    60 × waiting for element to be visible and enabled\n       - did not find some options\n     - retrying select option action\n       - waiting 500ms\n"
+    }
+  ]
+}

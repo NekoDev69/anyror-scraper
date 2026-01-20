@@ -1,0 +1,2 @@
+task_id,village_code,village_name,success,district_name,taluka_name,timestamp,survey_number,upin,khata_number,old_survey_number,total_area_raw,area_hectare,area_are,area_sqm,area_sq_yd,assessment_tax,tenure,tenure_local,land_use,land_use_local,farm_name,remarks,owner_count,owner_names,owner_details,encumbrance_count,encumbrance_details,data_status_time,data_status_time_local,record_count,processing_time
+1,001,Test Village,True,Test District,Test Taluka,2024-01-01T12:00:00,123,UPIN123,,,1-23-45,1.5,,,,,,,,,,,1,Test Owner,Test Owner (Owner),0,,,2024-01-01 12:00:00,0,

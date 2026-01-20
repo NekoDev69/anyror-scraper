@@ -1,6 +1,9 @@
 // Gujarat AnyROR Scraper Frontend
 
-let API_URL = localStorage.getItem('apiUrl') || '';
+// Auto-detect: Use /api proxy on Netlify, or custom URL for local testing
+let API_URL = window.location.hostname.includes('netlify.app')
+    ? '/api'
+    : (localStorage.getItem('apiUrl') || '');
 let gujaratData = null;
 let jobId = null;
 let pollInterval = null;
@@ -38,7 +41,7 @@ async function loadGujaratData() {
 function populateDistricts() {
     const select = document.getElementById('district');
     select.innerHTML = '<option value="">-- Select District --</option>';
-    
+
     gujaratData.districts.forEach(d => {
         const opt = document.createElement('option');
         opt.value = d.value;
@@ -46,24 +49,24 @@ function populateDistricts() {
         opt.dataset.talukas = JSON.stringify(d.talukas);
         select.appendChild(opt);
     });
-    
+
     select.addEventListener('change', onDistrictChange);
 }
 
 function onDistrictChange() {
     const districtSelect = document.getElementById('district');
     const talukaSelect = document.getElementById('taluka');
-    
+
     if (!districtSelect.value) {
         talukaSelect.innerHTML = '<option value="">Select district first</option>';
         talukaSelect.disabled = true;
         updateVillageCount();
         return;
     }
-    
+
     const selectedOption = districtSelect.options[districtSelect.selectedIndex];
     const talukas = JSON.parse(selectedOption.dataset.talukas);
-    
+
     talukaSelect.innerHTML = '<option value="">-- All Talukas --</option>';
     talukas.forEach(t => {
         const opt = document.createElement('option');
@@ -72,7 +75,7 @@ function onDistrictChange() {
         opt.dataset.villages = t.villages.length;
         talukaSelect.appendChild(opt);
     });
-    
+
     talukaSelect.disabled = false;
     talukaSelect.addEventListener('change', updateVillageCount);
     updateVillageCount();
@@ -82,15 +85,15 @@ function updateVillageCount() {
     const districtSelect = document.getElementById('district');
     const talukaSelect = document.getElementById('taluka');
     const countEl = document.getElementById('villageCount');
-    
+
     if (!districtSelect.value) {
         countEl.textContent = '';
         return;
     }
-    
+
     const district = gujaratData.districts.find(d => d.value === districtSelect.value);
     if (!district) return;
-    
+
     let count = 0;
     if (talukaSelect.value) {
         const taluka = district.talukas.find(t => t.value === talukaSelect.value);
@@ -98,7 +101,7 @@ function updateVillageCount() {
     } else {
         count = district.talukas.reduce((sum, t) => sum + t.villages.length, 0);
     }
-    
+
     countEl.textContent = `${count} villages`;
 }
 
@@ -108,26 +111,26 @@ async function startScraping() {
         configureApi();
         return;
     }
-    
+
     const district = document.getElementById('district').value;
     if (!district) {
         alert('Please select a district');
         return;
     }
-    
+
     const taluka = document.getElementById('taluka').value;
     const surveyFilter = document.getElementById('surveyFilter').value;
     const numContexts = document.getElementById('numContexts').value;
-    
+
     // Show status card
     document.getElementById('statusCard').style.display = 'block';
     document.getElementById('resultsCard').style.display = 'none';
     document.getElementById('startBtn').disabled = true;
     document.getElementById('stopBtn').style.display = 'inline-block';
-    
+
     clearLog();
     addLog('Starting scraper...', 'info');
-    
+
     try {
         const response = await fetch(`${API_URL}/start`, {
             method: 'POST',
@@ -139,9 +142,9 @@ async function startScraping() {
                 num_contexts: parseInt(numContexts)
             })
         });
-        
+
         const data = await response.json();
-        
+
         if (data.job_id) {
             jobId = data.job_id;
             addLog(`Job started: ${jobId}`, 'success');
@@ -157,7 +160,7 @@ async function startScraping() {
 
 async function stopScraping() {
     if (!jobId) return;
-    
+
     try {
         await fetch(`${API_URL}/stop/${jobId}`, { method: 'POST' });
         addLog('Stop requested...', 'info');
@@ -177,22 +180,27 @@ function stopPolling() {
     }
 }
 
+let lastLogTime = null;
+
 async function pollStatus() {
     if (!jobId) return;
-    
+
     try {
         const response = await fetch(`${API_URL}/status/${jobId}`);
         const data = await response.json();
-        
+
         updateStats(data);
-        
-        // Add new log entries
+
+        // Add only NEW log entries
         if (data.recent_logs) {
             data.recent_logs.forEach(log => {
-                addLog(log.message, log.type || 'info');
+                if (!lastLogTime || log.time > lastLogTime) {
+                    addLog(log.message, log.type || 'info');
+                    lastLogTime = log.time;
+                }
             });
         }
-        
+
         // Check if done
         if (data.status === 'completed' || data.status === 'failed' || data.status === 'stopped') {
             stopPolling();
@@ -208,15 +216,15 @@ function updateStats(data) {
     document.getElementById('statDone').textContent = data.done || 0;
     document.getElementById('statSuccess').textContent = data.success || 0;
     document.getElementById('statRate').textContent = `${(data.rate || 0).toFixed(1)}/s`;
-    
+
     const progress = data.total > 0 ? (data.done / data.total * 100) : 0;
     document.getElementById('progressFill').style.width = `${progress}%`;
 }
 
 function onJobComplete(data) {
-    addLog(`Job ${data.status}: ${data.success}/${data.total} successful`, 
-           data.status === 'completed' ? 'success' : 'error');
-    
+    addLog(`Job ${data.status}: ${data.success}/${data.total} successful`,
+        data.status === 'completed' ? 'success' : 'error');
+
     resetUI();
     showResults(data);
 }
@@ -224,9 +232,9 @@ function onJobComplete(data) {
 function showResults(data) {
     const card = document.getElementById('resultsCard');
     const content = document.getElementById('resultsContent');
-    
+
     card.style.display = 'block';
-    
+
     let html = `
         <div class="stats" style="margin-bottom:20px;">
             <div class="stat">
@@ -247,11 +255,17 @@ function showResults(data) {
             </div>
         </div>
     `;
-    
+
     if (data.download_url) {
-        html += `<a href="${API_URL}${data.download_url}" class="btn btn-primary" download>📥 Download Results</a>`;
+        html += `
+            <div class="download-buttons" style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;">
+                <a href="${API_URL}${data.download_url}" class="btn" style="background:#444;" download>📦 Download All (Zip)</a>
+                <a href="${API_URL}${data.download_url}/excel" class="btn btn-primary" download>📊 Download Excel Report</a>
+                <a href="${API_URL}${data.download_url}/json" class="btn" style="background:#0066cc;" download>📄 Download JSON</a>
+            </div>
+        `;
     }
-    
+
     content.innerHTML = html;
 }
 

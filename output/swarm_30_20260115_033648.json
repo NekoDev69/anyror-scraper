@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "district_code": "30",
+    "district_name": "બોટાદ",
+    "total_villages": 5,
+    "successful": 0,
+    "failed": 5,
+    "duration_seconds": 44.467112,
+    "workers": 1,
+    "timestamp": "20260115_033648"
+  },
+  "results": [
+    {
+      "success": false,
+      "village_code": "017",
+      "village_name": "કુંભારા - 017",
+      "error": "No surveys found"
+    },
+    {
+      "success": false,
+      "village_code": "046",
+      "village_name": "કેરીયા નં. ૧ - 046",
+      "error": "No surveys found"
+    },
+    {
+      "success": false,
+      "village_code": "040",
+      "village_name": "કેરીયા નં. ૨ - 040",
+      "error": "No surveys found"
+    },
+    {
+      "success": false,
+      "village_code": "013",
+      "village_name": "કાનીયાડ - 013",
+      "error": "No surveys found"
+    },
+    {
+      "success": false,
+      "village_code": "043",
+      "village_name": "કારીયાણી - 043",
+      "error": "No surveys found"
+    }
+  ]
+}

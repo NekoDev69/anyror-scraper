@@ -1,0 +1,530 @@
+{
+  "sequential": {
+    "test_name": "Sequential",
+    "timestamp": "2026-01-14T22:14:35.543017",
+    "total_requests": 12,
+    "successful": 0,
+    "failed": 12,
+    "success_rate": 0.0,
+    "total_time": 0.10316634178161621,
+    "requests_per_second": 116.31700603867246,
+    "response_times": {
+      "min": 0.004739999771118164,
+      "max": 0.02903294563293457,
+      "mean": 0.007173200448354085,
+      "median": 0.005095958709716797,
+      "stdev": 0.006897212511817003,
+      "p95": 0.02903294563293457,
+      "p99": 0.02903294563293457
+    },
+    "successful_response_times": null,
+    "errors": {
+      "18 validation errors for _GenerateContentParameters\ncontents.Content\n  Input sho": 12
+    },
+    "status_codes": {
+      "unknown": 12
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_1": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_2": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_5": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "concurrent_low": {
+    "test_name": "Concurrent-6workers",
+    "timestamp": "2026-01-14T22:14:35.616039",
+    "total_requests": 24,
+    "successful": 0,
+    "failed": 24,
+    "success_rate": 0.0,
+    "total_time": 0.07284402847290039,
+    "requests_per_second": 329.4710699440317,
+    "response_times": {
+      "min": 0.006492137908935547,
+      "max": 0.02387094497680664,
+      "mean": 0.014836589495340982,
+      "median": 0.014423131942749023,
+      "stdev": 0.00422207893169158,
+      "p95": 0.023005008697509766,
+      "p99": 0.02387094497680664
+    },
+    "successful_response_times": null,
+    "errors": {
+      "18 validation errors for _GenerateContentParameters\ncontents.Content\n  Input sho": 24
+    },
+    "status_codes": {
+      "unknown": 24
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_1": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_2": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_5": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "concurrent_medium": {
+    "test_name": "Concurrent-12workers",
+    "timestamp": "2026-01-14T22:14:35.792973",
+    "total_requests": 60,
+    "successful": 0,
+    "failed": 60,
+    "success_rate": 0.0,
+    "total_time": 0.17668986320495605,
+    "requests_per_second": 339.57805451692167,
+    "response_times": {
+      "min": 0.013786077499389648,
+      "max": 0.05578279495239258,
+      "mean": 0.030576614538828532,
+      "median": 0.02922666072845459,
+      "stdev": 0.009279330531015154,
+      "p95": 0.050045013427734375,
+      "p99": 0.05578279495239258
+    },
+    "successful_response_times": null,
+    "errors": {
+      "18 validation errors for _GenerateContentParameters\ncontents.Content\n  Input sho": 60
+    },
+    "status_codes": {
+      "unknown": 60
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_1": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_2": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_5": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "concurrent_high": {
+    "test_name": "Concurrent-24workers",
+    "timestamp": "2026-01-14T22:14:36.163947",
+    "total_requests": 120,
+    "successful": 0,
+    "failed": 120,
+    "success_rate": 0.0,
+    "total_time": 0.37052416801452637,
+    "requests_per_second": 323.8655136668316,
+    "response_times": {
+      "min": 0.01900172233581543,
+      "max": 0.12088990211486816,
+      "mean": 0.06640069683392842,
+      "median": 0.06222343444824219,
+      "stdev": 0.02307900105709446,
+      "p95": 0.11057305335998535,
+      "p99": 0.11829900741577148
+    },
+    "successful_response_times": null,
+    "errors": {
+      "18 validation errors for _GenerateContentParameters\ncontents.Content\n  Input sho": 120
+    },
+    "status_codes": {
+      "unknown": 120
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_1": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_2": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_5": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "burst": {
+    "test_name": "Burst-20x3",
+    "timestamp": "2026-01-14T22:14:56.366597",
+    "total_requests": 60,
+    "successful": 0,
+    "failed": 60,
+    "success_rate": 0.0,
+    "total_time": 20.202209949493408,
+    "requests_per_second": 2.9699721045372347,
+    "response_times": {
+      "min": 0.017019033432006836,
+      "max": 0.06533408164978027,
+      "mean": 0.042120019594828285,
+      "median": 0.04127037525177002,
+      "stdev": 0.011644415983615071,
+      "p95": 0.06055402755737305,
+      "p99": 0.06533408164978027
+    },
+    "successful_response_times": null,
+    "errors": {
+      "18 validation errors for _GenerateContentParameters\ncontents.Content\n  Input sho": 60
+    },
+    "status_codes": {
+      "unknown": 60
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_1": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_2": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_5": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "max_load": {
+    "test_name": "MaxLoad-30workers",
+    "timestamp": "2026-01-14T22:15:26.389880",
+    "total_requests": 287,
+    "successful": 0,
+    "failed": 287,
+    "success_rate": 0.0,
+    "total_time": 30.022724151611328,
+    "requests_per_second": 9.559425672057031,
+    "response_times": {
+      "min": 0.004890918731689453,
+      "max": 0.017284154891967773,
+      "mean": 0.005247707566317781,
+      "median": 0.005104780197143555,
+      "stdev": 0.0008620995303596407,
+      "p95": 0.005681276321411133,
+      "p99": 0.009072065353393555
+    },
+    "successful_response_times": null,
+    "errors": {
+      "18 validation errors for _GenerateContentParameters\ncontents.Content\n  Input sho": 287
+    },
+    "status_codes": {
+      "unknown": 287
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_1": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_2": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_5": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 23,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "district_code": "02",
+    "taluka_code": "04",
+    "total_villages": 5,
+    "successful": 0,
+    "failed": 5,
+    "duration_seconds": 12.107813,
+    "workers": 6,
+    "timestamp": "20260114_193514"
+  },
+  "results": [
+    {
+      "success": false,
+      "village_code": "0001",
+      "error": "No villages"
+    },
+    {
+      "success": false,
+      "village_code": "0002",
+      "error": "No villages"
+    },
+    {
+      "success": false,
+      "village_code": "0003",
+      "error": "No villages"
+    },
+    {
+      "success": false,
+      "village_code": "0004",
+      "error": "No villages"
+    },
+    {
+      "success": false,
+      "village_code": "0005",
+      "error": "No villages"
+    }
+  ]
+}

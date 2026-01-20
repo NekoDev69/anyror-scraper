@@ -1,0 +1,23 @@
+{
+  "district": {
+    "value": "12",
+    "text": "જુનાગઢ"
+  },
+  "taluka": {
+    "value": "15",
+    "text": "જુનાગઢ સીટી"
+  },
+  "village": {
+    "value": "073",
+    "text": "ભવનાથ - 073"
+  },
+  "survey": {
+    "value": "29",
+    "text": "29"
+  },
+  "data": {
+    "success": false,
+    "tables": [],
+    "timestamp": "2026-01-15T01:42:29.508629"
+  }
+}

@@ -23,6 +23,11 @@ venv/
 full_page_debug.png
 
 # API keys (keep api key.md for reference but don't commit real keys)
+vision-credentials.json
+vertex-credentials.json
+config/*.json
+.env
+.gcp/
 
 # Local Netlify folder
 .netlify

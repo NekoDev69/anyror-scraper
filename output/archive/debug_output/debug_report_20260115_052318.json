@@ -1,0 +1,287 @@
+[
+  {
+    "success": false,
+    "village_code": "012",
+    "village_name": "અટડો - 012",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 2,
+      "village_code": "012",
+      "village_name": "અટડો - 012",
+      "timestamp": "2026-01-15T05:21:40.791713",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "067",
+    "village_name": "આશાલડી-સુજાવાંઢ - 067",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 4,
+      "village_code": "067",
+      "village_name": "આશાલડી-સુજાવાંઢ - 067",
+      "timestamp": "2026-01-15T05:21:40.792075",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "051",
+    "village_name": "અમીયા - 051",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 3,
+      "village_code": "051",
+      "village_name": "અમીયા - 051",
+      "timestamp": "2026-01-15T05:21:40.791869",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "040",
+    "village_name": "અકરી - 040",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 1,
+      "village_code": "040",
+      "village_name": "અકરી - 040",
+      "timestamp": "2026-01-15T05:21:40.790634",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "013",
+    "village_name": "ઉખેર - 013",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 5,
+      "village_code": "013",
+      "village_name": "ઉખેર - 013",
+      "timestamp": "2026-01-15T05:21:40.792242",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "069",
+    "village_name": "અમરાપર - 069",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 2,
+      "village_code": "069",
+      "village_name": "અમરાપર - 069",
+      "timestamp": "2026-01-15T05:22:14.097436",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "046",
+    "village_name": "ઉમૈયા - 046",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 1,
+      "village_code": "046",
+      "village_name": "ઉમૈયા - 046",
+      "timestamp": "2026-01-15T05:22:14.159365",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "009",
+    "village_name": "આણંદપર - 009",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 3,
+      "village_code": "009",
+      "village_name": "આણંદપર - 009",
+      "timestamp": "2026-01-15T05:22:14.159097",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "052",
+    "village_name": "કુડા-જામપર - 052",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 5,
+      "village_code": "052",
+      "village_name": "કુડા-જામપર - 052",
+      "timestamp": "2026-01-15T05:22:14.368049",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "039",
+    "village_name": "આડેસર - 039",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 4,
+      "village_code": "039",
+      "village_name": "આડેસર - 039",
+      "timestamp": "2026-01-15T05:22:14.158632",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "009",
+    "village_name": "અમરાપર - 009",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 2,
+      "village_code": "009",
+      "village_name": "અમરાપર - 009",
+      "timestamp": "2026-01-15T05:22:46.107683",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "031",
+    "village_name": "આઘોઈ - 031",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 1,
+      "village_code": "031",
+      "village_name": "આઘોઈ - 031",
+      "timestamp": "2026-01-15T05:22:46.548503",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "051",
+    "village_name": "આંબલીયારા - 051",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 3,
+      "village_code": "051",
+      "village_name": "આંબલીયારા - 051",
+      "timestamp": "2026-01-15T05:22:46.584058",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "042",
+    "village_name": "આમરડી - 042",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 5,
+      "village_code": "042",
+      "village_name": "આમરડી - 042",
+      "timestamp": "2026-01-15T05:22:46.627455",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  },
+  {
+    "success": false,
+    "village_code": "015",
+    "village_name": "કકરવા - 015",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug_info": {
+      "worker_id": 4,
+      "village_code": "015",
+      "village_name": "કકરવા - 015",
+      "timestamp": "2026-01-15T05:22:46.727733",
+      "steps": [
+        "✓ Page created",
+        "✓ Navigated to portal",
+        "✓ Selected VF-7",
+        "✗ Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+      ],
+      "exception": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n"
+    }
+  }
+]

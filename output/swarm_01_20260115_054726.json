@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "district_code": "01",
+    "district_name": "કચ્છ",
+    "total_villages": 10,
+    "successful": 0,
+    "failed": 10,
+    "duration_seconds": 27.934901,
+    "workers": 4,
+    "timestamp": "20260115_054726"
+  },
+  "results": [
+    {
+      "success": false,
+      "village_code": "012",
+      "village_name": "અટડો - 012",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "051",
+      "village_name": "અમીયા - 051",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "013",
+      "village_name": "ઉખેર - 013",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "069",
+      "village_name": "અમરાપર - 069",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "040",
+      "village_name": "અકરી - 040",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "067",
+      "village_name": "આશાલડી-સુજાવાંઢ - 067",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "039",
+      "village_name": "આડેસર - 039",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "009",
+      "village_name": "આણંદપર - 009",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "046",
+      "village_name": "ઉમૈયા - 046",
+      "error": "No surveys found after waiting"
+    },
+    {
+      "success": false,
+      "village_code": "052",
+      "village_name": "કુડા-જામપર - 052",
+      "error": "No surveys found after waiting"
+    }
+  ]
+}

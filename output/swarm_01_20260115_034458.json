@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "district_code": "01",
+    "district_name": "કચ્છ",
+    "total_villages": 2,
+    "successful": 0,
+    "failed": 2,
+    "duration_seconds": 8.981053,
+    "workers": 2,
+    "timestamp": "20260115_034458"
+  },
+  "results": [
+    {
+      "success": false,
+      "village_code": "012",
+      "village_name": "અટડો - 012",
+      "error": "No surveys found"
+    },
+    {
+      "success": false,
+      "village_code": "040",
+      "village_name": "અકરી - 040",
+      "error": "No surveys found"
+    }
+  ]
+}

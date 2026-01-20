@@ -1,0 +1,765 @@
+{
+  "metadata": {
+    "district_code": "01",
+    "district_name": "કચ્છ",
+    "total_villages": 5,
+    "successful": 5,
+    "failed": 0,
+    "duration_seconds": 24.827995,
+    "workers": 5,
+    "timestamp": "20260115_144741"
+  },
+  "results": [
+    {
+      "success": true,
+      "village_code": "051",
+      "village_name": "અમીયા - 051",
+      "survey": "1",
+      "raw": {
+        "district": {
+          "value": "01"
+        },
+        "taluka": {
+          "value": "01"
+        },
+        "village": {
+          "value": "051",
+          "text": "અમીયા - 051"
+        },
+        "survey": {
+          "value": "1",
+          "text": "1"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૬૪૮,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૨૧૧ | ૧-૧૮-૨૨ | ૦.૦૦શ્રી મેઘપર જુથ ગ્રામ પંચાયત(૧૨૯)"
+            }
+          ],
+          "full_page_text": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.15/08/2018 10:41:39 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઅમીયા\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૧\nUPIN (Unique Property Identification Number)\nGJ181334552910\n(પ્રમોલગેશન નોંધ નં.૬૪૮ તા.૧પ/૦૮/૨૦૧૮)\nOld Survey Number (જુનો સરવે નંબર)\n૧૭૦/ પૈકી ૧/ પૈકી ૨\nજુના સરવે નંબર ને લગત નોંધ નંબરો: ૭૭,૧૬૩,૨૩૭,૨૭૬,૨૮૮,૩૬૦ |***\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n૧-૧૮-૨૨\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૦.૦૦\nTenure (સત્તાપ્રકાર) :\nનવી અને અવિભાજ્ય\nLand Use (જમીનનો ઉપયોગ) :\nગામતળ\nName of farm (ખેતરનું નામ) :\nટ્રાવ઼ર્સ\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૬૪૮,\n-----------------------------------\t-----------------------------------\n૨૧૧ | ૧-૧૮-૨૨ | ૦.૦૦\tશ્રી મેઘપર જુથ ગ્રામ પંચાયત(૧૨૯)\n \t \n \t \n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n૬૪૮,\n--------------------------------------------------\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar",
+          "timestamp": "2026-01-15T14:47:39.665255"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-15T09:17:39.665270+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 1,
+          "encumbrance_count": 0
+        },
+        "search_input": {
+          "district": "01",
+          "taluka": "01",
+          "village": "051",
+          "survey_or_block_number": "1",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "અમીયા"
+          }
+        },
+        "property_identity": {
+          "khata_number": "211",
+          "survey_number": "1",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "શ્રી મેઘપર જુથ ગ્રામ પંચાયત",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "129",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "૧-૧૮-૨૨",
+          "area_hectare": 1,
+          "area_are": 18,
+          "area_sqm": 22,
+          "area_total_sqm": 11822,
+          "area_sq_yd": 14138.99,
+          "assessment_tax": "0.00",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [
+          "648"
+        ],
+        "rights_and_remarks": {
+          "entry_details": [],
+          "notes_raw": ""
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.15/08/2018 10:41:39 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઅમીયા\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૧\nUPIN (Unique Property Identification Number)\nGJ181334552910\n(પ્રમોલગેશન નોંધ નં.૬૪૮ તા.૧પ/૦૮/૨૦૧૮)\nOld Survey Number (જુનો સરવે નંબર)\n૧૭૦/ પૈકી ૧/ પૈકી ૨\nજુના સરવે નંબર ને લગત નોંધ નંબરો: ૭૭,૧૬૩,૨૩૭,૨૭૬,૨૮૮,૩૬૦ |***\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n૧-૧૮-૨૨\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૦.૦૦\nTenure (સત્તાપ્રકાર) :\nનવી અને અવિભાજ્ય\nLand Use (જમીનનો ઉપયોગ) :\nગામતળ\nName of farm (ખેતરનું નામ) :\nટ્રાવ઼ર્સ\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૬૪૮,\n-----------------------------------\t-----------------------------------\n૨૧૧ | ૧-૧૮-૨૨ | ૦.૦૦\tશ્રી મેઘપર જુથ ગ્રામ પંચાયત(૧૨૯)\n \t \n \t \n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n૬૪૮,\n--------------------------------------------------\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar"
+      }
+    },
+    {
+      "success": true,
+      "village_code": "013",
+      "village_name": "ઉખેર - 013",
+      "survey": "2",
+      "raw": {
+        "district": {
+          "value": "01"
+        },
+        "taluka": {
+          "value": "01"
+        },
+        "village": {
+          "value": "013",
+          "text": "ઉખેર - 013"
+        },
+        "survey": {
+          "value": "2",
+          "text": "2"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૨૩,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૦પ | પ૦-પ૮-૭૧ | ૨૦૨.પ૦ગુજરાત ગ્રામ વિકાસ નિગમ લી(૧૩)"
+            },
+            {
+              "text": "બોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૨૩,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tગ઼ુજરાત રાજય ગ્રમવીકાસ નીગમલી<૧૨>"
+            }
+          ],
+          "full_page_text": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.15/02/2017 05:05:11 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઉખેર\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૨\nUPIN (Unique Property Identification Number)\nGJ124276678403\n(પ્રમોલગેશન નોંધ નં.૨૩ તા.૧પ/૦૨/૨૦૧૭)\nOld Survey Number (જુનો સરવે નંબર)\n૭/૪\nજુના સરવે નંબર ને લગત નોંધ નંબરો: ૩,૧૨,૧૩,૧૬ |*** જુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: ૧૨,૧૩ |***\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\nપ૦-પ૮-૭૧\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૨૦૨.પ૦\nTenure (સત્તાપ્રકાર) :\nબીનઆકારી ખાસકામ઼ માટે\nLand Use (જમીનનો ઉપયોગ) :\nસરકારી પડતર\nName of farm (ખેતરનું નામ) :\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૨૩,\n-----------------------------------\t-----------------------------------\n૧૦પ | પ૦-પ૮-૭૧ | ૨૦૨.પ૦\tગુજરાત ગ્રામ વિકાસ નિગમ લી(૧૩)\n \t \n \t \n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n૨૩,\n--------------------------------------------------\nગ઼ુજરાત રાજય ગ્રમવીકાસ નીગમલી<૧૨>\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar",
+          "timestamp": "2026-01-15T14:47:41.088109"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-15T09:17:41.088125+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 1,
+          "encumbrance_count": 1
+        },
+        "search_input": {
+          "district": "01",
+          "taluka": "01",
+          "village": "013",
+          "survey_or_block_number": "2",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "ઉખેર"
+          }
+        },
+        "property_identity": {
+          "khata_number": "105",
+          "survey_number": "2",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "ગુજરાત ગ્રામ વિકાસ નિગમ લી",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "13",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "પ૦-પ૮-૭૧",
+          "area_hectare": 50,
+          "area_are": 58,
+          "area_sqm": 71,
+          "area_total_sqm": 505871,
+          "area_sq_yd": 605016.66,
+          "assessment_tax": "",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [
+          "23"
+        ],
+        "rights_and_remarks": {
+          "entry_details": [
+            {
+              "entry_no": "12",
+              "entry_date": "",
+              "type": "અન્ય",
+              "description": "ગ઼ુજરાત રાજય ગ્રમવીકાસ નીગમલી",
+              "amount": "",
+              "status": "Active",
+              "office": "",
+              "order_reference": ""
+            }
+          ],
+          "notes_raw": "બોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૨૩,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tગ઼ુજરાત રાજય ગ્રમવીકાસ નીગમલી<૧૨>"
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.15/02/2017 05:05:11 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઉખેર\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૨\nUPIN (Unique Property Identification Number)\nGJ124276678403\n(પ્રમોલગેશન નોંધ નં.૨૩ તા.૧પ/૦૨/૨૦૧૭)\nOld Survey Number (જુનો સરવે નંબર)\n૭/૪\nજુના સરવે નંબર ને લગત નોંધ નંબરો: ૩,૧૨,૧૩,૧૬ |*** જુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: ૧૨,૧૩ |***\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\nપ૦-પ૮-૭૧\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૨૦૨.પ૦\nTenure (સત્તાપ્રકાર) :\nબીનઆકારી ખાસકામ઼ માટે\nLand Use (જમીનનો ઉપયોગ) :\nસરકારી પડતર\nName of farm (ખેતરનું નામ) :\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૨૩,\n-----------------------------------\t-----------------------------------\n૧૦પ | પ૦-પ૮-૭૧ | ૨૦૨.પ૦\tગુજરાત ગ્રામ વિકાસ નિગમ લી(૧૩)\n \t \n \t \n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n૨૩,\n--------------------------------------------------\nગ઼ુજરાત રાજય ગ્રમવીકાસ નીગમલી<૧૨>\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar"
+      }
+    },
+    {
+      "success": true,
+      "village_code": "040",
+      "village_name": "અકરી - 040",
+      "survey": "1/૧",
+      "raw": {
+        "district": {
+          "value": "01"
+        },
+        "taluka": {
+          "value": "01"
+        },
+        "village": {
+          "value": "040",
+          "text": "અકરી - 040"
+        },
+        "survey": {
+          "value": "1/૧",
+          "text": "1/૧"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧પ૬,૩૭,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૦ | ૧-૨૮-૦૦ | ૦.૦૦શ્રી સરકાર(૩૭)"
+            }
+          ],
+          "full_page_text": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.05/01/2011 01:18:33 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઅકરી\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૧/૧\nUPIN (Unique Property Identification Number)\nGJ303978269641\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n૧-૨૮-૦૦\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૦.૦૦\nTenure (સત્તાપ્રકાર) :\nસરકારી પડતર\nLand Use (જમીનનો ઉપયોગ) :\nસરકારી પડતર\nName of farm (ખેતરનું નામ) :\nખળવાડ\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૧પ૬,૩૭,\n-----------------------------------\t-----------------------------------\n૧૦ | ૧-૨૮-૦૦ | ૦.૦૦\tશ્રી સરકાર(૩૭)\n \t \n \t \n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n \n--------------------------------------------------\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar",
+          "timestamp": "2026-01-15T14:47:41.181759"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-15T09:17:41.181772+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 1,
+          "encumbrance_count": 0
+        },
+        "search_input": {
+          "district": "01",
+          "taluka": "01",
+          "village": "040",
+          "survey_or_block_number": "1/૧",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "અકરી"
+          }
+        },
+        "property_identity": {
+          "khata_number": "10",
+          "survey_number": "1/૧",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "શ્રી સરકાર",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "37",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "૧-૨૮-૦૦",
+          "area_hectare": 1,
+          "area_are": 28,
+          "area_sqm": 0,
+          "area_total_sqm": 12800,
+          "area_sq_yd": 15308.67,
+          "assessment_tax": "0.00",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [
+          "156",
+          "37"
+        ],
+        "rights_and_remarks": {
+          "entry_details": [],
+          "notes_raw": ""
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.05/01/2011 01:18:33 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઅકરી\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૧/૧\nUPIN (Unique Property Identification Number)\nGJ303978269641\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n૧-૨૮-૦૦\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૦.૦૦\nTenure (સત્તાપ્રકાર) :\nસરકારી પડતર\nLand Use (જમીનનો ઉપયોગ) :\nસરકારી પડતર\nName of farm (ખેતરનું નામ) :\nખળવાડ\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૧પ૬,૩૭,\n-----------------------------------\t-----------------------------------\n૧૦ | ૧-૨૮-૦૦ | ૦.૦૦\tશ્રી સરકાર(૩૭)\n \t \n \t \n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n \n--------------------------------------------------\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar"
+      }
+    },
+    {
+      "success": true,
+      "village_code": "012",
+      "village_name": "અટડો - 012",
+      "survey": "2",
+      "raw": {
+        "district": {
+          "value": "01"
+        },
+        "taluka": {
+          "value": "01"
+        },
+        "village": {
+          "value": "012",
+          "text": "અટડો - 012"
+        },
+        "survey": {
+          "value": "2",
+          "text": "2"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૩પ૩,૪૪૯,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૦૯ | ૦-૩૨-૨પ | ૦.૬૦ગંગારામ મુળજી પટેલ(૨૩૯)\n\t\t\n\t\t\t દમયંતીબેન ગંગારામ ૫ટેલ(૪૪૯)\n\t\t\n\t\t\t શુભમ ગંગારામ ૫ટેલ(૪૪૯)"
+            },
+            {
+              "text": "બોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૩પ૩,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tછ પટનો બોજો<૯>"
+            }
+          ],
+          "full_page_text": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.05/05/2022 02:03:08 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઅટડો\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૨\nUPIN (Unique Property Identification Number)\nGJ581333594526\n(પ્રમોલગેશન નોંધ નં.૩પ૩ તા.૧પ/૦૨/૨૦૧૭)\nOld Survey Number (જુનો સરવે નંબર)\n૧૨૨\nજુના સરવે નંબર ને લગત નોંધ નંબરો: ૯,૧પ૮,૨૩૯,૨પ૮ |*** જુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: ૯ |***\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n૦-૩૨-૨પ\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૦.૬૦\nTenure (સત્તાપ્રકાર) :\nજુની શરત (જુ.શ)\nLand Use (જમીનનો ઉપયોગ) :\nખેતીલાયક ઉપયોગ\nName of farm (ખેતરનું નામ) :\nઅજોર\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૩પ૩,૪૪૯,\n-----------------------------------\t-----------------------------------\n૧૦૯ | ૦-૩૨-૨પ | ૦.૬૦\tગંગારામ મુળજી પટેલ(૨૩૯)\n \tદમયંતીબેન ગંગારામ ૫ટેલ(૪૪૯)\n \tશુભમ ગંગારામ ૫ટેલ(૪૪૯)\n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n૩પ૩,\n--------------------------------------------------\nછ પટનો બોજો<૯>\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar",
+          "timestamp": "2026-01-15T14:47:41.183822"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-15T09:17:41.183844+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 3,
+          "encumbrance_count": 1
+        },
+        "search_input": {
+          "district": "01",
+          "taluka": "01",
+          "village": "012",
+          "survey_or_block_number": "2",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "અટડો"
+          }
+        },
+        "property_identity": {
+          "khata_number": "109",
+          "survey_number": "2",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "ગંગારામ મુળજી પટેલ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "239",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "દમયંતીબેન ગંગારામ ૫ટેલ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "449",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "શુભમ ગંગારામ ૫ટેલ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "449",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "૦-૩૨-૨પ",
+          "area_hectare": 0,
+          "area_are": 32,
+          "area_sqm": 25,
+          "area_total_sqm": 3225,
+          "area_sq_yd": 3857.07,
+          "assessment_tax": "0.60",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [
+          "353",
+          "449"
+        ],
+        "rights_and_remarks": {
+          "entry_details": [
+            {
+              "entry_no": "9",
+              "entry_date": "",
+              "type": "બેંક બોજો",
+              "description": "છ પટનો બોજો",
+              "amount": "",
+              "status": "Active",
+              "office": "",
+              "order_reference": ""
+            }
+          ],
+          "notes_raw": "બોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૩પ૩,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tછ પટનો બોજો<૯>"
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.05/05/2022 02:03:08 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઅટડો\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૨\nUPIN (Unique Property Identification Number)\nGJ581333594526\n(પ્રમોલગેશન નોંધ નં.૩પ૩ તા.૧પ/૦૨/૨૦૧૭)\nOld Survey Number (જુનો સરવે નંબર)\n૧૨૨\nજુના સરવે નંબર ને લગત નોંધ નંબરો: ૯,૧પ૮,૨૩૯,૨પ૮ |*** જુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: ૯ |***\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n૦-૩૨-૨પ\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૦.૬૦\nTenure (સત્તાપ્રકાર) :\nજુની શરત (જુ.શ)\nLand Use (જમીનનો ઉપયોગ) :\nખેતીલાયક ઉપયોગ\nName of farm (ખેતરનું નામ) :\nઅજોર\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૩પ૩,૪૪૯,\n-----------------------------------\t-----------------------------------\n૧૦૯ | ૦-૩૨-૨પ | ૦.૬૦\tગંગારામ મુળજી પટેલ(૨૩૯)\n \tદમયંતીબેન ગંગારામ ૫ટેલ(૪૪૯)\n \tશુભમ ગંગારામ ૫ટેલ(૪૪૯)\n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n૩પ૩,\n--------------------------------------------------\nછ પટનો બોજો<૯>\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar"
+      }
+    },
+    {
+      "success": true,
+      "village_code": "067",
+      "village_name": "આશાલડી-સુજાવાંઢ - 067",
+      "survey": "2",
+      "raw": {
+        "district": {
+          "value": "01"
+        },
+        "taluka": {
+          "value": "01"
+        },
+        "village": {
+          "value": "067",
+          "text": "આશાલડી-સુજાવાંઢ - 067"
+        },
+        "survey": {
+          "value": "2",
+          "text": "2"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૨પ૯,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧પ૬ | ૦-૪૦-પ૦ | ૦.૦૦શ્રી ગ્રામ પંચાયત જુથ સામજીયારા(૧૭પ)"
+            }
+          ],
+          "full_page_text": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.01/10/2015 06:28:04 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઆશાલડી-સુજાવાંઢ\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૨\nUPIN (Unique Property Identification Number)\nGJ421926294289\n(પ્રમોલગેશન નોંધ નં.૨પ૯ તા.૦૧/૧૦/૨૦૧પ)\nOld Survey Number (જુનો સરવે નંબર)\n૪૦/ પૈકી ૨\nજુના સરવે નંબર ને લગત નોંધ નંબરો: ૩૧,૩૯,૧૭પ |***\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n૦-૪૦-પ૦\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૦.૦૦\nTenure (સત્તાપ્રકાર) :\nસરકારી પડતર\nLand Use (જમીનનો ઉપયોગ) :\nસરકારી પડતર\nName of farm (ખેતરનું નામ) :\nવથાણ ટ્રાવર્સપૈકી\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૨પ૯,\n-----------------------------------\t-----------------------------------\n૧પ૬ | ૦-૪૦-પ૦ | ૦.૦૦\tશ્રી ગ્રામ પંચાયત જુથ સામજીયારા(૧૭પ)\n \t \n \t \n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n૨પ૯,\n--------------------------------------------------\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar",
+          "timestamp": "2026-01-15T14:47:41.187225"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-15T09:17:41.187238+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 1,
+          "encumbrance_count": 0
+        },
+        "search_input": {
+          "district": "01",
+          "taluka": "01",
+          "village": "067",
+          "survey_or_block_number": "2",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "આશાલડી-સુજાવાંઢ"
+          }
+        },
+        "property_identity": {
+          "khata_number": "156",
+          "survey_number": "2",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "શ્રી ગ્રામ પંચાયત જુથ સામજીયારા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "175",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "૦-૪૦-પ૦",
+          "area_hectare": 0,
+          "area_are": 40,
+          "area_sqm": 50,
+          "area_total_sqm": 4050,
+          "area_sq_yd": 4843.76,
+          "assessment_tax": "0.00",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [
+          "259"
+        ],
+        "rights_and_remarks": {
+          "entry_details": [],
+          "notes_raw": ""
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": " \nHOME RURAL LAND RECORD VF-7\nગામ નમૂના નંબર - ૭ ની વિગતો\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\n* તા.01/10/2015 06:28:04 ની સ્થિતિએ\nDistrict (જીલ્લો)\nકચ્છ\nTaluka (તાલુકો)\nલખપત\nVillage (ગામ)\nઆશાલડી-સુજાવાંઢ\nSurvey/ Block Number (સરવે/ બ્લોક નંબર)\n૨\nUPIN (Unique Property Identification Number)\nGJ421926294289\n(પ્રમોલગેશન નોંધ નં.૨પ૯ તા.૦૧/૧૦/૨૦૧પ)\nOld Survey Number (જુનો સરવે નંબર)\n૪૦/ પૈકી ૨\nજુના સરવે નંબર ને લગત નોંધ નંબરો: ૩૧,૩૯,૧૭પ |***\nLand Details (જમીનની વિગતો)\nTotal Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n૦-૪૦-પ૦\nTotal Assessment Rs. (કુલ આકાર રૂ. ) :\n૦.૦૦\nTenure (સત્તાપ્રકાર) :\nસરકારી પડતર\nLand Use (જમીનનો ઉપયોગ) :\nસરકારી પડતર\nName of farm (ખેતરનું નામ) :\nવથાણ ટ્રાવર્સપૈકી\nOther Details (રીમાર્ક્સ) :\nOwnership Details (ખાતેદારની વિગતો)\nખાતા નંબર | ક્ષેત્રફળ | આકાર |\tનોંધ નંબરો તથા ખાતેદાર\n \t૨પ૯,\n-----------------------------------\t-----------------------------------\n૧પ૬ | ૦-૪૦-પ૦ | ૦.૦૦\tશ્રી ગ્રામ પંચાયત જુથ સામજીયારા(૧૭પ)\n \t \n \t \n \t \nBoja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\nબોજા અને બીજા હક્ક ની વિગતો\n૨પ૯,\n--------------------------------------------------\n* અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.\nઆ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા કલેક્ટર કચેરીનો સંપર્ક કરવો.\n\n** The information provided online is updated, and no physical visit is required for this information.\nFor additional information you may visit respective office.\nContent Owned by Revenue Department, Government of Gujarat\n© Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar"
+      }
+    }
+  ]
+}

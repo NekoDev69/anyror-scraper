@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "portal_name": "AnyROR Rural Land Record",
+    "module": "SURVEY_NUMBER_SEARCH",
+    "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+    "state": "Gujarat",
+    "record_type": "VF-7 / RoR (7-12)",
+    "data_status_time_local": "19/11/2023 01:05:22",
+    "scrape_timestamp_utc": "2026-01-14T20:05:41.339166+00:00",
+    "language": "gu",
+    "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+    "disclaimer_english": "The information provided online is updated and is not an official copy.",
+    "owner_count": 4,
+    "encumbrance_count": 3
+  },
+  "search_input": {
+    "district": "01",
+    "taluka": "07",
+    "village": "126",
+    "survey_or_block_number": "7",
+    "sub_division_number": "",
+    "fetch_mode": "survey_search"
+  },
+  "location": {
+    "district": {
+      "name_en": "",
+      "name_local": "કચ્છ"
+    },
+    "taluka": {
+      "name_en": "",
+      "name_local": "અબડાસા"
+    },
+    "village": {
+      "name_en": "",
+      "name_local": "ગઢ઼વાડા"
+    }
+  },
+  "property_identity": {
+    "khata_number": "168",
+    "survey_number": "7",
+    "block_number": "",
+    "sub_division_number": "",
+    "old_survey_number": "",
+    "old_survey_notes": "",
+    "upin": "GJ943390520455",
+    "land_type": "Agriculture"
+  },
+  "owners": [
+    {
+      "owner_name": "હરિજન રતનબાઇ થાવર",
+      "owner_father_or_husband_name": "",
+      "ownership_type": "ખાતેદાર",
+      "share": "",
+      "entry_number": "2516",
+      "owner_address_or_remark": ""
+    },
+    {
+      "owner_name": "હરિજન દિપક થાવર ગોરડિયા",
+      "owner_father_or_husband_name": "",
+      "ownership_type": "ખાતેદાર",
+      "share": "",
+      "entry_number": "2516",
+      "owner_address_or_remark": ""
+    },
+    {
+      "owner_name": "હરિજન જનક થાવર મેઘવાળ",
+      "owner_father_or_husband_name": "",
+      "ownership_type": "ખાતેદાર",
+      "share": "",
+      "entry_number": "2516",
+      "owner_address_or_remark": ""
+    },
+    {
+      "owner_name": "હરિજન અરૂણાબેન વા/ઓ અરવિંદ જેપાર",
+      "owner_father_or_husband_name": "",
+      "ownership_type": "ખાતેદાર",
+      "share": "",
+      "entry_number": "2516",
+      "owner_address_or_remark": ""
+    }
+  ],
+  "land_details": {
+    "total_area_raw": "૨-૯૩-૪૦",
+    "area_hectare": 2,
+    "area_are": 93,
+    "area_sqm": 40,
+    "area_total_sqm": 29340,
+    "area_sq_yd": 35090.35,
+    "assessment_tax": "",
+    "land_revenue": "",
+    "tenure": "Old Tenure",
+    "tenure_local": "જુની શરત (જુ.શ)",
+    "land_use": "Agricultural",
+    "land_use_local": "ખેતીલાયક ઉપયોગ",
+    "farm_name": "બંધ",
+    "irrigation_type": "",
+    "soil_type": "",
+    "crop_details": "",
+    "remarks": "Ownership Details (ખાતેદારની વિગતો)",
+    "boundaries": {
+      "north": "",
+      "south": "",
+      "east": "",
+      "west": ""
+    }
+  },
+  "entry_numbers": [
+    "130",
+    "162",
+    "751",
+    "1205",
+    "2516",
+    "893",
+    "1155"
+  ],
+  "rights_and_remarks": {
+    "entry_details": [
+      {
+        "entry_no": "893",
+        "entry_date": "",
+        "type": "બેંક બોજો",
+        "description": "કચ્છ ગ્રામીણ બેન્ક મોથાળા શાખાનો બોજો",
+        "amount": "",
+        "status": "Active",
+        "office": "",
+        "order_reference": ""
+      },
+      {
+        "entry_no": "1155",
+        "entry_date": "",
+        "type": "બેંક બોજો",
+        "description": "દેના ગુજરાત ગ્રામીણ બેંક મોથાળા શાખાનો રૂ.પ૦૦૦૦૦/- નો બોજો",
+        "amount": "",
+        "status": "Active",
+        "office": "",
+        "order_reference": ""
+      },
+      {
+        "entry_no": "1205",
+        "entry_date": "",
+        "type": "બેંક બોજો",
+        "description": "અરજણજી જેઠુજીનો છ પટનો બોજો",
+        "amount": "",
+        "status": "Active",
+        "office": "",
+        "order_reference": ""
+      }
+    ],
+    "notes_raw": "બોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૮૯૩,૧૧પપ,૧૨૦પ,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tકચ્છ ગ્રામીણ બેન્ક મોથાળા શાખાનો બોજો<૮૯૩>\n\t\t\n\t\t\tદેના ગુજરાત ગ્રામીણ બેંક મોથાળા શાખાનો રૂ.પ૦૦૦૦૦/- નો બોજો<૧૧પપ>\n\t\t\n\t\t\tઅરજણજી જેઠુજીનો છ પટનો બોજો<૧૨૦પ>"
+  },
+  "related_documents": {
+    "vf6": {
+      "available": false,
+      "url": ""
+    },
+    "vf8a": {
+      "available": false,
+      "url": ""
+    },
+    "vf7": {
+      "available": false,
+      "url": ""
+    },
+    "mutation_register": {
+      "available": false,
+      "url": ""
+    }
+  },
+  "raw_page_text_backup": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.19/11/2023 01:05:22 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                કચ્છ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                અબડાસા\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                ગઢ઼વાડા\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૭\n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ943390520455\n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૨-૯૩-૪૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    પ.૦૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    જુની શરત (જુ.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ખેતીલાયક ઉપયોગ\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    બંધ\n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                \n                                            \n                                        \n                                        \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૩૦,૧૬૨,૭પ૧,૧૨૦પ,૨પ૧૬,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૬૮ | ૨-૯૩-૪૦ | પ.૦૦હરિજન રતનબાઇ થાવર(૨પ૧૬)\n\t\t\n\t\t\t હરિજન દિપક થાવર ગોરડિયા(૨પ૧૬)\n\t\t\n\t\t\t હરિજન જનક થાવર મેઘવાળ(૨પ૧૬)\n\t\t\n\t\t\t હરિજન અરૂણાબેન વા/ઓ અરવિંદ જેપાર(૨પ૧૬)\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૮૯૩,૧૧પપ,૧૨૦પ,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tકચ્છ ગ્રામીણ બેન્ક મોથાળા શાખાનો બોજો<૮૯૩>\n\t\t\n\t\t\tદેના ગુજરાત ગ્રામીણ બેંક મોથાળા શાખાનો રૂ.પ૦૦૦૦૦/- નો બોજો<૧૧પપ>\n\t\t\n\t\t\tઅરજણજી જેઠુજીનો છ પટનો બોજો<૧૨૦પ>\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n"
+}

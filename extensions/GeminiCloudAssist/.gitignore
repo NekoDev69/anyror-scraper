@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/*
+
+# Build output
+dist/*
+
+# Local files
+personal-docs/*
+api.integration.local.js
+install.sh
+raw_logs/*
+.gemini/
+gha-creds-*.json

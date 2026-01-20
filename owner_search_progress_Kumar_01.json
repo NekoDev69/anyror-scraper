@@ -1,0 +1,68 @@
+{
+  "owner_name": "Kumar",
+  "district_code": "01",
+  "timestamp": "2026-01-20T04:24:04.220578",
+  "completed_villages": {
+    "04_028": {
+      "success": true,
+      "count": 6,
+      "timestamp": "2026-01-20T04:24:47.775047"
+    }
+  },
+  "hits": [
+    {
+      "taluka_name": "અંજાર",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "1",
+      "khata_no": "740",
+      "survey_no": "127/p૧",
+      "owner_name": "Gaurav Adityakumar Arya"
+    },
+    {
+      "taluka_name": "અંજાર",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "2",
+      "khata_no": "740",
+      "survey_no": "127/p૨",
+      "owner_name": "Gaurav Adityakumar Arya"
+    },
+    {
+      "taluka_name": "અંજાર",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "3",
+      "khata_no": "740",
+      "survey_no": "127/p૧",
+      "owner_name": "Shubham Adityakumar Arya"
+    },
+    {
+      "taluka_name": "અંજાર",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "4",
+      "khata_no": "740",
+      "survey_no": "127/p૨",
+      "owner_name": "Shubham Adityakumar Arya"
+    },
+    {
+      "taluka_name": "અંજાર",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "5",
+      "khata_no": "741",
+      "survey_no": "126",
+      "owner_name": "Gaurav Adityakumar Arya"
+    },
+    {
+      "taluka_name": "અંજાર",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "6",
+      "khata_no": "741",
+      "survey_no": "126",
+      "owner_name": "Shubham Adityakumar Arya"
+    }
+  ]
+}

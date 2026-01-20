@@ -1,0 +1,57 @@
+{
+  "test_config": {
+    "num_villages": 5,
+    "total_time": 218.94699215888977,
+    "timestamp": "2026-01-15T01:17:56.372636"
+  },
+  "statistics": {
+    "total": 5,
+    "successful": 0,
+    "failed": 5,
+    "success_rate": 0.0
+  },
+  "captcha_health": {
+    "total_credentials": 1,
+    "available_credentials": 1,
+    "cooldown_credentials": 0,
+    "total_successes": 2,
+    "total_failures": 0
+  },
+  "results": [
+    {
+      "village_num": 1,
+      "success": false,
+      "time": 8.605414152145386,
+      "village_name": "Unknown",
+      "has_data": false
+    },
+    {
+      "village_num": 2,
+      "success": false,
+      "time": 4.0069968700408936,
+      "village_name": "Unknown",
+      "has_data": false
+    },
+    {
+      "village_num": 3,
+      "success": false,
+      "time": 4.9272778034210205,
+      "village_name": "Unknown",
+      "has_data": false
+    },
+    {
+      "village_num": 4,
+      "success": false,
+      "time": 5.08653998374939,
+      "village_name": "Unknown",
+      "has_data": false
+    },
+    {
+      "village_num": 5,
+      "success": false,
+      "time": 196.32067918777466,
+      "village_name": "Unknown",
+      "has_data": false
+    }
+  ]
+}

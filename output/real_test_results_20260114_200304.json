@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "total_villages": 5,
+  "successful": 0,
+  "failed": 5,
+  "duration_seconds": 59.77,
+  "villages_per_minute": 5.02,
+  "results": [
+    {
+      "success": false,
+      "task_id": 1,
+      "village_code": "040",
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "success": false,
+      "task_id": 2,
+      "village_code": "012",
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "success": false,
+      "task_id": 3,
+      "village_code": "051",
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "success": false,
+      "task_id": 4,
+      "village_code": "067",
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "success": false,
+      "task_id": 5,
+      "village_code": "013",
+      "error": "'list' object has no attribute 'get'"
+    }
+  ],
+  "start_time": "2026-01-14T20:02:05.122272",
+  "end_time": "2026-01-14T20:03:04.893564"
+}

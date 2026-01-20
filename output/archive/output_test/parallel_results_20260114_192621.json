@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "district_code": "02",
+    "taluka_code": "04",
+    "total_villages": 20,
+    "successful": 0,
+    "failed": 20,
+    "duration_seconds": 128.769234,
+    "workers": 24,
+    "timestamp": "20260114_192621"
+  },
+  "results": [
+    {
+      "success": false,
+      "village_code": "018",
+      "error": "Captcha failed"
+    },
+    {
+      "success": false,
+      "village_code": "044",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "048",
+      "error": "Captcha failed"
+    },
+    {
+      "success": false,
+      "village_code": "016",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "012",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "011",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "047",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "013",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "046",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "036",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "019",
+      "error": "Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlVillage\")\n"
+    },
+    {
+      "success": false,
+      "village_code": "030",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "017",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "041",
+      "error": "Captcha failed"
+    },
+    {
+      "success": false,
+      "village_code": "028",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "043",
+      "error": "Captcha failed"
+    },
+    {
+      "success": false,
+      "village_code": "024",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "007",
+      "error": "No survey numbers"
+    },
+    {
+      "success": false,
+      "village_code": "022",
+      "error": "Captcha failed"
+    },
+    {
+      "success": false,
+      "village_code": "034",
+      "error": "No survey numbers"
+    }
+  ]
+}

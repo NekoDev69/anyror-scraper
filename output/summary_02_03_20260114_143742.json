@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "district_code": "02",
+    "taluka_code": "03",
+    "start_time": "2026-01-14T14:37:12.138454",
+    "end_time": "2026-01-14T14:37:42.127306",
+    "duration_seconds": 29.99,
+    "num_contexts": 1,
+    "tabs_per_context": 1,
+    "total_workers": 1
+  },
+  "statistics": {
+    "total_villages": 3,
+    "successful": 2,
+    "failed": 1,
+    "success_rate_percent": 66.67,
+    "villages_per_minute": 6.0
+  },
+  "results": [
+    {
+      "village_code": "043",
+      "village_name": "અનાપુર ગઢ - 043",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C0-T0",
+      "error": null
+    },
+    {
+      "village_code": "042",
+      "village_name": "",
+      "survey_no": "",
+      "success": false,
+      "worker_id": "C0-T0",
+      "error": "no_surveys"
+    },
+    {
+      "village_code": "067",
+      "village_name": "આલવાડા - 067",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C0-T0",
+      "error": null
+    }
+  ]
+}

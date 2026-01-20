@@ -1,0 +1,12 @@
+{
+  "name": "GeminiCloudAssist",
+  "version": "0.2.0",
+  "mcpServers": {
+    "gemini-cloud-assist-mcp": {
+      "command": "npm",
+      "args": ["run", "start:fresh"],
+      "cwd": "${extensionPath}",
+      "timeout": 600000
+    }
+  }
+}

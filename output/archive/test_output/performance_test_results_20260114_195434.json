@@ -1,0 +1,70 @@
+{
+  "test_info": {
+    "timestamp": "2026-01-14T19:53:56.287323",
+    "test_type": "5_tab_parallel_performance",
+    "configuration": {
+      "num_tabs": 5,
+      "district_code": "02",
+      "taluka_code": "01",
+      "village_codes": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005"
+      ],
+      "headless": true
+    }
+  },
+  "performance": {
+    "test_duration_seconds": 37.9,
+    "total_villages": 5,
+    "successful": 0,
+    "failed": 5,
+    "success_rate_percent": 0.0,
+    "villages_per_minute": 7.92,
+    "avg_time_per_village_seconds": 37.9
+  },
+  "results": {
+    "success": true,
+    "total_villages": 5,
+    "successful": 0,
+    "failed": 5,
+    "duration_seconds": 37.86,
+    "villages_per_minute": 7.92,
+    "results": [
+      {
+        "success": false,
+        "task_id": 1,
+        "village_code": "001",
+        "error": "Locator.select_option: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlTaluka\")\n    - locator resolved to <select class=\"form-control\" id=\"ContentPlaceHolder1_ddlTaluka\" onclick=\"return Taluka_Validation();\" name=\"ctl00$ContentPlaceHolder1$ddlTaluka\" onchange=\"javascript:setTimeout('__doPostBack(\\'ctl00$ContentPlaceHolder1$ddlTaluka\\',\\'\\')', 0)\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n      - waiting 100ms\n    20 × waiting for element to be visible and enabled\n       - did not find some options\n     - retrying select option action\n       - waiting 500ms\n"
+      },
+      {
+        "success": false,
+        "task_id": 2,
+        "village_code": "002",
+        "error": "Locator.select_option: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlTaluka\")\n    - locator resolved to <select class=\"form-control\" id=\"ContentPlaceHolder1_ddlTaluka\" onclick=\"return Taluka_Validation();\" name=\"ctl00$ContentPlaceHolder1$ddlTaluka\" onchange=\"javascript:setTimeout('__doPostBack(\\'ctl00$ContentPlaceHolder1$ddlTaluka\\',\\'\\')', 0)\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n      - waiting 100ms\n    20 × waiting for element to be visible and enabled\n       - did not find some options\n     - retrying select option action\n       - waiting 500ms\n"
+      },
+      {
+        "success": false,
+        "task_id": 3,
+        "village_code": "003",
+        "error": "Locator.select_option: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlTaluka\")\n    - locator resolved to <select class=\"form-control\" id=\"ContentPlaceHolder1_ddlTaluka\" onclick=\"return Taluka_Validation();\" name=\"ctl00$ContentPlaceHolder1$ddlTaluka\" onchange=\"javascript:setTimeout('__doPostBack(\\'ctl00$ContentPlaceHolder1$ddlTaluka\\',\\'\\')', 0)\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n      - waiting 100ms\n    20 × waiting for element to be visible and enabled\n       - did not find some options\n     - retrying select option action\n       - waiting 500ms\n"
+      },
+      {
+        "success": false,
+        "task_id": 4,
+        "village_code": "004",
+        "error": "Locator.select_option: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlTaluka\")\n    - locator resolved to <select class=\"form-control\" id=\"ContentPlaceHolder1_ddlTaluka\" onclick=\"return Taluka_Validation();\" name=\"ctl00$ContentPlaceHolder1$ddlTaluka\" onchange=\"javascript:setTimeout('__doPostBack(\\'ctl00$ContentPlaceHolder1$ddlTaluka\\',\\'\\')', 0)\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n      - waiting 100ms\n    20 × waiting for element to be visible and enabled\n       - did not find some options\n     - retrying select option action\n       - waiting 500ms\n"
+      },
+      {
+        "success": false,
+        "task_id": 5,
+        "village_code": "005",
+        "error": "Locator.select_option: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlTaluka\")\n    - locator resolved to <select class=\"form-control\" id=\"ContentPlaceHolder1_ddlTaluka\" onclick=\"return Taluka_Validation();\" name=\"ctl00$ContentPlaceHolder1$ddlTaluka\" onchange=\"javascript:setTimeout('__doPostBack(\\'ctl00$ContentPlaceHolder1$ddlTaluka\\',\\'\\')', 0)\">…</select>\n  - attempting select option action\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n    - waiting 20ms\n    2 × waiting for element to be visible and enabled\n      - did not find some options\n    - retrying select option action\n      - waiting 100ms\n    20 × waiting for element to be visible and enabled\n       - did not find some options\n     - retrying select option action\n       - waiting 500ms\n"
+      }
+    ],
+    "start_time": "2026-01-14T19:53:56.287330",
+    "end_time": "2026-01-14T19:54:34.151894"
+  }
+}

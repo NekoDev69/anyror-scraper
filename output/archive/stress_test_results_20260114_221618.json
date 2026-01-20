@@ -1,0 +1,122 @@
+{
+  "sequential": {
+    "test_name": "Sequential",
+    "timestamp": "2026-01-14T22:11:08.511013",
+    "total_requests": 10,
+    "successful": 10,
+    "failed": 0,
+    "success_rate": 100.0,
+    "total_time": 0.5164012908935547,
+    "requests_per_second": 19.36478505446124,
+    "response_times": {
+      "min": 0.04518699645996094,
+      "max": 0.0946962833404541,
+      "mean": 0.051626944541931154,
+      "median": 0.04697597026824951,
+      "stdev": 0.015203827068069178
+    },
+    "successful_response_times": {
+      "min": 0.04518699645996094,
+      "max": 0.0946962833404541,
+      "mean": 0.051626944541931154,
+      "median": 0.04697597026824951
+    },
+    "errors": {}
+  },
+  "concurrent_low": {
+    "test_name": "Concurrent-5workers",
+    "timestamp": "2026-01-14T22:11:37.112820",
+    "total_requests": 20,
+    "successful": 20,
+    "failed": 0,
+    "success_rate": 100.0,
+    "total_time": 28.599815845489502,
+    "requests_per_second": 0.6993052021051462,
+    "response_times": {
+      "min": 0.04729175567626953,
+      "max": 0.10317206382751465,
+      "mean": 0.05895442962646484,
+      "median": 0.05385005474090576,
+      "stdev": 0.016179456017599163
+    },
+    "successful_response_times": {
+      "min": 0.04729175567626953,
+      "max": 0.10317206382751465,
+      "mean": 0.05895442962646484,
+      "median": 0.05385005474090576
+    },
+    "errors": {}
+  },
+  "concurrent_medium": {
+    "test_name": "Concurrent-10workers",
+    "timestamp": "2026-01-14T22:12:46.095549",
+    "total_requests": 50,
+    "successful": 50,
+    "failed": 0,
+    "success_rate": 100.0,
+    "total_time": 68.98081803321838,
+    "requests_per_second": 0.724839186104201,
+    "response_times": {
+      "min": 0.04127693176269531,
+      "max": 0.05959677696228027,
+      "mean": 0.04763179779052734,
+      "median": 0.04664349555969238,
+      "stdev": 0.003593080151644183
+    },
+    "successful_response_times": {
+      "min": 0.04127693176269531,
+      "max": 0.05959677696228027,
+      "mean": 0.04763179779052734,
+      "median": 0.04664349555969238
+    },
+    "errors": {}
+  },
+  "concurrent_high": {
+    "test_name": "Concurrent-20workers",
+    "timestamp": "2026-01-14T22:15:06.148155",
+    "total_requests": 100,
+    "successful": 100,
+    "failed": 0,
+    "success_rate": 100.0,
+    "total_time": 140.05099606513977,
+    "requests_per_second": 0.7140256250193932,
+    "response_times": {
+      "min": 0.03759407997131348,
+      "max": 0.11244511604309082,
+      "mean": 0.05167280912399292,
+      "median": 0.04731559753417969,
+      "stdev": 0.013545437325065485
+    },
+    "successful_response_times": {
+      "min": 0.03759407997131348,
+      "max": 0.11244511604309082,
+      "mean": 0.05167280912399292,
+      "median": 0.04731559753417969
+    },
+    "errors": {}
+  },
+  "burst": {
+    "test_name": "Burst-15x3",
+    "timestamp": "2026-01-14T22:16:18.179852",
+    "total_requests": 45,
+    "successful": 45,
+    "failed": 0,
+    "success_rate": 100.0,
+    "total_time": 72.02974390983582,
+    "requests_per_second": 0.6247419129565328,
+    "response_times": {
+      "min": 0.03716421127319336,
+      "max": 0.06643009185791016,
+      "mean": 0.0466330263349745,
+      "median": 0.0437922477722168,
+      "stdev": 0.006748022355035922
+    },
+    "successful_response_times": {
+      "min": 0.03716421127319336,
+      "max": 0.06643009185791016,
+      "mean": 0.0466330263349745,
+      "median": 0.0437922477722168
+    },
+    "errors": {}
+  }
+}

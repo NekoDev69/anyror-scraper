@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujarat AnyROR Swarm Scraper</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #f39c12;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .subtitle {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 25px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            color: #f39c12;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.3s;
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+        }
+
+        select:focus,
+        input:focus {
+            outline: none;
+            border-color: #f39c12;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        select option {
+            background: #1a1a2e;
+            color: #fff;
+        }
+
+        .slider-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .slider-container input[type="range"] {
+            flex: 1;
+            -webkit-appearance: none;
+            height: 8px;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .slider-container input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: #f39c12;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(243, 156, 18, 0.5);
+        }
+
+        .slider-value {
+            background: #f39c12;
+            color: #000;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 700;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .btn {
+            padding: 14px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #f39c12, #e67e22);
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(243, 156, 18, 0.4);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+        }
+
+        .btn-danger:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .info-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 12px;
+            border-left: 4px solid #f39c12;
+        }
+
+        .info-label {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .info-value.success {
+            color: #2ecc71;
+        }
+
+        .info-value.error {
+            color: #e74c3c;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #f39c12, #e67e22, #f39c12);
+            background-size: 200% 100%;
+            animation: shimmer 2s linear infinite;
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: 200% 0;
+            }
+
+            100% {
+                background-position: -200% 0;
+            }
+        }
+
+        .status {
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .status-idle {
+            background: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .status-running {
+            background: rgba(46, 204, 113, 0.2);
+            color: #2ecc71;
+            animation: pulse 2s infinite;
+        }
+
+        .status-completed {
+            background: rgba(46, 204, 113, 0.2);
+            color: #2ecc71;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .workers-indicator {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .worker-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s;
+        }
+
+        .worker-dot.active {
+            background: #2ecc71;
+            box-shadow: 0 0 10px rgba(46, 204, 113, 0.5);
+            animation: workerPulse 1s infinite;
+        }
+
+        @keyframes workerPulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .stats-row {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+
+        .stat-label {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 12px;
+        }
+
+        .stat-value {
+            color: #f39c12;
+            font-weight: 700;
+        }
+
+        small {
+            color: rgba(255, 255, 255, 0.5);
+            display: block;
+            margin-top: 5px;
+        }
+
+        .swarm-icon {
+            font-size: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><span class="swarm-icon">🐝</span> Gujarat AnyROR Swarm Scraper</h1>
+            <p class="subtitle">Select a district to start concurrent village scraping with multiple workers</p>
+        </div>
+
+        <div class="card">
+            <h2>⚙️ Configuration</h2>
+
+            <div class="form-group">
+                <label for="district">Select District</label>
+                <select id="district">
+                    <option value="">Loading districts...</option>
+                </select>
+            </div>
+
+            <div id="districtInfo" class="hidden">
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-label">Talukas</div>
+                        <div class="info-value" id="talukasCount">-</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Total Villages</div>
+                        <div class="info-value" id="villagesCount">-</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group" style="margin-top: 20px;">
+                <label>Number of Workers (Concurrent Browsers)</label>
+                <div class="slider-container">
+                    <input type="range" id="numWorkers" min="1" max="20" value="10">
+                    <div class="slider-value" id="workersValue">10</div>
+                </div>
+                <small>More workers = faster scraping, but uses more system resources</small>
+            </div>
+
+            <div class="form-group">
+                <label for="maxVillages">Max Villages per Taluka (Optional)</label>
+                <input type="number" id="maxVillages" placeholder="Leave empty for all villages">
+                <small>Limit villages per taluka for testing. Leave empty to scrape all.</small>
+            </div>
+
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <button id="startBtn" class="btn btn-primary" onclick="startScraping()">
+                    🚀 Start Swarm
+                </button>
+                <button id="stopBtn" class="btn btn-danger hidden" onclick="stopScraping()">
+                    ⏹️ Stop
+                </button>
+            </div>
+        </div>
+
+        <div id="progressCard" class="card hidden">
+            <h2>📊 Live Progress</h2>
+
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                <span class="status" id="statusBadge">Idle</span>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="stat-label">Speed:</span>
+                        <span class="stat-value" id="speedValue">0</span>
+                        <span class="stat-label">villages/min</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">ETA:</span>
+                        <span class="stat-value" id="etaValue">--:--</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar" style="width: 0%">0%</div>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">District</div>
+                    <div class="info-value" id="currentDistrict" style="font-size: 16px;">-</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Current Taluka</div>
+                    <div class="info-value" id="currentTaluka" style="font-size: 16px;">-</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Completed</div>
+                    <div class="info-value" id="villagesCompleted">0 / 0</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Successful</div>
+                    <div class="info-value success" id="successCount">0</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Failed</div>
+                    <div class="info-value error" id="failedCount">0</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Active Workers</div>
+                    <div class="info-value" id="activeWorkers">0</div>
+                </div>
+            </div>
+
+            <div style="margin-top: 15px;">
+                <label style="font-size: 12px; margin-bottom: 8px;">Worker Status</label>
+                <div class="workers-indicator" id="workersIndicator"></div>
+            </div>
+        </div>
+
+        <div id="resultsCard" class="card hidden">
+            <h2>✅ Results</h2>
+            <div id="resultsContent"></div>
+        </div>
+    </div>
+
+    <script>
+        let statusInterval = null;
+        let totalWorkers = 10;
+
+        // Update workers slider value
+        document.getElementById('numWorkers').addEventListener('input', function () {
+            document.getElementById('workersValue').textContent = this.value;
+            totalWorkers = parseInt(this.value);
+        });
+
+        // Load districts on page load
+        async function loadDistricts() {
+            try {
+                const response = await fetch('/api/districts');
+                const districts = await response.json();
+
+                const select = document.getElementById('district');
+                select.innerHTML = '<option value="">Select a district...</option>';
+
+                districts.forEach(d => {
+                    const option = document.createElement('option');
+                    option.value = d.code;
+                    option.textContent = `${d.name} (${d.talukas_count} talukas, ${d.villages_count} villages)`;
+                    select.appendChild(option);
+                });
+
+                select.addEventListener('change', loadDistrictInfo);
+            } catch (error) {
+                console.error('Error loading districts:', error);
+            }
+        }
+
+        async function loadDistrictInfo() {
+            const districtCode = document.getElementById('district').value;
+            if (!districtCode) {
+                document.getElementById('districtInfo').classList.add('hidden');
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/district/${districtCode}`);
+                const info = await response.json();
+
+                document.getElementById('talukasCount').textContent = info.talukas.length;
+                document.getElementById('villagesCount').textContent = info.total_villages;
+                document.getElementById('districtInfo').classList.remove('hidden');
+            } catch (error) {
+                console.error('Error loading district info:', error);
+            }
+        }
+
+        function createWorkerIndicator(count) {
+            const container = document.getElementById('workersIndicator');
+            container.innerHTML = '';
+            for (let i = 0; i < count; i++) {
+                const dot = document.createElement('div');
+                dot.className = 'worker-dot';
+                dot.id = `worker-${i}`;
+                container.appendChild(dot);
+            }
+        }
+
+        function updateWorkerIndicator(activeCount) {
+            const dots = document.querySelectorAll('.worker-dot');
+            dots.forEach((dot, i) => {
+                if (i < activeCount) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+        }
+
+        function formatETA(seconds) {
+            if (!seconds || seconds <= 0) return '--:--';
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        async function startScraping() {
+            const districtCode = document.getElementById('district').value;
+            const numWorkers = document.getElementById('numWorkers').value;
+            const maxVillages = document.getElementById('maxVillages').value;
+
+            if (!districtCode) {
+                alert('Please select a district');
+                return;
+            }
+
+            totalWorkers = parseInt(numWorkers);
+
+            const data = {
+                district_code: districtCode,
+                num_workers: parseInt(numWorkers),
+                max_villages_per_taluka: maxVillages ? parseInt(maxVillages) : null
+            };
+
+            try {
+                const response = await fetch('/api/start', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    document.getElementById('startBtn').classList.add('hidden');
+                    document.getElementById('stopBtn').classList.remove('hidden');
+                    document.getElementById('progressCard').classList.remove('hidden');
+                    document.getElementById('resultsCard').classList.add('hidden');
+
+                    createWorkerIndicator(totalWorkers);
+
+                    // Start polling for status
+                    statusInterval = setInterval(updateStatus, 500);
+                } else {
+                    alert('Error: ' + result.error);
+                }
+            } catch (error) {
+                console.error('Error starting scraper:', error);
+                alert('Failed to start scraper');
+            }
+        }
+
+        async function stopScraping() {
+            try {
+                await fetch('/api/stop', { method: 'POST' });
+                clearInterval(statusInterval);
+                document.getElementById('startBtn').classList.remove('hidden');
+                document.getElementById('stopBtn').classList.add('hidden');
+
+                const badge = document.getElementById('statusBadge');
+                badge.textContent = '⏹️ Stopped';
+                badge.className = 'status status-idle';
+            } catch (error) {
+                console.error('Error stopping scraper:', error);
+            }
+        }
+
+        async function updateStatus() {
+            try {
+                const response = await fetch('/api/status');
+                const status = await response.json();
+
+                const progress = status.progress;
+                const running = status.running;
+
+                // Update status badge
+                const badge = document.getElementById('statusBadge');
+                if (running) {
+                    badge.textContent = '🔄 Running';
+                    badge.className = 'status status-running';
+                } else if (progress.status === 'completed') {
+                    badge.textContent = '✅ Completed';
+                    badge.className = 'status status-completed';
+                    clearInterval(statusInterval);
+                    document.getElementById('startBtn').classList.remove('hidden');
+                    document.getElementById('stopBtn').classList.add('hidden');
+                    loadResults();
+                } else {
+                    badge.textContent = progress.status || 'Idle';
+                    badge.className = 'status status-idle';
+                }
+
+                // Update progress bar
+                if (progress.villages_total > 0) {
+                    const percent = Math.round((progress.villages_completed / progress.villages_total) * 100);
+                    document.getElementById('progressBar').style.width = percent + '%';
+                    document.getElementById('progressBar').textContent = percent + '%';
+                }
+
+                // Update info
+                document.getElementById('currentDistrict').textContent = progress.district_name || '-';
+                document.getElementById('currentTaluka').textContent = progress.current_taluka || '-';
+                document.getElementById('villagesCompleted').textContent =
+                    `${progress.villages_completed} / ${progress.villages_total}`;
+                document.getElementById('successCount').textContent = progress.villages_successful || 0;
+                document.getElementById('failedCount').textContent = progress.villages_failed || 0;
+                document.getElementById('activeWorkers').textContent = progress.active_workers || 0;
+
+                // Update speed and ETA
+                document.getElementById('speedValue').textContent =
+                    progress.villages_per_minute ? progress.villages_per_minute.toFixed(1) : '0';
+                document.getElementById('etaValue').textContent = formatETA(progress.eta_seconds);
+
+                // Update worker indicator
+                updateWorkerIndicator(progress.active_workers || 0);
+
+            } catch (error) {
+                console.error('Error updating status:', error);
+            }
+        }
+
+        async function loadResults() {
+            try {
+                const response = await fetch('/api/results');
+                const data = await response.json();
+
+                document.getElementById('resultsCard').classList.remove('hidden');
+
+                const successRate = data.summary.total > 0
+                    ? Math.round((data.summary.successful / data.summary.total) * 100)
+                    : 0;
+
+                const html = `
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">Total Villages</div>
+                            <div class="info-value">${data.summary.total}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Successful</div>
+                            <div class="info-value success">${data.summary.successful}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Failed</div>
+                            <div class="info-value error">${data.summary.failed}</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Success Rate</div>
+                            <div class="info-value">${successRate}%</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 20px; padding: 15px; background: rgba(0,0,0,0.3); border-radius: 8px;">
+                        <div style="color: rgba(255,255,255,0.8); margin-bottom: 10px;">
+                            <strong>📁 Output Files:</strong>
+                        </div>
+                        <div style="color: rgba(255,255,255,0.6); font-size: 14px;">
+                            <div style="margin-bottom: 8px;">
+                                📄 JSON results saved in <code style="background: rgba(0,0,0,0.3); padding: 2px 8px; border-radius: 4px;">output/</code> directory
+                            </div>
+                            <div style="color: #2ecc71;">
+                                📊 Excel report with all structured data automatically generated
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                document.getElementById('resultsContent').innerHTML = html;
+            } catch (error) {
+                console.error('Error loading results:', error);
+            }
+        }
+
+        // Initialize
+        loadDistricts();
+    </script>
+</body>
+
+</html>

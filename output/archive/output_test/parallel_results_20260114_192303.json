@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "district_code": "02",
+    "taluka_code": "04",
+    "total_villages": 20,
+    "successful": 0,
+    "failed": 20,
+    "duration_seconds": 0.132128,
+    "workers": 24,
+    "timestamp": "20260114_192303"
+  },
+  "results": [
+    {
+      "success": false,
+      "village_code": "048",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175681480 (otid=0x314bf3480) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "011",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x16f42e140 (otid=0x314bef1e0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "013",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175689fc0 (otid=0x17568e5d0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "047",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175689cc0 (otid=0x17568e390) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "044",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175681080 (otid=0x17fea99f0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "012",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175681dc0 (otid=0x314bf3c60) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "016",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756818c0 (otid=0x314bf3870) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "046",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756b64c0 (otid=0x17568ea80) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "041",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756937c0 (otid=0x1756c59f0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "036",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756c2080 (otid=0x17568ef60) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "018",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175679c40 (otid=0x17fed72a0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "019",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175681080 (otid=0x17fea99f0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "017",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756df440 (otid=0x1756c5990) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "043",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175689cc0 (otid=0x17568e390) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "028",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x16f42e140 (otid=0x314bef1e0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "030",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756cd0c0 (otid=0x1756c54e0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "024",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756df6c0 (otid=0x17568e870) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "007",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756ec340 (otid=0x1756c46c0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "022",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x175689fc0 (otid=0x17568e5d0) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    },
+    {
+      "success": false,
+      "village_code": "034",
+      "error": "Cannot switch to a different thread\n\tCurrent:  <greenlet.greenlet object at 0x1756ec940 (otid=0x1756c4930) current active started main>\n\tExpected: <greenlet.greenlet object at 0x11c4be840 (otid=0x314bea390) suspended active started main>"
+    }
+  ]
+}

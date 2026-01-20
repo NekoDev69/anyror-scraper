@@ -1,0 +1,4440 @@
+{
+  "owner_name": "kumar",
+  "district_code": "07",
+  "timestamp": "2026-01-16T18:23:50.529785",
+  "completed_villages": {
+    "04_007": {
+      "success": true,
+      "count": 1,
+      "timestamp": "2026-01-16T18:24:11.757430"
+    },
+    "01_007": {
+      "success": true,
+      "count": 1,
+      "timestamp": "2026-01-16T18:24:14.148078"
+    },
+    "02_001": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:24:16.639978"
+    },
+    "03_018": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:24:19.606824"
+    },
+    "04_055": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:24:28.142001"
+    },
+    "02_002": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:24:30.928346"
+    },
+    "01_047": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:24:31.061734"
+    },
+    "03_061": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:24:35.199125"
+    },
+    "04_005": {
+      "success": true,
+      "count": 6,
+      "timestamp": "2026-01-16T18:24:37.273176"
+    },
+    "02_003": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:24:43.795762"
+    },
+    "01_050": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:24:44.428167"
+    },
+    "03_027": {
+      "success": true,
+      "count": 1,
+      "timestamp": "2026-01-16T18:25:09.846022"
+    },
+    "01_052": {
+      "success": true,
+      "count": 4,
+      "timestamp": "2026-01-16T18:25:16.368019"
+    },
+    "03_014": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:25:24.777858"
+    },
+    "04_051": {
+      "success": true,
+      "count": 29,
+      "timestamp": "2026-01-16T18:25:25.202830"
+    },
+    "01_009": {
+      "success": true,
+      "count": 1,
+      "timestamp": "2026-01-16T18:25:27.312627"
+    },
+    "02_053": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:25:36.555956"
+    },
+    "03_037": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:25:37.508649"
+    },
+    "04_016": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:25:40.644394"
+    },
+    "01_038": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:25:46.602750"
+    },
+    "04_028": {
+      "success": true,
+      "count": 16,
+      "timestamp": "2026-01-16T18:25:48.628850"
+    },
+    "02_040": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:25:50.594804"
+    },
+    "03_005": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:25:51.118405"
+    },
+    "01_027": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:25:59.326036"
+    },
+    "04_023": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:03.157986"
+    },
+    "02_031": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:03.355975"
+    },
+    "03_022": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:03.504283"
+    },
+    "01_051": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:12.069690"
+    },
+    "03_042": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:16.019775"
+    },
+    "04_050": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:16.076664"
+    },
+    "02_028": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:16.410870"
+    },
+    "01_010": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:24.063277"
+    },
+    "04_041": {
+      "success": true,
+      "count": 75,
+      "timestamp": "2026-01-16T18:26:24.670432"
+    },
+    "03_048": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:28.482325"
+    },
+    "02_029": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:28.874316"
+    },
+    "04_038": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:54.154032"
+    },
+    "02_030": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:26:59.531117"
+    },
+    "03_047": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:01.107042"
+    },
+    "04_015": {
+      "success": true,
+      "count": 9,
+      "timestamp": "2026-01-16T18:27:01.694723"
+    },
+    "03_065": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:12.762684"
+    },
+    "02_023": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:13.013244"
+    },
+    "04_017": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:17.507514"
+    },
+    "01_028": {
+      "success": false,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:17.578338"
+    },
+    "02_020": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:26.721565"
+    },
+    "03_035": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:26.829156"
+    },
+    "04_010": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:29.312140"
+    },
+    "01_008": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:33.748781"
+    },
+    "04_012": {
+      "success": true,
+      "count": 4,
+      "timestamp": "2026-01-16T18:27:35.818798"
+    },
+    "02_055": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:38.841239"
+    },
+    "03_057": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:38.953108"
+    },
+    "01_035": {
+      "success": true,
+      "count": 13,
+      "timestamp": "2026-01-16T18:27:40.688048"
+    },
+    "04_027": {
+      "success": true,
+      "count": 49,
+      "timestamp": "2026-01-16T18:27:45.736880"
+    },
+    "01_029": {
+      "success": true,
+      "count": 2,
+      "timestamp": "2026-01-16T18:27:50.744568"
+    },
+    "03_033": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:51.213717"
+    },
+    "02_021": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:27:51.881854"
+    },
+    "03_011": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:05.068741"
+    },
+    "02_022": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:05.367276"
+    },
+    "01_020": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:07.354903"
+    },
+    "04_057": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:07.888839"
+    },
+    "04_009": {
+      "success": true,
+      "count": 27,
+      "timestamp": "2026-01-16T18:28:15.399936"
+    },
+    "03_054": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:17.205519"
+    },
+    "02_013": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:19.908055"
+    },
+    "01_053": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:20.704813"
+    },
+    "03_056": {
+      "success": true,
+      "count": 2,
+      "timestamp": "2026-01-16T18:28:25.743893"
+    },
+    "04_030": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:30.378534"
+    },
+    "02_027": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:33.077532"
+    },
+    "01_011": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:34.454144"
+    },
+    "02_026": {
+      "success": true,
+      "count": 1,
+      "timestamp": "2026-01-16T18:28:39.655234"
+    },
+    "04_044": {
+      "success": true,
+      "count": 185,
+      "timestamp": "2026-01-16T18:28:40.963900"
+    },
+    "03_043": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:40.979997"
+    },
+    "01_015": {
+      "success": true,
+      "count": 4,
+      "timestamp": "2026-01-16T18:28:47.596536"
+    },
+    "04_003": {
+      "success": true,
+      "count": 4,
+      "timestamp": "2026-01-16T18:28:51.529796"
+    },
+    "03_046": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:28:54.186100"
+    },
+    "06_003": {
+      "success": true,
+      "count": 1,
+      "timestamp": "2026-01-16T18:29:21.391819"
+    },
+    "06_042": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:29:40.634385"
+    },
+    "07_065": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:29:58.139179"
+    },
+    "07_044": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-16T18:30:14.244584"
+    },
+    "06_080": {
+      "success": true,
+      "count": 14,
+      "timestamp": "2026-01-16T18:30:18.575906"
+    }
+  },
+  "hits": [
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "007",
+      "sr_no": "1",
+      "khata_no": "1716",
+      "survey_no": "393/૨",
+      "owner_name": "(4) AJAYKUMAR NAVINCHANDRA SHAH (having undivided 35 per.share)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "007",
+      "sr_no": "1",
+      "khata_no": "171",
+      "survey_no": "22",
+      "owner_name": "NAMO eWASTE MANAGEMENT LTD AURTHO PERSON  AKSHAY JAIN S/O NARESHKUMAR JAIN"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "005",
+      "sr_no": "1",
+      "khata_no": "808",
+      "survey_no": "196/૧/p/૧૧૩+૧૧૪",
+      "owner_name": "SURESH KUMAR MOHATA (ક્ષે.હે.આરે.ચો.મી.૦-૧૭-૦૫.૫૦)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "005",
+      "sr_no": "2",
+      "khata_no": "909",
+      "survey_no": "196/૧p૪૯+પ૦+પપ+પ૬",
+      "owner_name": "Primary Packaging Through its Authorised Signatory Amitkumar Laljibhai Patel (પ્લોટ નં.૫૫ ની હે.આરે.ચો.મી. ૦-૧૪-૮૨)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "005",
+      "sr_no": "3",
+      "khata_no": "1326",
+      "survey_no": "192+૧૯૩p",
+      "owner_name": "BINAY KUMAR (ક્ષે.હે.આરે.ચો.મી.૦-૦૮-૩૬)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "005",
+      "sr_no": "4",
+      "khata_no": "1352",
+      "survey_no": "196/૧/૪૨થી૮૪+૧૪૧થી/p૨",
+      "owner_name": "SINGH SAPNA MANOJKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "005",
+      "sr_no": "5",
+      "khata_no": "1420",
+      "survey_no": "189/૧/અ/p/૩પ+૩૬+૩૭",
+      "owner_name": "(1) KANHAIYA KUMAR SINGH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "005",
+      "sr_no": "6",
+      "khata_no": "1420",
+      "survey_no": "189/૧/અ/p/૩પ+૩૬+૩૭",
+      "owner_name": "(3) MAHENDRA KUMAR CHOUDHARY"
+    },
+    {
+      "taluka_name": "વિરમગામ",
+      "taluka_code": "03",
+      "village_code": "027",
+      "sr_no": "1",
+      "khata_no": "1891",
+      "survey_no": "536p",
+      "owner_name": "FREE SOULS PROJECTS LLP અઘિકૃત વ્યકિત MALAV BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "052",
+      "sr_no": "1",
+      "khata_no": "1093",
+      "survey_no": "867",
+      "owner_name": "BIPINKUMAR MOHANBHAI PATEL"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "052",
+      "sr_no": "2",
+      "khata_no": "1093",
+      "survey_no": "867",
+      "owner_name": "LALITKUMAR SHIMBHU DAYAL"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "052",
+      "sr_no": "3",
+      "khata_no": "1109",
+      "survey_no": "865",
+      "owner_name": "BIPINKUMAR MOHANBHAI PATEL"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "052",
+      "sr_no": "4",
+      "khata_no": "1109",
+      "survey_no": "865",
+      "owner_name": "LALITKUMAR SHIMBHU DAYAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "1",
+      "khata_no": "529",
+      "survey_no": "143",
+      "owner_name": "1. Kaushik Jayantkumar Vyas"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "2",
+      "khata_no": "529",
+      "survey_no": "143",
+      "owner_name": "2. Arun Kumar Gupta"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "3",
+      "khata_no": "529",
+      "survey_no": "143",
+      "owner_name": "2. Arun Kumar Gupta"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "4",
+      "khata_no": "529",
+      "survey_no": "143",
+      "owner_name": "2. Parul Kaushikkumar Vyas"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "5",
+      "khata_no": "536",
+      "survey_no": "1110",
+      "owner_name": "1. NARENDRAKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "6",
+      "khata_no": "893",
+      "survey_no": "817",
+      "owner_name": "ADITYAKUMAR KISHORBHAI SONI  (સબ પ્લોટ નં. એ/૨૦૫ ની ૦-૧૨-૮૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "7",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "1. BHAVANABEN PRAVINKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "8",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "1. Sanjeewaneedevi Mahendrakumar Dasani"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "9",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "2. Abhishek Mahendrakumar Dasani"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "10",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "2. Mahendrakumar Ratanlal Dasani"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "11",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "2. NARENDRAKUMAR CHUNILAL PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "12",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "Anshuman Mahendrakumar Dasani"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "13",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "BHARTIBEN ASHWINKUMAR PATEL (સબ પ્લોટ નં.સી/૨ ની ૦-૦૪-૨૪.૩૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "14",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "BHARTIBEN ASHWINKUMAR PATEL (સબ પ્લોટ નં.સી/૩ ની ૦-૦૪-૨૪.૩૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "15",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "Bimalkumar Agarwal HUF (સબ પ્લોટ નં.ઇ/૭૬ ની ૨૧૮.૨૩, ઇ/૭૭ ની ૨૧૮.૨૩, ઇ/૮૬ ની ૧૮૨.૯૯, ઇ/૮૭ ની ૧૮૨.૯૯ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "16",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "Hardikkumar  Pravinchandra Dave (સબ પ્લોટ નંબર-એ/૨૫૪ ની ક્ષેત્રફળ ૫૭૯.૮૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "17",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "HETAL DHRUVINKUMAR PATEL (સબ પ્લોટનં.સી/૧૨૫ ની ૨૯૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "18",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "JAIMINKUMAR  NATUBHAI PATEL (સબ પ્લોટ નં.સી/૭૬ ની ૦-૦૨-૮૯.૭૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "19",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "KETULKUMAR  ATMARAMBHAI PATEL (સબ પ્લોટ નં.સી/૧૦૩ ની ૦-૦૨-૮૯.૭૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "20",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "Mahendrakumar Ratanlal Dasani"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "21",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "Meenu Satishkumar Nakra  (સબ પ્લોટ નં.ડી/૧૮ ની ૦-૦૫-૩૬.૦૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "22",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "Meenu Satishkumar Nakra (સબ પ્લોટ નં.ડી/૧૮ ની ૦-૦૫-૩૬.૦૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "23",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "SAMPAT KUMAR BAID  (સબ પ્લોટ નં.ઇ/૮૨ ની ૧૮૨.૯૯ ચો.મી. તથા સબ પ્લોટ નં.ઇ/૮૩ ની ૧૮૨.૯૯ ચો.મી. મળી કુલ ૩૬૫.૯૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "24",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "Sanjaykumar Dashrathbha Patel (સબ પ્લોટ નં.ડી/૧૦૧ ની ૦-૦૨-૮૯.૭૭ ચો.મી.) i"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "25",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "Sanjeewaneedevi Mahendrakumar Dasani"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "26",
+      "khata_no": "904",
+      "survey_no": "853",
+      "owner_name": "SRUJAL MIHIRKUMAR SHAH (સબ પ્લોટ નં.સી/૬૭ ની ૦-૦૩-૯૫.૦૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "27",
+      "khata_no": "1006",
+      "survey_no": "31",
+      "owner_name": "1. KIRANKUMAR SAVANT"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "28",
+      "khata_no": "1006",
+      "survey_no": "31",
+      "owner_name": "૧. Sushilkumar Ramkumar Gupta"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "051",
+      "sr_no": "29",
+      "khata_no": "1006",
+      "survey_no": "31",
+      "owner_name": "૨. Madhu Sushilkumar Gupta"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "009",
+      "sr_no": "1",
+      "khata_no": "988",
+      "survey_no": "928",
+      "owner_name": "DIPAKKUMAR NATVARLAL ILORIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "1",
+      "khata_no": "808",
+      "survey_no": "891",
+      "owner_name": "2. SHILPABEN JAYESHKUMAR BHATT"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "2",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "1. DARSHANABEN RINKUKUMAR KAYASTHA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "3",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "1. HETALKUMAR  NAVINCHANDRA  KAPASI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "4",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "2. ATIT MUKESHKUMAR SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "5",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "2. MANISHA  HETALKUMAR  KAPASI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "6",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "2. MITUL NAIMESHKUMAR SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "7",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "2. SATISHKUMAR  KUMUDCHANDRA  MEHTA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "8",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "3. HIRENKUMAR  KUMUDCHANDRA  MEHTA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "9",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "ILABEN MAHENDRAKUMAR VYAS (સબ પ્લોટ નં.૫૦ ની ૦-૦૭-૭૧.૭૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "10",
+      "khata_no": "936",
+      "survey_no": "915",
+      "owner_name": "RAVI JAYENDRAKUMAR PATEL (સબ પ્લોટ નં.૧૦ ની ૦-૦૪-૨૯.૭૫ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "11",
+      "khata_no": "1187",
+      "survey_no": "859",
+      "owner_name": "Patel Dineshkumar Hargovinddas (પ્લોટ નં F-17 ની ૦-૦૨-૫૧.૬૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "12",
+      "khata_no": "1207",
+      "survey_no": "281",
+      "owner_name": "KIRTIBEN RAJESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "13",
+      "khata_no": "1209",
+      "survey_no": "1045p",
+      "owner_name": "NIRAV BHARATKUMAR DOSHI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "14",
+      "khata_no": "1252",
+      "survey_no": "1045p",
+      "owner_name": "GIRA PRADIPKUMAR CHOKSI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "15",
+      "khata_no": "1254",
+      "survey_no": "1045p",
+      "owner_name": "KAJRI PRADIPKUMAR CHOKSI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "028",
+      "sr_no": "16",
+      "khata_no": "1255",
+      "survey_no": "1045p",
+      "owner_name": "DHARA PRADIPKUMAR CHOKSI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "1",
+      "khata_no": "688",
+      "survey_no": "13/૧",
+      "owner_name": "1. Amitkumar Kamleshbhai Dwivedi"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "2",
+      "khata_no": "688",
+      "survey_no": "13/૧",
+      "owner_name": "2. Saraswati Amitkumar Dwivedi"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "3",
+      "khata_no": "688",
+      "survey_no": "13/૧",
+      "owner_name": "SIDDHIDA  ASHOKKUMAR  SHUKLA (યુનિટ નંબર-૨૨ ની હે.આરે.ચો.મી. ૦-૦૧-૩૫)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "4",
+      "khata_no": "929",
+      "survey_no": "13/૨p",
+      "owner_name": "1. Hetalben Prakashkumar Patel"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "5",
+      "khata_no": "929",
+      "survey_no": "13/૨p",
+      "owner_name": "LAJJA AJAYKUMAR SONDAGER  (સબ પ્લોટ નં.૮૬ ની ૦-૦૪-૮૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "6",
+      "khata_no": "1126",
+      "survey_no": "40",
+      "owner_name": "1. Sudha Sushilkumar Singh"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "7",
+      "khata_no": "1126",
+      "survey_no": "40",
+      "owner_name": "2. Janmejay Sushilkumar Singh"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "8",
+      "khata_no": "1232",
+      "survey_no": "26",
+      "owner_name": "MR. VIRENDRA RAMKUMAR GUJRATY (ખાનગી સબ પ્લોટ નં.૧૮૧ ની ક્ષેત્રફળ હે.આરે.ચો.મી. ૦-૦૪-૩૮)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "9",
+      "khata_no": "1299",
+      "survey_no": "639/૧p",
+      "owner_name": "ANYTHING CONSULTANT PRIVATE LIMITED through its Director  NIRAJ KUMAR PANDEY (યુનિટ નં.૫/૩,૬/૩ ની ૦-૧૪-૫૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "10",
+      "khata_no": "1299",
+      "survey_no": "639/૧p",
+      "owner_name": "NEHA HARISHKUMAR DARYANI (યુનિટ નં.૨૨/૩ ની ૦-૦૪-૬૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "11",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "1. KETANKUMAR CHIMANLAL BHAVSAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "12",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "1. KIRITKUMAR GORDHANBHAI PRAJAPATI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "13",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "1. KIRTIKUMAR VIRENDRASINH MATROJA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "14",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "1. MANOJKUMAR PRAMODCHANDRA PANCHAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "15",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "1. RAJENDRAKUMAR MAHENDRAKUMAR AGARWAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "16",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "1. RAJESHKUMAR МАНІРАТВHAI PATEL (PURCHASER FOR 60 per.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "17",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "1. RUPESH KIRITKUMAR SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "18",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "2.  TRUPTI KETANKUMAR BHAVSAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "19",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "2. BHARATI KIRTIKUMAR MATROJA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "20",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "2. PATEL TEJASHKUMAR PRAVINBHAI (HUF) Through ts Karta/Manager MR. TEJASHKUMAR PRAVINBHAI PATEL (Having Share 25 per.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "21",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "2. RUPA KIRITKUMAR PRAJAPATI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "22",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "2. VEDANT PANKAJKUMAR MODI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "23",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "3.  JYOTSNABEN PANKAJKUMAR MODI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "24",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "3. ARCHANA SANJAYKUMAR PATEL (PURCHASER FOR 10 per.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "25",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "3. PATEL SNEHALKUMAR PRAVINBHAI (HUF) Through its Karta/Manager MR. SNEHALKUMAR PRAVINBHAI PATEL (Having Share 25 per.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "26",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "3. TEJAS DINESHKUMAR SHAH (16.50 per.  undivided share)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "27",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "Abhishek Pranavkumar Mukherji (યુનિટ નં.૨૨૫ ની ૦-૦૭-૧૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "28",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "BRIJESH VIJAYKUMAR PANCHAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "29",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "GAURAV AMARKUMAR NIHALANI (યુનિટ નં.૨૫૬ ની ૦-૦૫-૩૫ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "30",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "MEHUL SAJJANKUMAR AGARWAL (યુનીટ નં.૧૭૦ ની ૦-૦૭-૦૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "31",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "RAJESHKUMAR CHHANALAL SHAH (યુનિટ નંબર-૨૩૯ની ક્ષેત્રફળ હે.આરે.ચો.મી. ૦-૦૩-૨૨)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "32",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "SANDEEP SATISHKUMAR SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "33",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "SNEHALKUMAR PRAVINBHAI PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "34",
+      "khata_no": "1307",
+      "survey_no": "598",
+      "owner_name": "TEJASHKUMAR PRAVINBHAI PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "35",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "1. Patel Jitendrakumar Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "36",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "1. Patel Jitendrakumar Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "37",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "1. Patel Jitendrakumar Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "38",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "1. Patel Jitendrakumar Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "39",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "1. Patel Jitendrakumar Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "40",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "1. Patel Jitendrakumar Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "41",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "1. Sakarvadia Pinalkumar Lalitbhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "42",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "2. Patel Swetaben Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "43",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "2. Patel Swetaben Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "44",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "2. Patel Swetaben Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "45",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "2. Patel Swetaben Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "46",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "2. Patel Swetaben Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "47",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "2. Patel Swetaben Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "48",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "3. Minor Patel Yagna Jitendrakumar Through  his Guardian Mr. Jitendrakumar Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "49",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "3. Minor Patel Yagna Jitendrakumar Through his Guardian Mr. Jitendra Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "50",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "3. Minor Patel Yagna Jitendrakumar Through his Guardian Mr. Jitendrakumar Indubhai"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "51",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "3. Patel Krushnal Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "52",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "3. Patel Krushnal Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "53",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "3. Patel Krushnal Jitendrakumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "54",
+      "khata_no": "1327",
+      "survey_no": "222/૧p",
+      "owner_name": "GOYAL REKHA W/O SANJAY KUMAR GOYAL (સબ પ્લોટ નં.૦૦૧ ની ક્ષેત્રફળ હે.આરે.ચો.મી. ૦-૦૩-૪૪)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "55",
+      "khata_no": "1456",
+      "survey_no": "582p",
+      "owner_name": "SNEHALKUMAR PRAVINBHAI PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "56",
+      "khata_no": "1456",
+      "survey_no": "582p",
+      "owner_name": "TEJASHKUMAR PRAVINBHAI PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "57",
+      "khata_no": "1460",
+      "survey_no": "582p",
+      "owner_name": "DILIPKUMAR K KALATHIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "58",
+      "khata_no": "1476",
+      "survey_no": "582p",
+      "owner_name": "3. MR. AMITKUMAR VINODCHANDRA SHAH (૨૫ ટકાના ભાગીદાર)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "59",
+      "khata_no": "1501",
+      "survey_no": "582p",
+      "owner_name": "URVI DHIRENKUMAR SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "60",
+      "khata_no": "1559",
+      "survey_no": "73/૧/૨",
+      "owner_name": "1. Jay Amitkumar Dubal"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "61",
+      "khata_no": "1626",
+      "survey_no": "582p",
+      "owner_name": "PRAMODKUMAR PARASMAL JAIN"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "62",
+      "khata_no": "1667",
+      "survey_no": "11",
+      "owner_name": "1. NIMA ASHESHKUMAR BHATT"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "63",
+      "khata_no": "1667",
+      "survey_no": "11",
+      "owner_name": "2. ASHESHKUMAR SURESHCHANDRA BHATT"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "64",
+      "khata_no": "1667",
+      "survey_no": "11",
+      "owner_name": "2. DIPAKKUMAR HASMUKH KAMDAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "65",
+      "khata_no": "1667",
+      "survey_no": "11",
+      "owner_name": "2. Nitunkumar Jhaverbhai Patel"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "66",
+      "khata_no": "1667",
+      "survey_no": "11",
+      "owner_name": "ALPA JAYESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "67",
+      "khata_no": "1667",
+      "survey_no": "11",
+      "owner_name": "SUNITA RAJKUMAR AGARWAL (પ્લોટનં.૨૨ ની ૦-૦૫-૨૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "68",
+      "khata_no": "1810",
+      "survey_no": "582p",
+      "owner_name": "SHRADDHABEN PRAGNESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "69",
+      "khata_no": "1834",
+      "survey_no": "582p",
+      "owner_name": "MR. JITENDRAKUMAR CHAND (ALIAS JITENDRA THAKUR CHAND)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "70",
+      "khata_no": "1885",
+      "survey_no": "582p",
+      "owner_name": "HITENDRAKUMAR MANGALDAS PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "71",
+      "khata_no": "1885",
+      "survey_no": "582p",
+      "owner_name": "MEENABEN HITENDRAKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "72",
+      "khata_no": "1892",
+      "survey_no": "582p",
+      "owner_name": "ASHISH MAHENDRAKUMAR SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "73",
+      "khata_no": "2065",
+      "survey_no": "658p",
+      "owner_name": "Darsh Lalitkumar Udernani (સબ પ્લોટ નં.૧૬ ની ૦-૦૦-૩૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "74",
+      "khata_no": "2068",
+      "survey_no": "663p",
+      "owner_name": "Darsh Lalitkumar Udernani (સબ પ્લોટ નં.૧૬ ની ૦-૦૪-૪૩.૦૯ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "041",
+      "sr_no": "75",
+      "khata_no": "2108",
+      "survey_no": "582p",
+      "owner_name": "ARUNKUMAR SHARMA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "1",
+      "khata_no": "512",
+      "survey_no": "89/૧",
+      "owner_name": "KIAAN PROJECTS through its Partner  Hitendrakumar Bhailalbhai Patel"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "2",
+      "khata_no": "579",
+      "survey_no": "93p૧",
+      "owner_name": "KIAAN PROJECTS Through its Authorized Signatory Hitendrakumar Bhailalbhai Patel"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "3",
+      "khata_no": "584",
+      "survey_no": "93p",
+      "owner_name": "KIAAN PROJECTS a Partnership Firm through its Authorized Signatory Mr. Hitendrakumar Bhailalbhai Patel"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "4",
+      "khata_no": "594",
+      "survey_no": "90/૧",
+      "owner_name": "1. PATEL HITENDRAKUMAR BHAILALBHAI (૫૦ ટકાના હિસ્સેદાર)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "5",
+      "khata_no": "595",
+      "survey_no": "91/૧",
+      "owner_name": "1. PATEL HITENDRAKUMAR BHAILALBHAI (૫૦ ટકાના હિસ્સેદાર)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "6",
+      "khata_no": "596",
+      "survey_no": "92/૧",
+      "owner_name": "1. PATEL HITENDRAKUMAR BHAILALBHAI (૫૦ ટકાના હિસ્સેદાર)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "7",
+      "khata_no": "597",
+      "survey_no": "94",
+      "owner_name": "1. PATEL HITENDRAKUMAR BHAILALBHAI (૫૦ ટકાના હિસ્સેદાર)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "8",
+      "khata_no": "617",
+      "survey_no": "104/૨",
+      "owner_name": "SOKO MOGAMI DEVELOPERS LLP through its designated Partner MR. DHAVAL SUDHIRKUMAR MEHTA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "015",
+      "sr_no": "9",
+      "khata_no": "749",
+      "survey_no": "86/૧",
+      "owner_name": "SOKO  MOGAMI  DEVELOPERS  LLP  through  its  designated  Partner  MR. DHAVAL  SUDHIRKUMAR MEHTA (ટી.પી.સ્કીમ નં.૧૩૯ (એ) (છારોડી-નારણપુરા-ખોડા)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "012",
+      "sr_no": "1",
+      "khata_no": "1278",
+      "survey_no": "711",
+      "owner_name": "1. RAJ KUMAR JAIN"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "012",
+      "sr_no": "2",
+      "khata_no": "1583",
+      "survey_no": "725",
+      "owner_name": "CHIRAYU HARSHKUMAR CHHIBBER (પ્લોટનં.૧૧૦ ની ૦-૦૪-૦૫.૫૨ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "012",
+      "sr_no": "3",
+      "khata_no": "2249",
+      "survey_no": "927",
+      "owner_name": "RAJESHKUMAR AMRATBHAI PATEL (ક્ષે.હે.આરે.ચો.મી.૦-૫૨-૨૧)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "012",
+      "sr_no": "4",
+      "khata_no": "2252",
+      "survey_no": "931/૨",
+      "owner_name": "PUSHPABEN SHAILESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "1",
+      "khata_no": "662",
+      "survey_no": "510",
+      "owner_name": "THREE TEE AUTO LOGISTICS PRIVATE LIMETED through its Director DINESHKUMAR DEVBHARAT"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "2",
+      "khata_no": "733",
+      "survey_no": "84",
+      "owner_name": "YOGRISHI HOME DESIGNER PVT.LTD THROUH ITS DIRECTOR SUNIL KUMAR"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "3",
+      "khata_no": "777",
+      "survey_no": "494",
+      "owner_name": "THREE TEE AUTO LOGISTICS PRIVATE LIMETED through its Director DINESHKUMAR DEVBHARAT (હે. ૦-૨૩-૭૮ ચો.મી)(7714)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "4",
+      "khata_no": "798",
+      "survey_no": "490",
+      "owner_name": "Arista Logispace LLP Through its Partner Jaykumar Navinbhai Patel"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "5",
+      "khata_no": "835",
+      "survey_no": "474",
+      "owner_name": "AUTHORIZE SIGANATORY  MR RAVINDRA KUMAR PAL SO MALHURAM PAL"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "6",
+      "khata_no": "871",
+      "survey_no": "480/૫",
+      "owner_name": "Arista Logispace LLP Represented Through Its Designated Patner Jaykumar Navinbhai Patel"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "7",
+      "khata_no": "912",
+      "survey_no": "419/૧",
+      "owner_name": "P.O.A. HOLDER SHRI SUSHILKUMAR BAIJNATH"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "8",
+      "khata_no": "1044",
+      "survey_no": "473",
+      "owner_name": "Mr.Ravindrkumar Malhuram Pal(7937)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "9",
+      "khata_no": "1044",
+      "survey_no": "473",
+      "owner_name": "Ravinder kumar s/o Balwant Singh (ક્ષે. હે. ૦-૧૧-૭૬ ચો.મી.)(8512)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "10",
+      "khata_no": "1044",
+      "survey_no": "473",
+      "owner_name": "RAVINDER KUMAR S/O BALWANT SINGH(ક્ષે. હે.૦-૨૬-૪૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "11",
+      "khata_no": "1064",
+      "survey_no": "446/૧",
+      "owner_name": "MR. RAVINDRA KUMAR PAL SO MALHURAM PAL (ક્ષે.હે. ૦-૮૨-૦૫ ચો.મી.)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "12",
+      "khata_no": "1064",
+      "survey_no": "446/૧",
+      "owner_name": "MR. RAVINDRA KUMAR PAL SO MALHURAM PAL (ક્ષે.હે. ૧-૫૫-૯૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "035",
+      "sr_no": "13",
+      "khata_no": "1081",
+      "survey_no": "479",
+      "owner_name": "Mr.Ravindrkumar Malhuram Pal"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "1",
+      "khata_no": "875",
+      "survey_no": "240",
+      "owner_name": "NARESH KUMAR BANSAL son of Late Shri Yogender Kumar (પ્લોટ નં. ૨૭ નું ક્ષે.૪૫૫.૮૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "2",
+      "khata_no": "1094",
+      "survey_no": "612",
+      "owner_name": "1. DEVAL ROHITKUMAR SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "3",
+      "khata_no": "1094",
+      "survey_no": "612",
+      "owner_name": "2. UMANG ROHITKUMAR SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "4",
+      "khata_no": "1094",
+      "survey_no": "612",
+      "owner_name": "ABHAY KUMAR  (સબ પ્લોટ નં.૧૭ ની ૩૭૩.૪૬ ચો.મી, સબ પ્લોટ નં.૧૮ ની ૪૨૫.૫૮ ચો.મી. તથા સબ પ્લોટ નં.૧૯ ની ૫૦૦.૦૯ ચો.મી. મળી કુલ ૧૨૯૯.૧૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "5",
+      "khata_no": "1094",
+      "survey_no": "612",
+      "owner_name": "ASHOK KUMAR JAIN  (સબ પ્લોટ નં.૬ ની ૨૯૨.૪૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "6",
+      "khata_no": "1094",
+      "survey_no": "612",
+      "owner_name": "ASHOK KUMAR JAIN (સબ પ્લોટ નં.૧૧ ની ૦-૦૨-૯૨.૪૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "7",
+      "khata_no": "1094",
+      "survey_no": "612",
+      "owner_name": "ATUL KUMAR MAHUR  (સબ પ્લોટ નં.૪૫ ની ૪૪૦.૯૭ ચો.મી. તથા સબ પ્લોટ નં.૪૬ ની ૪૩૪.૪૧ ચો.મી. મળી કુલ ૮૭૫.૩૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "8",
+      "khata_no": "1094",
+      "survey_no": "612",
+      "owner_name": "NIRAJ KUMAR ALBELA  (સબ પ્લોટ નં.૭૧ ની ૧૧૧૫.૩૭ ચો.મી, ૭૨ ની ૪૪૦.૯૭ ચો.મી, ૭૩ ની ૪૪૦.૯૭ તથા ૭૪ ની ૪૩૪.૪૧ ચો.મી. મળી કુલ ૨૪૩૧.૭૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "9",
+      "khata_no": "1094",
+      "survey_no": "612",
+      "owner_name": "SWETA KUMARI  (સબ પ્લોટ નંબર-૭૮ ની ક્ષેત્રફળ ૯૫૦.૮૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "10",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. ANILKUMAR SHRIKISHAN SABOO"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "11",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. ANILKUMAR SHRIKISHAN SABOO"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "12",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. Kailash Ashokkumar Navlani"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "13",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. MAHESHKUMAR PREMJIBHAI PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "14",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. Maheshkumar Ratilal Thakkar (50 per. Share Holder of the said property)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "15",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. MANISH KUMAR DUDHWEWALA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "16",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. NILESHKUMAR DUDHWEWALA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "17",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. Vikas Sujitkumar Bhatia"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "18",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. VIKAS SUJITKUMAR BHATIA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "19",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "1. Vikas Sujitkumar Bhatia"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "20",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "2. CHIRUSHI DHRUVKUMAR BHATT (50 per. Share Holder)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "21",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "2. NISHITHKUMAR JITENDRABHAI SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "22",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "2. SAURABH ANILKUMAR SABOO"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "23",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "2. Vikram Sujitkumar Bhatia"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "24",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "2. Vikram Sujitkumar Bhatia"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "25",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "CHANCHAL NAVINKUMAR AGGARWAL   (યુનિટ નં.૧૦૨ ની ૦-૧૦-૭૫.૨૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "26",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "CHANCHAL NAVINKUMAR AGGARWAL (યુનિટ નં.૧૦૧ ની ૦-૦૮-૬૬.૨૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "27",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "NAVINKUMAR RAMGOPAL AGARWAL (યુનિટ નં.૧૦૩ ની ૦-૧૯-૩૯.૮૨ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "28",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "Vinitkumar Subhashchandra Agrawal (યુનીટ નં.૧૧૧ ની ૦-૦૯-૨૭.૨૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "29",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "VIRAT INFRAREALTY PVT. LTD Through Its Director AKSHYA PAVANKUMAR TIBREWAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "30",
+      "khata_no": "1369",
+      "survey_no": "931",
+      "owner_name": "VIRAT INFRAREALTY PVT. LTD Through its Director LAKSHYA PAVANKUMAR TIBREWAL ( યુનિટ નંબર-૭૮ ની ક્ષેત્રફળ ૮૫૯.૫૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "31",
+      "khata_no": "1385",
+      "survey_no": "939",
+      "owner_name": "ANILKUMAR SHRIKISHAN SABOO"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "32",
+      "khata_no": "1435",
+      "survey_no": "933",
+      "owner_name": "HURSH PARESHKUMAR JANI (યુનિટ નં.૨૪ ની ૦-૦૯-૮૧.૬૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "33",
+      "khata_no": "1556",
+      "survey_no": "942p",
+      "owner_name": "SAURABH SUBHASHKUMAR LOHIA (યુનિટ નં.૨૭૬ ની ૦-૦૮-૫૭.૦૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "34",
+      "khata_no": "1556",
+      "survey_no": "942p",
+      "owner_name": "SAURABH SUBHASHKUMAR LOHIA (યુનિટ નં.૨૯૭ ની ૦-૦૮-૫૭.૦૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "35",
+      "khata_no": "1556",
+      "survey_no": "942p",
+      "owner_name": "SUBHASHKUMAR LOHIA HUF Through its Karta SUBHASH S. LOHIA (યુનિટ .૨૯૮ ની ૦-૦૮-૫૦.૬૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "36",
+      "khata_no": "1556",
+      "survey_no": "942p",
+      "owner_name": "SUBHASHKUMAR LOHIA HUF Through its Karta SUBHASH S. LOHIA (યુનીટ નં.૨૯૯ ની ૦-૦૪-૨૭.૫૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "37",
+      "khata_no": "1556",
+      "survey_no": "942p",
+      "owner_name": "SUSHMADEVI SUBHASHKUMAR LOHIA (યુનિટ નં.૨૭૪ અને ૨૭૫ ની ૦-૧૩-૯૦.૫૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "38",
+      "khata_no": "1558",
+      "survey_no": "938/૨",
+      "owner_name": "SUBHASHKUMAR LOHIA HUF Through its Karta SUBHASH S. LOHIA (યુનિટ નં.૨૯૮ ની ૦-૦૦-૦૬.૪૦"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "39",
+      "khata_no": "1558",
+      "survey_no": "938/૨",
+      "owner_name": "SUBHASHKUMAR LOHIA HUF Through its Karta SUBHASH S. LOHIA (યુનિટ નં.૨૯૯ ની ૦-૦૧-૬૯.૯૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "40",
+      "khata_no": "1566",
+      "survey_no": "938/૧p",
+      "owner_name": "ANILKUMAR SHRIKISHAN SABOO"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "41",
+      "khata_no": "1577",
+      "survey_no": "938/૧p",
+      "owner_name": "Shreya Darshankumar Vakil"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "42",
+      "khata_no": "1590",
+      "survey_no": "943/૧",
+      "owner_name": "SUBHASHKUMAR LOHIA HUF Through its Karta SUBHASH S. LOHIA (ક્ષે.હે.આરે.ચો.મી.૦-૦૨-૫૯.૫૬)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "43",
+      "khata_no": "1590",
+      "survey_no": "943/૧",
+      "owner_name": "SUSHMADEVI SUBHASHKUMAR LOHIA (ક્ષે.હે.આરે.ચો.મી.૦-૦૩-૨૩.૫૦)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "44",
+      "khata_no": "1798",
+      "survey_no": "862",
+      "owner_name": "1. ABHISHEK RAVINDRAKUMAR PRASHAD"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "45",
+      "khata_no": "1798",
+      "survey_no": "862",
+      "owner_name": "2. NILUKUMARI RAVINDRAKUMAR PRASHAD"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "46",
+      "khata_no": "1935",
+      "survey_no": "932p",
+      "owner_name": "NISHITHKUMAR JITENDRABHAI SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "47",
+      "khata_no": "1959",
+      "survey_no": "487/૧",
+      "owner_name": "1. VATSAL KAUSHIKKUMAR RAVAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "48",
+      "khata_no": "1959",
+      "survey_no": "487/૧",
+      "owner_name": "2. DAXA KAUSHIKKUMAR RAVAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "027",
+      "sr_no": "49",
+      "khata_no": "2122",
+      "survey_no": "934p",
+      "owner_name": "RATNESH JAYENDRAKUMAR SHAH (50 ટકા Share Holder)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "029",
+      "sr_no": "1",
+      "khata_no": "627",
+      "survey_no": "453",
+      "owner_name": "SunilkKumar"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "029",
+      "sr_no": "2",
+      "khata_no": "628",
+      "survey_no": "445",
+      "owner_name": "SunilkKumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "1",
+      "khata_no": "912",
+      "survey_no": "963",
+      "owner_name": "SULBHA RAJESHKUMAR MANIAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "2",
+      "khata_no": "2246",
+      "survey_no": "360",
+      "owner_name": "1. Tarun Kumar Raghuraj Singh Tyagi"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "3",
+      "khata_no": "2246",
+      "survey_no": "360",
+      "owner_name": "2. Manju Tarun Kumar Tyagi"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "4",
+      "khata_no": "2246",
+      "survey_no": "360",
+      "owner_name": "3. Parichay Tarun Kumar Tyagi"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "5",
+      "khata_no": "2246",
+      "survey_no": "360",
+      "owner_name": "5. Nishtha Tarun Kumar Tyagi"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "6",
+      "khata_no": "2281",
+      "survey_no": "357",
+      "owner_name": "2. Narendrakumar Janardhan Naidu"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "7",
+      "khata_no": "2488",
+      "survey_no": "120p",
+      "owner_name": "SHAH RICHA SHALINKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "8",
+      "khata_no": "2488",
+      "survey_no": "120p",
+      "owner_name": "SHAH SHALIN PANKAJKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "9",
+      "khata_no": "2724",
+      "survey_no": "356p",
+      "owner_name": "Ajaykumar Nagar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "10",
+      "khata_no": "2724",
+      "survey_no": "356p",
+      "owner_name": "Priya Harshadkumar Patni W/o. Ajaykumar Nagar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "11",
+      "khata_no": "2796",
+      "survey_no": "1222/અ/૬",
+      "owner_name": "MR. PRAMODKUMAR OMPRAKASH AGRAWAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "12",
+      "khata_no": "2866",
+      "survey_no": "1044",
+      "owner_name": "PRADEEP KUMAR SHARMA S/O OM DATT SHARMA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "13",
+      "khata_no": "2872",
+      "survey_no": "1044",
+      "owner_name": "PRADEEP KUMAR SHARMA S/O OM DATT SHARMA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "14",
+      "khata_no": "2937",
+      "survey_no": "237",
+      "owner_name": "BHARATKUMAR PRAHLADBHAI PATEL (પ્લોટ નં.સી/૫૫ ની ૦-૦૭-૧૩.૨૨ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "15",
+      "khata_no": "2937",
+      "survey_no": "237",
+      "owner_name": "SATYAM BHARATKUMAR PATEL (પ્લોટ નં.સી/૫૪ ની ૦-૦૭-૧૩.૨૨ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "16",
+      "khata_no": "2937",
+      "survey_no": "237",
+      "owner_name": "TARABEN BHARATKUMAR PATEL (પ્લોટ નં.સી/૫૬ ની ૦-૦૭-૧૩.૨૨ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "17",
+      "khata_no": "3100",
+      "survey_no": "1223/અ/૩",
+      "owner_name": "POONAM INDERKUMAR BHAGIA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "18",
+      "khata_no": "3417",
+      "survey_no": "234p",
+      "owner_name": "SANDIPKUMAR JASHWANTLAL SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "19",
+      "khata_no": "3419",
+      "survey_no": "234p",
+      "owner_name": "SANDIPKUMAR JASHWANTLAL SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "20",
+      "khata_no": "3424",
+      "survey_no": "234p",
+      "owner_name": "NAYANKUMAR J. SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "21",
+      "khata_no": "3425",
+      "survey_no": "234p",
+      "owner_name": "NAYANKUMAR J. SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "22",
+      "khata_no": "3552",
+      "survey_no": "234p",
+      "owner_name": "JAY JIGNESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "23",
+      "khata_no": "3571",
+      "survey_no": "234p",
+      "owner_name": "Mitesh Mahendrakumar Patel"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "24",
+      "khata_no": "3619",
+      "survey_no": "234p",
+      "owner_name": "NAYANKUMAR J SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "25",
+      "khata_no": "3646",
+      "survey_no": "356/p",
+      "owner_name": "Priya Harshadkumar Patni W/o. Ajaykumar Nagar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "26",
+      "khata_no": "3734",
+      "survey_no": "106p",
+      "owner_name": "SHAH KAJAL KUNALKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "009",
+      "sr_no": "27",
+      "khata_no": "3734",
+      "survey_no": "106p",
+      "owner_name": "SHAH KUNAL MAHESHKUMAR"
+    },
+    {
+      "taluka_name": "વિરમગામ",
+      "taluka_code": "03",
+      "village_code": "056",
+      "sr_no": "1",
+      "khata_no": "2107",
+      "survey_no": "1565",
+      "owner_name": "Seico Hi Purity Tubes Private Limited ની અઘિકૃત વ્યકિત Rohan Rameshkumar Desai (૭૪૫૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "વિરમગામ",
+      "taluka_code": "03",
+      "village_code": "056",
+      "sr_no": "2",
+      "khata_no": "2110",
+      "survey_no": "1566",
+      "owner_name": "Seico Hi Purity Tubes Private Limited ની અઘિકૃત વ્યકિત Rohan Rameshkumar Desai (૯૬૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "દેત્રોજ-રામપુરા",
+      "taluka_code": "02",
+      "village_code": "026",
+      "sr_no": "1",
+      "khata_no": "219",
+      "survey_no": "132",
+      "owner_name": "JRS INDIA CORPORATION PVT.LTD THROUGH ITS AUTHORISED SIGNATORY ASHISH KUMAR PANDEY"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "1",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "1. DARSHIT BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "2",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "1. KALAVATIBEN SURESHKUMAR THAKKAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "3",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "1. RAKESHKUMAR MOHANBHAI CHABHADIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "4",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "1. SHAILESHKUMAR  A PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "5",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "1. UDAYKUMAR  SURESHCHANDRA SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "6",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "2. CHINTAN BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "7",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "2. MONA  UDAYKUMAR  SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "8",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "2. SANGITA  SHAILESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "9",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "10",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "11",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૧ ની ૦-૦૦-૧૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "12",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૨ ની ૦-૦૦-૧૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "13",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "ANISH HEMANTKUMAR SHAH (શેડ/પ્લોટ નં.૧૦૮/બી ની ૦-૦૦-૨૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "14",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "ANJANI KUMAR GUPTA (શેડ/પ્લોટ નં.૯૪ ની ૦-૦૦-૨૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "15",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "BHARATKUMAR LAKHABHAI BALDANIYA (શેડ/પ્લોટ નં.૪૨ ની ૦-૦૧-૫૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "16",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "DEEPENDRUGS PRIVATE LIMITED THROUGH ITS DIRECTOR RUPEN SHILESHKUMAR SHAH (પ્લોટ નં.૩૧ ની ૦-૦૦-૦૯)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "17",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "HEMANTKUMAR KANTILAL SHAH (શેડ/પ્લોટ નં.૯૬ ની ૦-૦૦-૨૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "18",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "JAGDISHKUMAR KANTIBHAI PATEL (શેડ/પ્લોટ નં.૩૪ ની ૦-૦૦-૦૯ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "19",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "MALI CHIRAGKUMAR VINODBHAI (પ્લોટ નં.૬૦ ની ૦-૦૦-૦૯ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "20",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "PANKAJKUMAR CHAMPAKLAL SHAH (શેડ/પ્લોટ નં.૦૩ ની ૦-૦૦-૩૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "21",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "RAKESHKUMAR BECHARBHAI PATEL (શેડ/પ્લોટ નં.૦૧ ની ૦-૦૦-૨૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "22",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૩ ની ૦-૦૦-૦૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "23",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૪ ની ૦-૦૦-૦૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "24",
+      "khata_no": "199",
+      "survey_no": "181",
+      "owner_name": "SUTHAR YOGESHKUMAR DALPAT (પ્લોટ નં.૧૮ ની ૦-૦૦-૦૯ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "25",
+      "khata_no": "1206",
+      "survey_no": "443p",
+      "owner_name": "1. Abhishek Arunkumar Tulsyan"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "26",
+      "khata_no": "1600",
+      "survey_no": "313p/p૧",
+      "owner_name": "1. Dilipkumar Binodbal Bal"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "27",
+      "khata_no": "1600",
+      "survey_no": "313p/p૧",
+      "owner_name": "2. Kabita Dilipkumar Bal"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "28",
+      "khata_no": "1895",
+      "survey_no": "256pબ",
+      "owner_name": "1. ARCHNADEVI AJAYKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "29",
+      "khata_no": "1895",
+      "survey_no": "256pબ",
+      "owner_name": "1. MAHENDRAKUMAR DUBEY"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "30",
+      "khata_no": "1895",
+      "survey_no": "256pબ",
+      "owner_name": "2. Meena Ganesh Kumar"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "31",
+      "khata_no": "1895",
+      "survey_no": "256pબ",
+      "owner_name": "AKILA ILESHKUMAR CHANGELA (ફલેટ નં.૪૦૪ ની ૦-૦૦-૪૦.૨૦૨ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "32",
+      "khata_no": "1895",
+      "survey_no": "256pબ",
+      "owner_name": "PAVANKUMAR UPADHYAY (બ્લોક નં.એ ના થર્ડ ફલોર ઉ૫ર આવેલ ફલેટ નં.એ-૩૦૨ની ૪૦.૨૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "33",
+      "khata_no": "2206",
+      "survey_no": "209",
+      "owner_name": "1. SANJAY KUMAR SHARMA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "34",
+      "khata_no": "2206",
+      "survey_no": "209",
+      "owner_name": "1. VACHHANI  VIVEKKUMAR  AMRUTLAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "35",
+      "khata_no": "2206",
+      "survey_no": "209",
+      "owner_name": "1. Vadariya Rekhaben Nitinkumar - (વણ વહેંચાયેલ ૬૭ ટકાના હિસ્સેદાર)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "36",
+      "khata_no": "2206",
+      "survey_no": "209",
+      "owner_name": "2. DHARMESHKUMAR BABUBHAI SODAGAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "37",
+      "khata_no": "2206",
+      "survey_no": "209",
+      "owner_name": "2. SHARMA RAKESHKUMAR AMARCHAND"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "38",
+      "khata_no": "2206",
+      "survey_no": "209",
+      "owner_name": "JOSHI ASHRUTI YAGNIKKUMAR  (શેડ નં.૨૭ ની ૦-૦૦-૫૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "39",
+      "khata_no": "2206",
+      "survey_no": "209",
+      "owner_name": "MOD DAKSHABEN TUSHARKUMAR (શેડ નં.૨૬ ની ૦-૦૦-૫૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "40",
+      "khata_no": "2206",
+      "survey_no": "209",
+      "owner_name": "Pramodkumar Devendrapal Singh (શેડ નં.૭૩ ની હે.આરે.ચો.મી. ૦-૦૧-૯૭)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "41",
+      "khata_no": "2710",
+      "survey_no": "416/૧",
+      "owner_name": "1. ADITYA JALAN S/O. VIKASH KUMAR JALAN (Buyer of undivided 50 Percent  share)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "42",
+      "khata_no": "2710",
+      "survey_no": "416/૧",
+      "owner_name": "1. Anilkumar Gotamchand Ranka"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "43",
+      "khata_no": "2710",
+      "survey_no": "416/૧",
+      "owner_name": "2. Anjudevi Anilkumar Ranka"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "44",
+      "khata_no": "2710",
+      "survey_no": "416/૧",
+      "owner_name": "2. HARESH JALAN S/O. VIKASH KUMAR JALAN (Buyer of undivided 50 Percent share)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "45",
+      "khata_no": "2712",
+      "survey_no": "416/૩",
+      "owner_name": "1. ADITYA JALAN S/O. VIKASH KUMAR JALAN (Buyer of undivided 50 Percent  share)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "46",
+      "khata_no": "2712",
+      "survey_no": "416/૩",
+      "owner_name": "1. Anilkumar Gotamchand Ranka"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "47",
+      "khata_no": "2712",
+      "survey_no": "416/૩",
+      "owner_name": "2. Anjudevi Anilkumar Ranka"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "48",
+      "khata_no": "2712",
+      "survey_no": "416/૩",
+      "owner_name": "2. HARESH JALAN S/O. VIKASH KUMAR JALAN (Buyer of undivided 50 Percent share)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "49",
+      "khata_no": "2713",
+      "survey_no": "416/૪",
+      "owner_name": "1. Anilkumar Gotamchand Ranka"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "50",
+      "khata_no": "2713",
+      "survey_no": "416/૪",
+      "owner_name": "2. Anjudevi Anilkumar Ranka"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "51",
+      "khata_no": "2817",
+      "survey_no": "420",
+      "owner_name": "ANAND ARVINDKUMAR TRIVEDI (ક્ષેત્રફળ ૪૮૭.૯૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "52",
+      "khata_no": "3153",
+      "survey_no": "350p૧",
+      "owner_name": "1. JIGNESHKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "53",
+      "khata_no": "3153",
+      "survey_no": "350p૧",
+      "owner_name": "2. HIRENKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "54",
+      "khata_no": "3154",
+      "survey_no": "351p૧",
+      "owner_name": "1. JIGNESHKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "55",
+      "khata_no": "3154",
+      "survey_no": "351p૧",
+      "owner_name": "2. HIRENKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "56",
+      "khata_no": "3155",
+      "survey_no": "353p૧",
+      "owner_name": "1. JIGNESHKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "57",
+      "khata_no": "3155",
+      "survey_no": "353p૧",
+      "owner_name": "2. HIRENKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "58",
+      "khata_no": "3156",
+      "survey_no": "354",
+      "owner_name": "1. JIGNESHKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "59",
+      "khata_no": "3156",
+      "survey_no": "354",
+      "owner_name": "2. HIRENKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "60",
+      "khata_no": "3157",
+      "survey_no": "355p૩",
+      "owner_name": "1. JIGNESHKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "61",
+      "khata_no": "3157",
+      "survey_no": "355p૩",
+      "owner_name": "2. HIRENKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "62",
+      "khata_no": "3158",
+      "survey_no": "355p૬",
+      "owner_name": "1. JIGNESHKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "63",
+      "khata_no": "3158",
+      "survey_no": "355p૬",
+      "owner_name": "2. HIRENKUMAR JAYANTILAL DEDAKIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "64",
+      "khata_no": "3219",
+      "survey_no": "235p",
+      "owner_name": "Pramodkumar Devendrapal Singh"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "65",
+      "khata_no": "3230",
+      "survey_no": "235p",
+      "owner_name": "DHARMESHKUMAR BABUBHAI SODAGAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "66",
+      "khata_no": "3236",
+      "survey_no": "235p",
+      "owner_name": "JOSHI ASHRUTI YAGNIKKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "67",
+      "khata_no": "3246",
+      "survey_no": "235p",
+      "owner_name": "MOD DAKSHABEN TUSHARKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "68",
+      "khata_no": "3265",
+      "survey_no": "235p",
+      "owner_name": "1. Vadariya Rekhaben Nitinkumar - (વણ વહેંચાયેલ ૬૭  ટકાના હિસ્સેદાર)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "69",
+      "khata_no": "3288",
+      "survey_no": "235p",
+      "owner_name": "VACHHANI  VIVEKKUMAR  AMRUTLAL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "70",
+      "khata_no": "3377",
+      "survey_no": "414",
+      "owner_name": "MANJU SURESHKUMAR KASHYAP"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "71",
+      "khata_no": "3377",
+      "survey_no": "414",
+      "owner_name": "ROHIT SURESHKUMAR KASHYAP"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "72",
+      "khata_no": "3475",
+      "survey_no": "235p",
+      "owner_name": "1. SANJAY KUMAR SHARMA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "73",
+      "khata_no": "3475",
+      "survey_no": "235p",
+      "owner_name": "2. SHARMA RAKESHKUMAR AMARCHAND"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "74",
+      "khata_no": "3541",
+      "survey_no": "400p૮/p૧",
+      "owner_name": "Abhishek Sunilkumar Jaiswal  (ક્ષે.હે.આરે.ચો.મી.૦-૦૩-૬૪)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "75",
+      "khata_no": "3548",
+      "survey_no": "414",
+      "owner_name": "AJITKUMAR JHAMANDAS MEHTANI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "76",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "1. DARSHIT BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "77",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "1. KALAVATIBEN SURESHKUMAR THAKKAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "78",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "1. RAKESHKUMAR MOHANBHAI CHABHADIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "79",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "1. SHAILESHKUMAR  A PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "80",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "1. UDAYKUMAR  SURESHCHANDRA SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "81",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "2. CHINTAN BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "82",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "2. MONA  UDAYKUMAR  SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "83",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "2. SANGITA  SHAILESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "84",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "85",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "86",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૧ ની ૦-૦૦-૩૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "87",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૨ ની ૦-૦૦-૩૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "88",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "ANISH HEMANTKUMAR SHAH (શેડ/પ્લોટ નં.૧૦૮/બી ની ૦-૦૦-૬૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "89",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "ANJANI KUMAR GUPTA (શેડ/પ્લોટ નં.૯૪ ની ૦-૦૦-૭૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "90",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "BHARATKUMAR LAKHABHAI BALDANIYA (શેડ/પ્લોટ નં.૪૨ ની ૦-૦૦-૨૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "91",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "DEEPENDRUGS PRIVATE LIMITED THROUGH ITS DIRECTOR RUPEN SHILESHKUMAR SHAH (પ્લોટ નં.૩૧ ની ૦-૦૦-૨૬)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "92",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "HEMANTKUMAR KANTILAL SHAH (શેડ/પ્લોટ નં.૯૬ ની ૦-૦૦-૭૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "93",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "JAGDISHKUMAR KANTIBHAI PATEL (શેડ/પ્લોટ નં.૩૪ ની ૦-૦૦-૨૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "94",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "MALI CHIRAGKUMAR VINODBHAI (પ્લોટ નં.૬૦ ની ૦-૦૦-૨૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "95",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "PANKAJKUMAR CHAMPAKLAL SHAH (શેડ/પ્લોટ નં.૦૩ ની ૦-૧૦-૦૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "96",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "RAKESHKUMAR BECHARBHAI PATEL (શેડ/પ્લોટ નં.૦૧ ની ૦-૦૬-૬૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "97",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૩ ની ૦-૦૦-૨૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "98",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૪ ની ૦-૦૦-૨૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "99",
+      "khata_no": "3558",
+      "survey_no": "177",
+      "owner_name": "SUTHAR YOGESHKUMAR DALPAT (પ્લોટ નં.૧૮ ની ૦-૦૦-૨૨ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "100",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "1. DARSHIT BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "101",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "1. KALAVATIBEN SURESHKUMAR THAKKAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "102",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "1. RAKESHKUMAR MOHANBHAI CHABHADIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "103",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "1. SHAILESHKUMAR  A PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "104",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "1. UDAYKUMAR  SURESHCHANDRA SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "105",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "2. CHINTAN BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "106",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "2. MONA  UDAYKUMAR  SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "107",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "2. SANGITA  SHAILESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "108",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "109",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "110",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૧ ની ૦-૦૦-૨૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "111",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૨ ની ૦-૦૦-૨૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "112",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "ANISH HEMANTKUMAR SHAH (શેડ/પ્લોટ નં.૧૦૮/બી ની ૦-૦૦-૪૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "113",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "ANJANI KUMAR GUPTA (શેડ/પ્લોટ નં.૯૪ ની ૦-૦૭-૧૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "114",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "BHARATKUMAR LAKHABHAI BALDANIYA (શેડ/પ્લોટ નં.૪૨ ની ૦-૦૦-૨૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "115",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "DEEPENDRUGS PRIVATE LIMITED THROUGH ITS DIRECTOR RUPEN SHILESHKUMAR SHAH (પ્લોટ નં.૩૧ ની ૦-૦૦-૨૦)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "116",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "HEMANTKUMAR KANTILAL SHAH (શેડ/પ્લોટ નં.૯૬ ની ૦-૦૭-૧૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "117",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "JAGDISHKUMAR KANTIBHAI PATEL (શેડ/પ્લોટ નં.૩૪ ની ૦-૦૦-૨૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "118",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "MALI CHIRAGKUMAR VINODBHAI (પ્લોટ નં.૬૦ ની ૦-૦૦-૨૦ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "119",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "PANKAJKUMAR CHAMPAKLAL SHAH (શેડ/પ્લોટ નં.૦૩ ની ૦-૦૦-૮૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "120",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "RAKESHKUMAR BECHARBHAI PATEL (શેડ/પ્લોટ નં.૦૧ ની ૦-૦૦-૫૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "121",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૩ ની ૦-૦૦-૧૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "122",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૪ ની ૦-૦૦-૧૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "123",
+      "khata_no": "3559",
+      "survey_no": "178",
+      "owner_name": "SUTHAR YOGESHKUMAR DALPAT (પ્લોટ નં.૧૮ ની ૦-૦૦-૧૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "124",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "1. DARSHIT BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "125",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "1. KALAVATIBEN SURESHKUMAR THAKKAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "126",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "1. RAKESHKUMAR MOHANBHAI CHABHADIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "127",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "1. SHAILESHKUMAR  A PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "128",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "1. UDAYKUMAR  SURESHCHANDRA SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "129",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "2. CHINTAN BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "130",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "2. MONA  UDAYKUMAR  SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "131",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "2. SANGITA  SHAILESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "132",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "133",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "134",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૧ ની ૦-૦૦-૧૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "135",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૨ ની ૦-૦૦-૧૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "136",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "ANISH HEMANTKUMAR SHAH (શેડ/પ્લોટ નં.૧૦૮/બી ની ૦-૦૫-૫૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "137",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "ANJANI KUMAR GUPTA (શેડ/પ્લોટ નં.૯૪ ની ૦-૦૦-૨૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "138",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "BHARATKUMAR LAKHABHAI BALDANIYA (શેડ/પ્લોટ નં.૪૨ ની ૦-૦૦-૦૯ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "139",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "DEEPENDRUGS PRIVATE LIMITED THROUGH ITS DIRECTOR RUPEN SHILESHKUMAR SHAH (પ્લોટ નં.૩૧ ની ૦-૦૦-૦૯)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "140",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "HEMANTKUMAR KANTILAL SHAH (શેડ/પ્લોટ નં.૯૬ ની ૦-૦૦-૨૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "141",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "JAGDISHKUMAR KANTIBHAI PATEL (શેડ/પ્લોટ નં.૩૪ ની ૦-૦૦-૦૯ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "142",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "MALI CHIRAGKUMAR VINODBHAI (પ્લોટ નં.૬૦ ની ૦-૦૦-૦૯ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "143",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "PANKAJKUMAR CHAMPAKLAL SHAH (શેડ/પ્લોટ નં.૦૩ ની ૦-૦૦-૩૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "144",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "RAKESHKUMAR BECHARBHAI PATEL (શેડ/પ્લોટ નં.૦૧ ની ૦-૦૦-૨૫ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "145",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૩ ની ૦-૦૦-૦૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "146",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૪ ની ૦-૦૦-૦૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "147",
+      "khata_no": "3560",
+      "survey_no": "179",
+      "owner_name": "SUTHAR YOGESHKUMAR DALPAT (પ્લોટ નં.૧૮ ની ૦-૦૦-૦૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "148",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "1. DARSHIT BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "149",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "1. KALAVATIBEN SURESHKUMAR THAKKAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "150",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "1. RAKESHKUMAR MOHANBHAI CHABHADIYA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "151",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "1. SHAILESHKUMAR  A PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "152",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "1. UDAYKUMAR  SURESHCHANDRA SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "153",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "2. CHINTAN BHARATKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "154",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "2. MONA  UDAYKUMAR  SHAH"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "155",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "2. SANGITA  SHAILESHKUMAR PATEL"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "156",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "157",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "3. DOSHI ASHISH KIRANKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "158",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૧ ની ૦-૦૩-૧૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "159",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "ALPHA HEALTH CARE A PARTNERSHIP FIRM THROUGH ITS PARTNER KISHORKUMAR B. MODI (પ્લોટ નં.૭૨ ની ૦-૦૩-૧૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "160",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "ANISH HEMANTKUMAR SHAH (શેડ/પ્લોટ નં.૧૦૮/બી ની ૦-૦૧-૦૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "161",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "ANJANI KUMAR GUPTA (શેડ/પ્લોટ નં.૯૪ ની ૦-૦૧-૩૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "162",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "BHARATKUMAR LAKHABHAI BALDANIYA (શેડ/પ્લોટ નં.૪૨ ની ૦-૦૧-૨૬ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "163",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "DEEPENDRUGS PRIVATE LIMITED THROUGH ITS DIRECTOR RUPEN SHILESHKUMAR SHAH (પ્લોટ નં.૩૧ ની ૦-૦૨-૭૧)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "164",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "HEMANTKUMAR KANTILAL SHAH (શેડ/પ્લોટ નં.૯૬ ની ૦-૦૧-૩૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "165",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "JAGDISHKUMAR KANTIBHAI PATEL (શેડ/પ્લોટ નં.૩૪ ની ૦-૦૨-૭૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "166",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "MALI CHIRAGKUMAR VINODBHAI (પ્લોટ નં.૬૦ ની ૦-૦૨-૭૧ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "167",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "PANKAJKUMAR CHAMPAKLAL SHAH (શેડ/પ્લોટ નં.૦૩ ની ૦-૦૧-૮૩ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "168",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "RAKESHKUMAR BECHARBHAI PATEL (શેડ/પ્લોટ નં.૦૧ ની ૦-૦૧-૧૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "169",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૩ ની ૦-૦૨-૧૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "170",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "ROHITKUMAR KANTILAL PATEL (શેડ/પ્લોટ નં.૧૪ ની ૦-૦૨-૧૭ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "171",
+      "khata_no": "3561",
+      "survey_no": "180",
+      "owner_name": "SUTHAR YOGESHKUMAR DALPAT (પ્લોટ નં.૧૮ ની ૦-૦૨-૩૪ ચો.મી.)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "172",
+      "khata_no": "3579",
+      "survey_no": "414",
+      "owner_name": "TEENA AJITKUMAR MEHTANI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "173",
+      "khata_no": "3821",
+      "survey_no": "400p૧",
+      "owner_name": "Abhishek Sunilkumar Jaiswal"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "174",
+      "khata_no": "3843",
+      "survey_no": "419p૪",
+      "owner_name": "SURESHKUMAR RAMSARAN KASHYAP"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "175",
+      "khata_no": "4077",
+      "survey_no": "496p૧",
+      "owner_name": "ANAND ARVINDKUMAR TRIVEDI"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "176",
+      "khata_no": "4100",
+      "survey_no": "414",
+      "owner_name": "ROHIT SURESHKUMAR KASHYAP"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "177",
+      "khata_no": "4199",
+      "survey_no": "414",
+      "owner_name": "SURESH KUMAR RAM SARAN KASHYAP"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "178",
+      "khata_no": "4245",
+      "survey_no": "407/p/p૨",
+      "owner_name": "2. PAWAN KUMAR RUNGTA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "179",
+      "khata_no": "4245",
+      "survey_no": "407/p/p૨",
+      "owner_name": "2. PAWAN KUMAR RUNGTA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "180",
+      "khata_no": "4245",
+      "survey_no": "407/p/p૨",
+      "owner_name": "2. PAWAN KUMAR RUNGTA"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "181",
+      "khata_no": "4347",
+      "survey_no": "414",
+      "owner_name": "MANJU SURESHKUMAR KASHYAP"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "182",
+      "khata_no": "4347",
+      "survey_no": "414",
+      "owner_name": "ROHIT SURESHKUMAR KASHYAP"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "183",
+      "khata_no": "4420",
+      "survey_no": "415p",
+      "owner_name": "Rohit Sureshkumar Kashyap"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "184",
+      "khata_no": "4422",
+      "survey_no": "415p",
+      "owner_name": "Rohit Sureshkumar Kashyap"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "044",
+      "sr_no": "185",
+      "khata_no": "4424",
+      "survey_no": "415p",
+      "owner_name": "Rohit Sureshkumar Kashyap"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "015",
+      "sr_no": "1",
+      "khata_no": "1083",
+      "survey_no": "263",
+      "owner_name": "Rakesh Kumar Verma s/o Baru Ram (ક્ષે.હે.૦-૭૩-૧૮ ચો.મી.)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "015",
+      "sr_no": "2",
+      "khata_no": "1084",
+      "survey_no": "264",
+      "owner_name": "Rakesh Kumar Verma s/o Baru Ram (ક્ષે.હે.૦-૧૩-૩૫ ચો.મી.)(8989)"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "015",
+      "sr_no": "3",
+      "khata_no": "1127",
+      "survey_no": "320",
+      "owner_name": "SHAILESHKUMAR BACHUBHAI DEVIPUJAK"
+    },
+    {
+      "taluka_name": "માંડલ",
+      "taluka_code": "01",
+      "village_code": "015",
+      "sr_no": "4",
+      "khata_no": "1255",
+      "survey_no": "164",
+      "owner_name": "Rakesh Kumar Verma s/o Baru Ram (ક્ષે.હે.૦-૨૦-૪૮ ચો.મી.)(8989)"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "003",
+      "sr_no": "1",
+      "khata_no": "439",
+      "survey_no": "343",
+      "owner_name": "Rajendrakumar Dallaram Choudhary"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "003",
+      "sr_no": "2",
+      "khata_no": "623",
+      "survey_no": "254/૧/અ/૨/૨",
+      "owner_name": "1. SUBRAMANIAM SANTOSHKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "003",
+      "sr_no": "3",
+      "khata_no": "623",
+      "survey_no": "254/૧/અ/૨/૨",
+      "owner_name": "2. JAYANTI SANTOSHKUMAR"
+    },
+    {
+      "taluka_name": "સાણંદ",
+      "taluka_code": "04",
+      "village_code": "003",
+      "sr_no": "4",
+      "khata_no": "830",
+      "survey_no": "317/૧",
+      "owner_name": "M/S. WESTFRONT PROPERTIES LLP Through its Authorised Partner MR. SHAILESHKUMAR MADHAVLAL PATEL"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "003",
+      "sr_no": "1",
+      "khata_no": "906",
+      "survey_no": "1522",
+      "owner_name": "MR. Vrushank Narendrakumar Patel"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "1",
+      "khata_no": "703",
+      "survey_no": "838",
+      "owner_name": "BHARATKUMAR CHANDANMAL SHAH તથા MAHENDRAKUMAR MAFATLAL BHANSALI ની પ્લોટ નં. – ૫ ની ૨૪૩.૧ ચો.મી."
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "2",
+      "khata_no": "703",
+      "survey_no": "838",
+      "owner_name": "HITESHKUMAR C JAIN : પ્લોટ નં. – ૪૧ ની કુલ ૪૯૬.૯૮ ચો.મી."
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "3",
+      "khata_no": "703",
+      "survey_no": "838",
+      "owner_name": "KALPESHKUMAR RAJMAL SHAH : પ્લોટ નં. – ૪ કુલ ૬૩૩.૧૨ ચો.મી."
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "4",
+      "khata_no": "703",
+      "survey_no": "838",
+      "owner_name": "MONICA SURESHKUMAR SHAH : પ્લોટ નં. – ૬૨ ની ૧૩૫.૮૭ ચો.મી"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "5",
+      "khata_no": "703",
+      "survey_no": "838",
+      "owner_name": "Mukeshkumar kailaspati kshatriya (૫૦ ટકા) તથા"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "6",
+      "khata_no": "703",
+      "survey_no": "838",
+      "owner_name": "PATEL RAVIKUMAR MANILAL : પ્લોટ નં. – ૮૭ ની ૩૬૧.૨૭ ચો.મી."
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "7",
+      "khata_no": "703",
+      "survey_no": "838",
+      "owner_name": "SURESHKUMAR CHAMPALAL JAIN : પ્લોટ નં. – ૬૧ ની ૧૦૮.૧૧ ચો.મી"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "8",
+      "khata_no": "850",
+      "survey_no": "940",
+      "owner_name": "BHARATKUMAR CHANDANMAL SHAH તથા MAHENDRAKUMAR MAFATLAL BHANSALI ની પ્લોટ નં. – ૫ ની ૯૩૧.૬ ચો.મી."
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "9",
+      "khata_no": "850",
+      "survey_no": "940",
+      "owner_name": "JITENDRAKUMAR MOHANLAL SHAH ની પ્લોટ નં.૫૪ ની કુલ ૪૯૬.૯૮ ચો.મી."
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "10",
+      "khata_no": "850",
+      "survey_no": "940",
+      "owner_name": "MONICA SURESHKUMAR SHAH : પ્લોટ નં. – ૬૨ ની ૩૬૧.૧૧ ચો.મી"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "11",
+      "khata_no": "850",
+      "survey_no": "940",
+      "owner_name": "Mukeshkumar kailaspati kshatriya (૫૦ ટકા) તથા(૪૮૬૮)"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "12",
+      "khata_no": "850",
+      "survey_no": "940",
+      "owner_name": "PATEL RAVIKUMAR MANILAL : પ્લોટ નં. – ૮૭ ની ૩૬૧.૨૭ ચો.મી.(૪૮૬૮)"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "13",
+      "khata_no": "850",
+      "survey_no": "940",
+      "owner_name": "SURESHKUMAR CHAMPALAL JAIN : પ્લોટ નં. – ૬૧ ની ૩૮૮.૮૭ ચો.મી"
+    },
+    {
+      "taluka_name": "દશક્રોઈ",
+      "taluka_code": "06",
+      "village_code": "080",
+      "sr_no": "14",
+      "khata_no": "850",
+      "survey_no": "940",
+      "owner_name": "VIJAYKUMAR GANESHMAL SHAH : પ્લોટ નં. – ૬ કુલ ૬૪૦.૪૯ ચો.મી."
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-steps:
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/anyror-worker-optimized', '-f', 'Dockerfile.worker-optimized', '.']
-images:
-  - 'gcr.io/$PROJECT_ID/anyror-worker-optimized'
-timeout: '1200s'

@@ -1,0 +1,574 @@
+{
+  "sequential": {
+    "test_name": "Sequential",
+    "timestamp": "2026-01-14T22:16:09.296845",
+    "total_requests": 12,
+    "successful": 3,
+    "failed": 9,
+    "success_rate": 25.0,
+    "total_time": 19.033522844314575,
+    "requests_per_second": 0.6304665772150777,
+    "response_times": {
+      "min": 0.5425419807434082,
+      "max": 3.6084249019622803,
+      "mean": 1.5857453147570293,
+      "median": 1.0200790166854858,
+      "stdev": 1.0920064844443402,
+      "p95": 3.6084249019622803,
+      "p99": 3.6084249019622803
+    },
+    "successful_response_times": {
+      "min": 1.8093228340148926,
+      "max": 3.6084249019622803,
+      "mean": 2.7985122998555503,
+      "median": 2.9777891635894775
+    },
+    "errors": {
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Ple": 8,
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Pleas": 1
+    },
+    "status_codes": {
+      "unknown": 9
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 1,
+        "successful": 1,
+        "success_rate": 100.0
+      },
+      "key_1": {
+        "total": 1,
+        "successful": 1,
+        "success_rate": 100.0
+      },
+      "key_2": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 1,
+        "successful": 1,
+        "success_rate": 100.0
+      },
+      "key_5": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 1,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "concurrent_low": {
+    "test_name": "Concurrent-6workers",
+    "timestamp": "2026-01-14T22:16:17.418843",
+    "total_requests": 24,
+    "successful": 6,
+    "failed": 18,
+    "success_rate": 25.0,
+    "total_time": 8.121567010879517,
+    "requests_per_second": 2.9550947456137466,
+    "response_times": {
+      "min": 0.8081438541412354,
+      "max": 3.3483200073242188,
+      "mean": 1.757842202981313,
+      "median": 1.6133781671524048,
+      "stdev": 0.7948825332686418,
+      "p95": 3.0544769763946533,
+      "p99": 3.3483200073242188
+    },
+    "successful_response_times": {
+      "min": 1.7975471019744873,
+      "max": 3.3483200073242188,
+      "mean": 2.626507123311361,
+      "median": 2.684943914413452
+    },
+    "errors": {
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Ple": 16,
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Pleas": 2
+    },
+    "status_codes": {
+      "unknown": 18
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 2,
+        "successful": 2,
+        "success_rate": 100.0
+      },
+      "key_1": {
+        "total": 2,
+        "successful": 2,
+        "success_rate": 100.0
+      },
+      "key_2": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 2,
+        "successful": 2,
+        "success_rate": 100.0
+      },
+      "key_5": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 2,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "concurrent_medium": {
+    "test_name": "Concurrent-12workers",
+    "timestamp": "2026-01-14T22:16:29.476976",
+    "total_requests": 60,
+    "successful": 10,
+    "failed": 50,
+    "success_rate": 16.666666666666664,
+    "total_time": 12.057813882827759,
+    "requests_per_second": 4.976026382813018,
+    "response_times": {
+      "min": 0.6263289451599121,
+      "max": 6.4252753257751465,
+      "mean": 2.255247473716736,
+      "median": 1.652961015701294,
+      "stdev": 1.6413134245012913,
+      "p95": 5.84020209312439,
+      "p99": 6.4252753257751465
+    },
+    "successful_response_times": {
+      "min": 2.0143580436706543,
+      "max": 6.4252753257751465,
+      "mean": 4.110761737823486,
+      "median": 4.175660014152527
+    },
+    "errors": {
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Ple": 40,
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Pleas": 5,
+      "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your cu": 5
+    },
+    "status_codes": {
+      "unknown": 45,
+      "429_RATE_LIMIT": 5
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 5,
+        "successful": 3,
+        "success_rate": 60.0
+      },
+      "key_1": {
+        "total": 5,
+        "successful": 2,
+        "success_rate": 40.0
+      },
+      "key_2": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 5,
+        "successful": 5,
+        "success_rate": 100.0
+      },
+      "key_5": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "concurrent_high": {
+    "test_name": "Concurrent-24workers",
+    "timestamp": "2026-01-14T22:16:39.412356",
+    "total_requests": 120,
+    "successful": 3,
+    "failed": 117,
+    "success_rate": 2.5,
+    "total_time": 9.93433690071106,
+    "requests_per_second": 12.079316536105281,
+    "response_times": {
+      "min": 0.858961820602417,
+      "max": 3.2705469131469727,
+      "mean": 1.832871566216151,
+      "median": 1.792517900466919,
+      "stdev": 0.4877469093161948,
+      "p95": 2.7046561241149902,
+      "p99": 3.052044153213501
+    },
+    "successful_response_times": {
+      "min": 2.4218978881835938,
+      "max": 3.2705469131469727,
+      "mean": 2.8684915701548257,
+      "median": 2.913029909133911
+    },
+    "errors": {
+      "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your cu": 27,
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Ple": 80,
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Pleas": 10
+    },
+    "status_codes": {
+      "429_RATE_LIMIT": 27,
+      "unknown": 90
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_1": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_2": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 10,
+        "successful": 3,
+        "success_rate": 30.0
+      },
+      "key_5": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 10,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "burst": {
+    "test_name": "Burst-20x3",
+    "timestamp": "2026-01-14T22:17:10.196152",
+    "total_requests": 60,
+    "successful": 8,
+    "failed": 52,
+    "success_rate": 13.333333333333334,
+    "total_time": 30.782723903656006,
+    "requests_per_second": 1.9491452474377653,
+    "response_times": {
+      "min": 0.44502997398376465,
+      "max": 5.367649078369141,
+      "mean": 1.8841863075892131,
+      "median": 1.4667330980300903,
+      "stdev": 1.21542129142597,
+      "p95": 5.236189126968384,
+      "p99": 5.367649078369141
+    },
+    "successful_response_times": {
+      "min": 1.885802984237671,
+      "max": 3.4031050205230713,
+      "mean": 2.7163014113903046,
+      "median": 2.79279100894928
+    },
+    "errors": {
+      "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your cu": 7,
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Ple": 40,
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Pleas": 5
+    },
+    "status_codes": {
+      "429_RATE_LIMIT": 7,
+      "unknown": 45
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 5,
+        "successful": 3,
+        "success_rate": 60.0
+      },
+      "key_1": {
+        "total": 5,
+        "successful": 3,
+        "success_rate": 60.0
+      },
+      "key_2": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 5,
+        "successful": 2,
+        "success_rate": 40.0
+      },
+      "key_5": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 5,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "max_load": {
+    "test_name": "MaxLoad-30workers",
+    "timestamp": "2026-01-14T22:17:41.683621",
+    "total_requests": 287,
+    "successful": 14,
+    "failed": 273,
+    "success_rate": 4.878048780487805,
+    "total_time": 31.485872983932495,
+    "requests_per_second": 9.11519906551292,
+    "response_times": {
+      "min": 0.3933100700378418,
+      "max": 3.776966094970703,
+      "mean": 1.379861177052355,
+      "median": 1.27366304397583,
+      "stdev": 0.5819860879141243,
+      "p95": 2.6197259426116943,
+      "p99": 2.9448630809783936
+    },
+    "successful_response_times": {
+      "min": 1.6086931228637695,
+      "max": 2.7790720462799072,
+      "mean": 1.990102665764945,
+      "median": 1.9473663568496704
+    },
+    "errors": {
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Ple": 191,
+      "400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key expired. Pleas": 24,
+      "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your cu": 58
+    },
+    "status_codes": {
+      "unknown": 215,
+      "429_RATE_LIMIT": 58
+    },
+    "key_stats": {
+      "key_0": {
+        "total": 24,
+        "successful": 3,
+        "success_rate": 12.5
+      },
+      "key_1": {
+        "total": 24,
+        "successful": 2,
+        "success_rate": 8.333333333333332
+      },
+      "key_2": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_3": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_4": {
+        "total": 24,
+        "successful": 9,
+        "success_rate": 37.5
+      },
+      "key_5": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_6": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_7": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_8": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_9": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_10": {
+        "total": 24,
+        "successful": 0,
+        "success_rate": 0.0
+      },
+      "key_11": {
+        "total": 23,
+        "successful": 0,
+        "success_rate": 0.0
+      }
+    }
+  }
+}

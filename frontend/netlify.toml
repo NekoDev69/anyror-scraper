@@ -5,3 +5,10 @@
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
+
+# Proxy API requests to VM (avoids mixed content issues)
+[[redirects]]
+  from = "/api/*"
+  to = "http://34.100.129.1:8000/:splat"
+  status = 200
+  force = true

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "district_code": "02",
+    "taluka_code": "04",
+    "total_villages": 5,
+    "successful": 0,
+    "failed": 5,
+    "duration_seconds": 28.827709,
+    "workers": 6,
+    "timestamp": "20260114_193103"
+  },
+  "results": [
+    {
+      "success": false,
+      "village_code": "0001",
+      "error": "No villages"
+    },
+    {
+      "success": false,
+      "village_code": "0002",
+      "error": "No villages"
+    },
+    {
+      "success": false,
+      "village_code": "0003",
+      "error": "Locator.select_option: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlTaluka\")\n"
+    },
+    {
+      "success": false,
+      "village_code": "0004",
+      "error": "Locator.select_option: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlTaluka\")\n"
+    },
+    {
+      "success": false,
+      "village_code": "0005",
+      "error": "Locator.select_option: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_ddlTaluka\")\n"
+    }
+  ]
+}

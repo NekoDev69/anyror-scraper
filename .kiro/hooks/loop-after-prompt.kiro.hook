@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Loop After Prompt Ends",
+  "description": "Automatically triggers when a prompt submission completes, allowing for continuous workflow loops",
+  "version": "1",
+  "when": {
+    "type": "agentStop"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Continue with the next step in the workflow. Review what was just completed and determine the next action needed."
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "portal_name": "AnyROR Rural Land Record",
+    "module": "SURVEY_NUMBER_SEARCH",
+    "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+    "state": "Gujarat",
+    "record_type": "VF-7 / RoR (7-12)",
+    "data_status_time_local": "30/07/2024 01:34:20",
+    "scrape_timestamp_utc": "2026-01-14T19:47:56.322163+00:00",
+    "language": "gu",
+    "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+    "disclaimer_english": "The information provided online is updated and is not an official copy.",
+    "owner_count": 1,
+    "encumbrance_count": 3
+  },
+  "search_input": {
+    "district": "22",
+    "taluka": "19",
+    "village": "020",
+    "survey_or_block_number": "47",
+    "sub_division_number": "",
+    "fetch_mode": "survey_search"
+  },
+  "location": {
+    "district": {
+      "name_en": "",
+      "name_local": "સુરત"
+    },
+    "taluka": {
+      "name_en": "",
+      "name_local": "ઉધના"
+    },
+    "village": {
+      "name_en": "",
+      "name_local": "ભેસ્તાન"
+    }
+  },
+  "property_identity": {
+    "khata_number": "29",
+    "survey_number": "47",
+    "block_number": "",
+    "sub_division_number": "",
+    "old_survey_number": "",
+    "old_survey_notes": "",
+    "upin": "GJ796422284338",
+    "land_type": "NA"
+  },
+  "owners": [
+    {
+      "owner_name": "શ્રી ગુરુક્રુપા  ઇન્ડસ્ટ્રૂયલ કો.ઓ.સર્વિસ સો.લી",
+      "owner_father_or_husband_name": "",
+      "ownership_type": "ખાતેદાર",
+      "share": "",
+      "entry_number": "",
+      "owner_address_or_remark": ""
+    }
+  ],
+  "land_details": {
+    "total_area_raw": "૧-પ૩-૦૦",
+    "area_hectare": 1,
+    "area_are": 53,
+    "area_sqm": 0,
+    "area_total_sqm": 15300,
+    "area_sq_yd": 18298.65,
+    "assessment_tax": "22.30",
+    "land_revenue": "",
+    "tenure": "Old Tenure",
+    "tenure_local": "જુની શરત (જુ.શ)",
+    "land_use": "Agricultural",
+    "land_use_local": "બીન ખેતી",
+    "farm_name": "----",
+    "irrigation_type": "",
+    "soil_type": "",
+    "crop_details": "",
+    "remarks": "૦૧.પ૩.૦૦ ચો.મી ખેતી સિવાય જુનો સર્વે નં.૮પ",
+    "boundaries": {
+      "north": "",
+      "south": "",
+      "east": "",
+      "west": ""
+    }
+  },
+  "entry_numbers": [
+    "2144",
+    "3676",
+    "1493"
+  ],
+  "rights_and_remarks": {
+    "entry_details": [
+      {
+        "entry_no": "1493",
+        "entry_date": "",
+        "type": "અન્ય",
+        "description": "બીનખેતી વિશેષઘારો નકકી કર્યા મુજબ નોંઘ કરી",
+        "amount": "",
+        "status": "Active",
+        "office": "",
+        "order_reference": ""
+      },
+      {
+        "entry_no": "1493",
+        "entry_date": "",
+        "type": "સરકારી હુકમ",
+        "description": "મે. કલેકટર સા. સુરતના હુકમ ક્રમાક બખપ/વશી",
+        "amount": "",
+        "status": "Active",
+        "office": "",
+        "order_reference": ""
+      },
+      {
+        "entry_no": "1493",
+        "entry_date": "",
+        "type": "અન્ય",
+        "description": "૩૮૮.૯૩ કલે. કચેરી નાનપુરા સુરત તા. ૭/૪/૯૩ થી",
+        "amount": "",
+        "status": "Active",
+        "office": "",
+        "order_reference": ""
+      }
+    ],
+    "notes_raw": "બોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૧૪૯૩,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tબીનખેતી વિશેષઘારો નકકી કર્યા મુજબ નોંઘ કરી<૧૪૯૩>\n\t\t\n\t\t\tમે. કલેકટર સા. સુરતના હુકમ ક્રમાક બખપ/વશી<૧૪૯૩>\n\t\t\n\t\t\t૩૮૮.૯૩ કલે. કચેરી નાનપુરા સુરત તા. ૭/૪/૯૩ થી<૧૪૯૩>"
+  },
+  "related_documents": {
+    "vf6": {
+      "available": false,
+      "url": ""
+    },
+    "vf8a": {
+      "available": false,
+      "url": ""
+    },
+    "vf7": {
+      "available": false,
+      "url": ""
+    },
+    "mutation_register": {
+      "available": false,
+      "url": ""
+    }
+  },
+  "raw_page_text_backup": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.30/07/2024 01:34:20 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                સુરત\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                ઉધના\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                ભેસ્તાન\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૪૭\n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ796422284338\n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૧-પ૩-૦૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૨૨.૩૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    જુની શરત (જુ.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    બીન ખેતી\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦૧.પ૩.૦૦ ચો.મી ખેતી સિવાય જુનો સર્વે નં.૮પ\n                                                \n                                            \n                                        \n                                        \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૮૧૩,૧૪૯૩,૧૭૭૧,૧૮૧પ,૨૧૧૨*,૨૧૧૩*,૨૧૧૪*,૨૧૧પ*,\n\t\t\n\t\t\t ૨૧૪૪,૩૬૭૬,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૨૯ | ૧-પ૩-૦૦ | ૨૨.૩૦શ્રી ગુરુક્રુપા  ઇન્ડસ્ટ્રૂયલ કો.ઓ.સર્વિસ સો.લી\n\t\t\n\t\t\t  \n\t\t\n\t\t\t  \n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૧૪૯૩,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tબીનખેતી વિશેષઘારો નકકી કર્યા મુજબ નોંઘ કરી<૧૪૯૩>\n\t\t\n\t\t\tમે. કલેકટર સા. સુરતના હુકમ ક્રમાક બખપ/વશી<૧૪૯૩>\n\t\t\n\t\t\t૩૮૮.૯૩ કલે. કચેરી નાનપુરા સુરત તા. ૭/૪/૯૩ થી<૧૪૯૩>\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n"
+}

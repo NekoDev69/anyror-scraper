@@ -1,0 +1,28 @@
+{
+  "owner_name": "Patel",
+  "district_code": "01",
+  "timestamp": "2026-01-20T04:06:32.954567",
+  "completed_villages": {
+    "01_040": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-20T04:06:55.349316"
+    },
+    "01_012": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-20T04:07:11.250288"
+    },
+    "01_051": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-20T04:07:24.838822"
+    },
+    "01_067": {
+      "success": true,
+      "count": 0,
+      "timestamp": "2026-01-20T04:07:36.478691"
+    }
+  },
+  "hits": []
+}

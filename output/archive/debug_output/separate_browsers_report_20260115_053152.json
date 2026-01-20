@@ -1,0 +1,90 @@
+[
+  {
+    "success": false,
+    "village_name": "અટડો - 012",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n",
+    "debug": {
+      "worker_id": 2,
+      "village": "અટડો - 012",
+      "timestamp": "2026-01-15T05:30:40.366266"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/dhairyabisht/gujrat anyror/diagnose_separate_browsers.py\", line 108, in scrape_village\n    await page.locator(self.SELECTORS[\"district\"]).select_option(district_code)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/async_api/_generated.py\", line 17569, in select_option\n    await self._impl_obj.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_locator.py\", line 597, in select_option\n    return await self._frame.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_frame.py\", line 781, in select_option\n    return await self._channel.send(\"selectOption\", self._timeout, params)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n\n"
+  },
+  {
+    "success": false,
+    "village_name": "અમીયા - 051",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n",
+    "debug": {
+      "worker_id": 3,
+      "village": "અમીયા - 051",
+      "timestamp": "2026-01-15T05:30:40.366525"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/dhairyabisht/gujrat anyror/diagnose_separate_browsers.py\", line 108, in scrape_village\n    await page.locator(self.SELECTORS[\"district\"]).select_option(district_code)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/async_api/_generated.py\", line 17569, in select_option\n    await self._impl_obj.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_locator.py\", line 597, in select_option\n    return await self._frame.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_frame.py\", line 781, in select_option\n    return await self._channel.send(\"selectOption\", self._timeout, params)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n    - waiting for navigation to finish...\n    - navigated to \"https://anyror.gujarat.gov.in/LandRecordRural.aspx\"\n\n"
+  },
+  {
+    "success": false,
+    "village_name": "અકરી - 040",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n",
+    "debug": {
+      "worker_id": 1,
+      "village": "અકરી - 040",
+      "timestamp": "2026-01-15T05:30:40.364275"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/dhairyabisht/gujrat anyror/diagnose_separate_browsers.py\", line 108, in scrape_village\n    await page.locator(self.SELECTORS[\"district\"]).select_option(district_code)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/async_api/_generated.py\", line 17569, in select_option\n    await self._impl_obj.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_locator.py\", line 597, in select_option\n    return await self._frame.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_frame.py\", line 781, in select_option\n    return await self._channel.send(\"selectOption\", self._timeout, params)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n\n"
+  },
+  {
+    "success": false,
+    "village_name": "આશાલડી-સુજાવાંઢ - 067",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n",
+    "debug": {
+      "worker_id": 4,
+      "village": "આશાલડી-સુજાવાંઢ - 067",
+      "timestamp": "2026-01-15T05:30:40.367117"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/dhairyabisht/gujrat anyror/diagnose_separate_browsers.py\", line 108, in scrape_village\n    await page.locator(self.SELECTORS[\"district\"]).select_option(district_code)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/async_api/_generated.py\", line 17569, in select_option\n    await self._impl_obj.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_locator.py\", line 597, in select_option\n    return await self._frame.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_frame.py\", line 781, in select_option\n    return await self._channel.send(\"selectOption\", self._timeout, params)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n\n"
+  },
+  {
+    "success": false,
+    "village_name": "અમરાપર - 069",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n",
+    "debug": {
+      "worker_id": 2,
+      "village": "અમરાપર - 069",
+      "timestamp": "2026-01-15T05:31:16.626518"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/dhairyabisht/gujrat anyror/diagnose_separate_browsers.py\", line 108, in scrape_village\n    await page.locator(self.SELECTORS[\"district\"]).select_option(district_code)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/async_api/_generated.py\", line 17569, in select_option\n    await self._impl_obj.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_locator.py\", line 597, in select_option\n    return await self._frame.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_frame.py\", line 781, in select_option\n    return await self._channel.send(\"selectOption\", self._timeout, params)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n\n"
+  },
+  {
+    "success": false,
+    "village_name": "ઉમૈયા - 046",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n",
+    "debug": {
+      "worker_id": 4,
+      "village": "ઉમૈયા - 046",
+      "timestamp": "2026-01-15T05:31:16.701772"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/dhairyabisht/gujrat anyror/diagnose_separate_browsers.py\", line 108, in scrape_village\n    await page.locator(self.SELECTORS[\"district\"]).select_option(district_code)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/async_api/_generated.py\", line 17569, in select_option\n    await self._impl_obj.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_locator.py\", line 597, in select_option\n    return await self._frame.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_frame.py\", line 781, in select_option\n    return await self._channel.send(\"selectOption\", self._timeout, params)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n\n"
+  },
+  {
+    "success": false,
+    "village_name": "આડેસર - 039",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n",
+    "debug": {
+      "worker_id": 3,
+      "village": "આડેસર - 039",
+      "timestamp": "2026-01-15T05:31:16.646805"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/dhairyabisht/gujrat anyror/diagnose_separate_browsers.py\", line 108, in scrape_village\n    await page.locator(self.SELECTORS[\"district\"]).select_option(district_code)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/async_api/_generated.py\", line 17569, in select_option\n    await self._impl_obj.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_locator.py\", line 597, in select_option\n    return await self._frame.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_frame.py\", line 781, in select_option\n    return await self._channel.send(\"selectOption\", self._timeout, params)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n\n"
+  },
+  {
+    "success": false,
+    "village_name": "આણંદપર - 009",
+    "error": "Exception: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n",
+    "debug": {
+      "worker_id": 1,
+      "village": "આણંદપર - 009",
+      "timestamp": "2026-01-15T05:31:16.664215"
+    },
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/dhairyabisht/gujrat anyror/diagnose_separate_browsers.py\", line 108, in scrape_village\n    await page.locator(self.SELECTORS[\"district\"]).select_option(district_code)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/async_api/_generated.py\", line 17569, in select_option\n    await self._impl_obj.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_locator.py\", line 597, in select_option\n    return await self._frame.select_option(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_frame.py\", line 781, in select_option\n    return await self._channel.send(\"selectOption\", self._timeout, params)\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n  File \"/Users/dhairyabisht/gujrat anyror/venv/lib/python3.9/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.select_option: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"#ContentPlaceHolder1_drpDistrict\")\n\n"
+  }
+]

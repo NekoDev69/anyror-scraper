@@ -1,0 +1,889 @@
+{
+  "metadata": {
+    "district_code": "30",
+    "district_name": "બોટાદ",
+    "total_villages": 5,
+    "successful": 4,
+    "failed": 1,
+    "duration_seconds": 106.47858,
+    "workers": 1,
+    "timestamp": "20260115_050414"
+  },
+  "results": [
+    {
+      "success": true,
+      "village_code": "017",
+      "village_name": "કુંભારા - 017",
+      "survey": "2",
+      "raw": {
+        "district": {
+          "value": "30"
+        },
+        "taluka": {
+          "value": "01"
+        },
+        "village": {
+          "value": "017",
+          "text": "કુંભારા - 017"
+        },
+        "survey": {
+          "value": "2",
+          "text": "2"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૪૧૭,૨૦૭૯,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૩૯૨ | ૦-પ૦-૮પ | ૪.૬૦ચતુરભાઇ ટપુભાઇ ક઼ોળી(૭૦૯)\n\t\t\n\t\t\t રજુબેન ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t રણજીતભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t વિરમભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t લાલજીભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t આશાબેન ચતુરભાઈ મેર(૨૦૭૯)"
+            }
+          ],
+          "full_page_text": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.03/12/2023 01:13:26 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                કુંભારા\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૨\n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ906706401567\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                (પ્રમોલગેશન નોંધ નં.૧૪૧૭ તા.૧૭/૧૨/૨૦૧૬)\n                                            \n                                            \n                                                Old Survey Number (જુનો સરવે નંબર)\n                                            \n                                            \n                                                ૧ પૈકી  ૨\n                                            \n                                            \n                                                જુના સરવે નંબર ને લગત નોંધ નંબરો: \n૨,૧૯૪,૪પ૭,૭૦૯ |***\nજુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: \n૧૦૩૯ |***\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦-પ૦-૮પ\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૪.૬૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    નવી શરત (ન.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ખેતીલાયક ઉપયોગ\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    અવેડાવાળું\n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૪૧૭,૨૦૭૯,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૩૯૨ | ૦-પ૦-૮પ | ૪.૬૦ચતુરભાઇ ટપુભાઇ ક઼ોળી(૭૦૯)\n\t\t\n\t\t\t રજુબેન ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t રણજીતભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t વિરમભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t લાલજીભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t આશાબેન ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૧૪૧૭,૧પ૬૪,૨૦૭૮,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n",
+          "timestamp": "2026-01-15T05:02:44.562060"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-14T23:32:44.562087+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 6,
+          "encumbrance_count": 0
+        },
+        "search_input": {
+          "district": "30",
+          "taluka": "01",
+          "village": "017",
+          "survey_or_block_number": "2",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "કુંભારા"
+          }
+        },
+        "property_identity": {
+          "khata_number": "392",
+          "survey_number": "2",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "ચતુરભાઇ ટપુભાઇ ક઼ોળી",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "709",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "રજુબેન ચતુરભાઈ મેર",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2079",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "રણજીતભાઈ ચતુરભાઈ મેર",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2079",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "વિરમભાઈ ચતુરભાઈ મેર",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2079",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "લાલજીભાઈ ચતુરભાઈ મેર",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2079",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "આશાબેન ચતુરભાઈ મેર",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2079",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "૦-પ૦-૮પ",
+          "area_hectare": 0,
+          "area_are": 50,
+          "area_sqm": 85,
+          "area_total_sqm": 5085,
+          "area_sq_yd": 6081.61,
+          "assessment_tax": "4.60",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [
+          "1417",
+          "2079"
+        ],
+        "rights_and_remarks": {
+          "entry_details": [],
+          "notes_raw": ""
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.03/12/2023 01:13:26 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                કુંભારા\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૨\n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ906706401567\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                (પ્રમોલગેશન નોંધ નં.૧૪૧૭ તા.૧૭/૧૨/૨૦૧૬)\n                                            \n                                            \n                                                Old Survey Number (જુનો સરવે નંબર)\n                                            \n                                            \n                                                ૧ પૈકી  ૨\n                                            \n                                            \n                                                જુના સરવે નંબર ને લગત નોંધ નંબરો: \n૨,૧૯૪,૪પ૭,૭૦૯ |***\nજુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: \n૧૦૩૯ |***\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦-પ૦-૮પ\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૪.૬૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    નવી શરત (ન.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ખેતીલાયક ઉપયોગ\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    અવેડાવાળું\n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૪૧૭,૨૦૭૯,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૩૯૨ | ૦-પ૦-૮પ | ૪.૬૦ચતુરભાઇ ટપુભાઇ ક઼ોળી(૭૦૯)\n\t\t\n\t\t\t રજુબેન ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t રણજીતભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t વિરમભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t લાલજીભાઈ ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\t\t આશાબેન ચતુરભાઈ મેર(૨૦૭૯)\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૧૪૧૭,૧પ૬૪,૨૦૭૮,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n"
+      }
+    },
+    {
+      "success": true,
+      "village_code": "030",
+      "village_name": "અડતાળા - 030",
+      "survey": "0z",
+      "raw": {
+        "district": {
+          "value": "30"
+        },
+        "taluka": {
+          "value": "03"
+        },
+        "village": {
+          "value": "030",
+          "text": "અડતાળા - 030"
+        },
+        "survey": {
+          "value": "0z",
+          "text": "0z"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૭૪૮ | ૦-૦૨-૦૨ | ૦.૦૦મુળજીભાઇ ગોરઘનભાઇ(૨૬૦૩)\n\t\t\n\t\t\t છગનભાઇ ગોરઘનભાઇ(૨૬૦૩)"
+            }
+          ],
+          "full_page_text": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.06/04/2017 02:04:53 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                ગઢડા\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                અડતાળા\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૦ બિન નંબરી \n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ424012177044\n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦-૦૨-૦૨\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦.૦૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    નવી શરત (ન.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    પો.ખ. કુવો\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    શ્રી મામલતદાર સાહેબ ગઢડા ના હુકમનં.જમીન/વશી/૧૫૮૪/૧૯૯૮ તા.૨૧/૦૯/૧૯૯૮ થી સ.નં.૧૮૦/૧ ની જમીનને અડીને ઘેલાનદી કાંઠાની હે.૦.૦૨.૦૨ ફાળવતા નોંધ રાખી\n                                                \n                                            \n                                        \n                                        \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૭૪૮ | ૦-૦૨-૦૨ | ૦.૦૦મુળજીભાઇ ગોરઘનભાઇ(૨૬૦૩)\n\t\t\n\t\t\t છગનભાઇ ગોરઘનભાઇ(૨૬૦૩)\n\t\t\n\t\t\t  \n\t\t\n\t\t\t  \n\t\t\n\t\t\t  \n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t \n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n",
+          "timestamp": "2026-01-15T05:03:00.433478"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-14T23:33:00.433504+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 2,
+          "encumbrance_count": 0
+        },
+        "search_input": {
+          "district": "30",
+          "taluka": "03",
+          "village": "030",
+          "survey_or_block_number": "0z",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "અડતાળા"
+          }
+        },
+        "property_identity": {
+          "khata_number": "748",
+          "survey_number": "0z",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "મુળજીભાઇ ગોરઘનભાઇ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2603",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "છગનભાઇ ગોરઘનભાઇ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2603",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "૦-૦૨-૦૨",
+          "area_hectare": 0,
+          "area_are": 2,
+          "area_sqm": 2,
+          "area_total_sqm": 202,
+          "area_sq_yd": 241.59,
+          "assessment_tax": "0.00",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [],
+        "rights_and_remarks": {
+          "entry_details": [],
+          "notes_raw": ""
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.06/04/2017 02:04:53 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                ગઢડા\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                અડતાળા\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૦ બિન નંબરી \n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ424012177044\n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦-૦૨-૦૨\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦.૦૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    નવી શરત (ન.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    પો.ખ. કુવો\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    \n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    શ્રી મામલતદાર સાહેબ ગઢડા ના હુકમનં.જમીન/વશી/૧૫૮૪/૧૯૯૮ તા.૨૧/૦૯/૧૯૯૮ થી સ.નં.૧૮૦/૧ ની જમીનને અડીને ઘેલાનદી કાંઠાની હે.૦.૦૨.૦૨ ફાળવતા નોંધ રાખી\n                                                \n                                            \n                                        \n                                        \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૭૪૮ | ૦-૦૨-૦૨ | ૦.૦૦મુળજીભાઇ ગોરઘનભાઇ(૨૬૦૩)\n\t\t\n\t\t\t છગનભાઇ ગોરઘનભાઇ(૨૬૦૩)\n\t\t\n\t\t\t  \n\t\t\n\t\t\t  \n\t\t\n\t\t\t  \n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t \n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n"
+      }
+    },
+    {
+      "success": true,
+      "village_code": "025",
+      "village_name": "અણીયાળી-કસ્બાતી - 025",
+      "survey": "4",
+      "raw": {
+        "district": {
+          "value": "30"
+        },
+        "taluka": {
+          "value": "09"
+        },
+        "village": {
+          "value": "025",
+          "text": "અણીયાળી-કસ્બાતી - 025"
+        },
+        "survey": {
+          "value": "4",
+          "text": "4"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૩૩૨,૧પ૭પ,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૨૧ | ૧-૦૮-૭૦ | ૪.૭પમસરુભાઈ કેહરભાઈ\n\t\t\n\t\t\t મનજીભાઈ કેહરભાઈ\n\t\t\n\t\t\t ધનજીભાઈ કેહરભાઈ\n\t\t\n\t\t\t લખમણભાઈ કેહરભાઈ\n\t\t\n\t\t\t નાનજીભાઈ કેહર઼ભાઈ\n\t\t\n\t\t\t મોતાબેન કેહરભાઈ\n\t\t\n\t\t\t મેરામભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t સુરતીબેન ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t જીવાભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t જેસીંગભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t ચોથાભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મંજુલાબેન મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મુકેશભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મનસુખભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મહેશભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t તાજુબેન લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t સુરેશભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t નરસિંહભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t હરેશભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)"
+            }
+          ],
+          "full_page_text": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.11/03/2023 01:16:52 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                રાણપુર\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                અણીયાળી-કસ્બાતી\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૪\n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ438739042889\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                (પ્રમોલગેશન નોંધ નં.૧૩૩૨ તા.૧૭/૦૧/૨૦૧૭)\n                                            \n                                            \n                                                Old Survey Number (જુનો સરવે નંબર)\n                                            \n                                            \n                                                ૧પ૧\n                                            \n                                            \n                                                જુના સરવે નંબર ને લગત નોંધ નંબરો: \n૧૦,પ૨,પ૮,૨૬૨,૬૦૩ |***\nજુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: \n૧૦૮,૨પ૭,૨૬૧,૨૬પ,૩૪૦,૩૪૧ |***\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૧-૦૮-૭૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૪.૭પ\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    જુની શરત (જુ.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ખેતીલાયક ઉપયોગ\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૩૩૨,૧પ૭પ,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૨૧ | ૧-૦૮-૭૦ | ૪.૭પમસરુભાઈ કેહરભાઈ\n\t\t\n\t\t\t મનજીભાઈ કેહરભાઈ\n\t\t\n\t\t\t ધનજીભાઈ કેહરભાઈ\n\t\t\n\t\t\t લખમણભાઈ કેહરભાઈ\n\t\t\n\t\t\t નાનજીભાઈ કેહર઼ભાઈ\n\t\t\n\t\t\t મોતાબેન કેહરભાઈ\n\t\t\n\t\t\t મેરામભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t સુરતીબેન ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t જીવાભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t જેસીંગભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t ચોથાભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મંજુલાબેન મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મુકેશભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મનસુખભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મહેશભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t તાજુબેન લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t સુરેશભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t નરસિંહભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t હરેશભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૧૩૩૨,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n",
+          "timestamp": "2026-01-15T05:03:15.172038"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-14T23:33:15.172061+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 19,
+          "encumbrance_count": 0
+        },
+        "search_input": {
+          "district": "30",
+          "taluka": "09",
+          "village": "025",
+          "survey_or_block_number": "4",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "અણીયાળી-કસ્બાતી"
+          }
+        },
+        "property_identity": {
+          "khata_number": "121",
+          "survey_number": "4",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "મસરુભાઈ કેહરભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "મનજીભાઈ કેહરભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "ધનજીભાઈ કેહરભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "લખમણભાઈ કેહરભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "નાનજીભાઈ કેહર઼ભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "મોતાબેન કેહરભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "મેરામભાઇ ખીમાભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "સુરતીબેન ખીમાભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "જીવાભાઇ ખીમાભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "જેસીંગભાઇ ખીમાભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "ચોથાભાઇ ખીમાભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "મંજુલાબેન મેઘજીભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "મુકેશભાઇ મેઘજીભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "મનસુખભાઇ મેઘજીભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "મહેશભાઇ મેઘજીભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "તાજુબેન લઘુભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "સુરેશભાઇ લઘુભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "નરસિંહભાઇ લઘુભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "હરેશભાઇ લઘુભાઇ ઘરજીયા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "1575",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "૧-૦૮-૭૦",
+          "area_hectare": 1,
+          "area_are": 8,
+          "area_sqm": 70,
+          "area_total_sqm": 10870,
+          "area_sq_yd": 13000.41,
+          "assessment_tax": "4.7",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [
+          "1332",
+          "1575"
+        ],
+        "rights_and_remarks": {
+          "entry_details": [],
+          "notes_raw": ""
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.11/03/2023 01:16:52 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                રાણપુર\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                અણીયાળી-કસ્બાતી\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૪\n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ438739042889\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                (પ્રમોલગેશન નોંધ નં.૧૩૩૨ તા.૧૭/૦૧/૨૦૧૭)\n                                            \n                                            \n                                                Old Survey Number (જુનો સરવે નંબર)\n                                            \n                                            \n                                                ૧પ૧\n                                            \n                                            \n                                                જુના સરવે નંબર ને લગત નોંધ નંબરો: \n૧૦,પ૨,પ૮,૨૬૨,૬૦૩ |***\nજુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: \n૧૦૮,૨પ૭,૨૬૧,૨૬પ,૩૪૦,૩૪૧ |***\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૧-૦૮-૭૦\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૪.૭પ\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    જુની શરત (જુ.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ખેતીલાયક ઉપયોગ\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૩૩૨,૧પ૭પ,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૨૧ | ૧-૦૮-૭૦ | ૪.૭પમસરુભાઈ કેહરભાઈ\n\t\t\n\t\t\t મનજીભાઈ કેહરભાઈ\n\t\t\n\t\t\t ધનજીભાઈ કેહરભાઈ\n\t\t\n\t\t\t લખમણભાઈ કેહરભાઈ\n\t\t\n\t\t\t નાનજીભાઈ કેહર઼ભાઈ\n\t\t\n\t\t\t મોતાબેન કેહરભાઈ\n\t\t\n\t\t\t મેરામભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t સુરતીબેન ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t જીવાભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t જેસીંગભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t ચોથાભાઇ ખીમાભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મંજુલાબેન મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મુકેશભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મનસુખભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t મહેશભાઇ મેઘજીભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t તાજુબેન લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t સુરેશભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t નરસિંહભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\t\t હરેશભાઇ લઘુભાઇ ઘરજીયા(૧પ૭પ)\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૧૩૩૨,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n"
+      }
+    },
+    {
+      "success": true,
+      "village_code": "005",
+      "village_name": "અંકેવાળીયા - 005",
+      "survey": "2",
+      "raw": {
+        "district": {
+          "value": "30"
+        },
+        "taluka": {
+          "value": "10"
+        },
+        "village": {
+          "value": "005",
+          "text": "અંકેવાળીયા - 005"
+        },
+        "survey": {
+          "value": "2",
+          "text": "2"
+        },
+        "data": {
+          "success": true,
+          "tables": [
+            {
+              "text": "ખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૨૨૨,૨૦૨૯,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૪૭ | ૦-૪૪-૪૬ | ૦.૩પનાનજીભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t જાદવભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t જેરામભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t દુધીબેન સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t પરસોતત્મભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t ધુઘાભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t પ્રેમજીભાઇ ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ગીતાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t રમુબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t રેખાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ચંદાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t પુરીબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ગોપાલભાઇ ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t સંગીતાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t માયાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)"
+            }
+          ],
+          "full_page_text": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.29/10/2022 01:17:40 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                બરવાળા\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                અંકેવાળીયા\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૨\n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ665083646619\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                (પ્રમોલગેશન નોંધ નં.૧૨૨૨ તા.૦૨/૦પ/૨૦૧પ)\n                                            \n                                            \n                                                Old Survey Number (જુનો સરવે નંબર)\n                                            \n                                            \n                                                ૨૭\n                                            \n                                            \n                                                જુના સરવે નંબર ને લગત નોંધ નંબરો: \n૧,પ૨,૬પ,૮૩,૧૨૦,૪૭પ,૭૧૭,૮૭૬*,૯૧૩,૯૨૯ |***\nજુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: \n૪૩,૨૩૧,૬૩૦,૯૨૯ |***\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦-૪૪-૪૬\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦.૩પ\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    જુની શરત (જુ.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ખેતીલાયક ઉપયોગ\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    0\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૨૨૨,૨૦૨૯,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૪૭ | ૦-૪૪-૪૬ | ૦.૩પનાનજીભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t જાદવભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t જેરામભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t દુધીબેન સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t પરસોતત્મભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t ધુઘાભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t પ્રેમજીભાઇ ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ગીતાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t રમુબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t રેખાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ચંદાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t પુરીબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ગોપાલભાઇ ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t સંગીતાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t માયાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૧૨૨૨,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tકલમ ૪૩ ને આધીન રહેવાની શરતે<૦>\n\t\t\n\t\t\tમાત્રબીન ખેતીના હેતુમાટે પ્રીમીયમને પાત્ર<૯૨૯>\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n",
+          "timestamp": "2026-01-15T05:03:29.965580"
+        }
+      },
+      "structured": {
+        "meta": {
+          "portal_name": "AnyROR Rural Land Record",
+          "module": "SURVEY_NUMBER_SEARCH",
+          "page_title": "HOME RURAL LAND RECORD SURVEY NUMBER SEARCH",
+          "state": "Gujarat",
+          "record_type": "VF-7 / RoR (7-12)",
+          "data_status_time_local": "",
+          "scrape_timestamp_utc": "2026-01-14T23:33:29.965605+00:00",
+          "language": "gu",
+          "disclaimer_local": "અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ તરીકે ગણવામાં આવશે નહી.",
+          "disclaimer_english": "The information provided online is updated and is not an official copy.",
+          "owner_count": 15,
+          "encumbrance_count": 0
+        },
+        "search_input": {
+          "district": "30",
+          "taluka": "10",
+          "village": "005",
+          "survey_or_block_number": "2",
+          "sub_division_number": "",
+          "fetch_mode": "survey_search"
+        },
+        "location": {
+          "district": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "taluka": {
+            "name_en": "",
+            "name_local": ""
+          },
+          "village": {
+            "name_en": "",
+            "name_local": "અંકેવાળીયા"
+          }
+        },
+        "property_identity": {
+          "khata_number": "147",
+          "survey_number": "2",
+          "block_number": "",
+          "sub_division_number": "",
+          "old_survey_number": "",
+          "old_survey_notes": "",
+          "upin": "",
+          "land_type": "Unknown"
+        },
+        "owners": [
+          {
+            "owner_name": "નાનજીભાઈ સાર્દુલભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "717",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "જાદવભાઈ સાર્દુલભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "717",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "જેરામભાઈ સાર્દુલભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "717",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "દુધીબેન સાર્દુલભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "717",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "પરસોતત્મભાઈ સાર્દુલભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "717",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "ધુઘાભાઈ સાર્દુલભાઈ",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "717",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "પ્રેમજીભાઇ ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "ગીતાબેન ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "રમુબેન ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "રેખાબેન ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "ચંદાબેન ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "પુરીબેન ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "ગોપાલભાઇ ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "સંગીતાબેન ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          },
+          {
+            "owner_name": "માયાબેન ધુડાભાઈ ગોરાહવા",
+            "owner_father_or_husband_name": "",
+            "ownership_type": "ખાતેદાર",
+            "share": "",
+            "entry_number": "2029",
+            "owner_address_or_remark": ""
+          }
+        ],
+        "land_details": {
+          "total_area_raw": "૦-૪૪-૪૬",
+          "area_hectare": 0,
+          "area_are": 44,
+          "area_sqm": 46,
+          "area_total_sqm": 4446,
+          "area_sq_yd": 5317.37,
+          "assessment_tax": "0.3",
+          "land_revenue": "",
+          "tenure": "",
+          "tenure_local": "",
+          "land_use": "",
+          "land_use_local": "",
+          "farm_name": "",
+          "irrigation_type": "",
+          "soil_type": "",
+          "crop_details": "",
+          "remarks": "",
+          "boundaries": {
+            "north": "",
+            "south": "",
+            "east": "",
+            "west": ""
+          }
+        },
+        "entry_numbers": [
+          "1222",
+          "2029"
+        ],
+        "rights_and_remarks": {
+          "entry_details": [],
+          "notes_raw": ""
+        },
+        "related_documents": {
+          "vf6": {
+            "available": false,
+            "url": ""
+          },
+          "vf8a": {
+            "available": false,
+            "url": ""
+          },
+          "vf7": {
+            "available": false,
+            "url": ""
+          },
+          "mutation_register": {
+            "available": false,
+            "url": ""
+          }
+        },
+        "raw_page_text_backup": "\n     Top\n\n    \n        //Get the button\n        var mybutton = document.getElementById(\"myBtn\");\n\n        // When the user scrolls down 20px from the top of the document, show the button\n        window.onscroll = function () { scrollFunction() };\n\n        function scrollFunction() {\n            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\n                mybutton.style.display = \"block\";\n            } else {\n                mybutton.style.display = \"none\";\n            }\n        }\n\n        // When the user clicks on the button, scroll to the top of the document\n        function topFunction() {\n            document.body.scrollTop = 0;\n            document.documentElement.scrollTop = 0;\n        }\n    \n    \n\n\n\n\n\n\n\n//<![CDATA[\nvar theForm = document.forms['form1'];\nif (!theForm) {\n    theForm = document.form1;\n}\nfunction __doPostBack(eventTarget, eventArgument) {\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\n        theForm.__EVENTTARGET.value = eventTarget;\n        theForm.__EVENTARGUMENT.value = eventArgument;\n        theForm.submit();\n    }\n}\n//]]>\n\n\n\n\n\n\t\n\t\n\t\n\n\n        \n            \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                         \n                                    \n                                \n                            \n                        \n                        \n                            \n                                \n                                    \n                                    \n                                    \n                                \n                                \n                                    \n                                    \n                                \n                            \n                        \n                    \n                \n            \n            \n\n            \n            \n\n            \n    \n    \n        \n            \n                \n                    \n                        HOME\n                    \n                    RURAL LAND RECORD\n                    VF-7\n\n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                        ગામ નમૂના નંબર - ૭ ની વિગતો  \n                    \n                    \n                        \n                            \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n\n                                \n                                    \n                                        \n                                            * તા.29/10/2022 01:17:40 ની સ્થિતિએ\n                                        \n                                        \n                                            \n                                                District (જીલ્લો)\n                                            \n                                            \n                                                બોટાદ\n                                            \n                                        \n                                        \n                                            \n                                                Taluka (તાલુકો)\n                                            \n                                            \n                                                બરવાળા\n                                            \n                                        \n                                        \n                                            \n                                                Village (ગામ)\n                                            \n                                            \n                                                અંકેવાળીયા\n                                            \n                                        \n                                        \n                                            \n                                                Survey/ Block Number (સરવે/ બ્લોક નંબર)\n                                            \n                                            \n                                                ૨\n                                            \n                                        \n                                    \n                                    \n                                        \n                                            \n                                                UPIN (Unique Property Identification Number)\n                                            \n                                            \n                                                GJ665083646619\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                (પ્રમોલગેશન નોંધ નં.૧૨૨૨ તા.૦૨/૦પ/૨૦૧પ)\n                                            \n                                            \n                                                Old Survey Number (જુનો સરવે નંબર)\n                                            \n                                            \n                                                ૨૭\n                                            \n                                            \n                                                જુના સરવે નંબર ને લગત નોંધ નંબરો: \n૧,પ૨,૬પ,૮૩,૧૨૦,૪૭પ,૭૧૭,૮૭૬*,૯૧૩,૯૨૯ |***\nજુના સરવે નંબર ને લગત બીજા હકો અને બોજા ના નોંધ નંબરો: \n૪૩,૨૩૧,૬૩૦,૯૨૯ |***\n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                Land Details (જમીનની વિગતો)\n                                            \n                                        \n                                        \n                                            \n                                                \n                                                    Total Area (H.Are.SqMt.) (કુલ ક્ષેત્રફળ હે.આરે.ચોમી.) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦-૪૪-૪૬\n                                                \n                                            \n\n                                            \n                                                \n                                                    Total Assessment Rs. (કુલ આકાર રૂ. ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ૦.૩પ\n                                                \n                                            \n\n                                            \n                                                \n                                                    Tenure (સત્તાપ્રકાર) :\n                                                \n                                            \n                                            \n                                                \n                                                    જુની શરત (જુ.શ)\n                                                \n                                            \n                                            \n                                                \n                                                    Land Use (જમીનનો ઉપયોગ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ખેતીલાયક ઉપયોગ\n                                                \n                                            \n                                            \n                                                \n                                                    Name of farm (ખેતરનું નામ) :\n                                                \n                                            \n                                            \n                                                \n                                                    ----\n                                                \n                                            \n                                            \n                                                \n                                                    Other Details (રીમાર્ક્સ) :\n                                                \n                                            \n                                            \n                                                \n                                                    0\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                \n                                    \n                                        \n                                            \n                                                Ownership Details (ખાતેદારની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tખાતા નંબર  | ક્ષેત્રફળ | આકાર |નોંધ નંબરો તથા ખાતેદાર\n\t\t\n\t\t\t ૧૨૨૨,૨૦૨૯,\n\t\t\n\t\t\t----------------------------------------------------------------------\n\t\t\n\t\t\t૧૪૭ | ૦-૪૪-૪૬ | ૦.૩પનાનજીભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t જાદવભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t જેરામભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t દુધીબેન સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t પરસોતત્મભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t ધુઘાભાઈ સાર્દુલભાઈ(૭૧૭)\n\t\t\n\t\t\t પ્રેમજીભાઇ ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ગીતાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t રમુબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t રેખાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ચંદાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t પુરીબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t ગોપાલભાઇ ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t સંગીતાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\t\t માયાબેન ધુડાભાઈ ગોરાહવા(૨૦૨૯)\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                        \n                                            \n                                                Boja and Other Rights Details (બોજા અને બીજા હક્ક ની વિગતો)\n                                            \n                                            \n                                                \n                                                    \n\t\n\t\t\n\t\t\tબોજા અને બીજા હક્ક ની વિગતો\n\t\t\n\t\t\t૧૨૨૨,\n\t\t\n\t\t\t--------------------------------------------------\n\t\t\n\t\t\tકલમ ૪૩ ને આધીન રહેવાની શરતે<૦>\n\t\t\n\t\t\tમાત્રબીન ખેતીના હેતુમાટે પ્રીમીયમને પાત્ર<૯૨૯>\n\t\t\n\t\n\n                                                \n                                            \n                                        \n                                    \n                                \n                                \n                                    \n                                        \n                                            \n                                                * અહીં દર્શાવેલ જમીનની વિગતો ફક્ત આપની જાણ માટે જ છે જેને સત્તાવાર નકલ\n                                                    તરીકે ગણવામાં આવશે નહી.\n                                                    આ વિગતો અંગે કોઈ પણ વધારાની માહિતી મેળવવી હોય તો જે તે મામલતદાર કચેરી અથવા\n                                                        કલેક્ટર કચેરીનો સંપર્ક કરવો.\n                                                \n                                                \n                                                ** The information provided online is updated, and no physical visit is required for this information.\n                                                    For additional information you may visit respective office.\n                                            \n                                        \n                                    \n                                \n                            \n                        \n                    \n                \n            \n        \n    \n    \n\n\n            \n            \n                \n                    \n                        \n                            \n                                Content Owned by Revenue Department, Government of Gujarat\n                                        \n                                © Developed by National Informatics Centre (NIC), Gujarat State Centre, Gandhinagar\n                            \n                        \n                    \n                \n            \n            \n\n            \n\n            \n                $(document).on('ready', function () {\n\n                    $(\".vertical\").slick({\n                        dots: true,\n                        vertical: false,\n                        slidesToShow: 3,\n                        autoplay: true,\n                        autoplayspeed: 500,\n                        responsive: [\n                        {\n                            breakpoint: 1024,\n                            settings: {\n                                slidesToShow: 3\n                            }\n                        },\n                        {\n                            breakpoint: 600,\n                            settings: {\n                                slidesToShow: 2\n                            }\n                        },\n                        {\n                            breakpoint: 480,\n                            settings: {\n                                slidesToShow: 1\n                            }\n                        }\n                        ]\n                    });\n\n                });\n            \n\n        \n\n    \n\n"
+      }
+    },
+    {
+      "success": false,
+      "village_code": "001",
+      "village_name": "બોટાદ (સીટી) - 001",
+      "error": "No data in tables"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "district_code": "02",
+    "taluka_code": "03",
+    "start_time": "2026-01-14T14:38:36.255932",
+    "end_time": "2026-01-14T14:40:22.699138",
+    "duration_seconds": 106.44,
+    "num_contexts": 2,
+    "tabs_per_context": 2,
+    "total_workers": 4
+  },
+  "statistics": {
+    "total_villages": 10,
+    "successful": 5,
+    "failed": 5,
+    "success_rate_percent": 50.0,
+    "villages_per_minute": 5.64
+  },
+  "results": [
+    {
+      "village_code": "043",
+      "village_name": "અનાપુર ગઢ - 043",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C1-T0",
+      "error": null
+    },
+    {
+      "village_code": "042",
+      "village_name": "અનાપુર છોટા - 042",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C0-T0",
+      "error": null
+    },
+    {
+      "village_code": "011",
+      "village_name": "",
+      "survey_no": "",
+      "success": false,
+      "worker_id": "C1-T0",
+      "error": "no_surveys"
+    },
+    {
+      "village_code": "031",
+      "village_name": "",
+      "survey_no": "",
+      "success": false,
+      "worker_id": "C0-T0",
+      "error": "no_surveys"
+    },
+    {
+      "village_code": "067",
+      "village_name": "આલવાડા - 067",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C1-T1",
+      "error": null
+    },
+    {
+      "village_code": "060",
+      "village_name": "",
+      "survey_no": "",
+      "success": false,
+      "worker_id": "C1-T1",
+      "error": "no_surveys"
+    },
+    {
+      "village_code": "037",
+      "village_name": "કુંડી - 037",
+      "survey_no": "1",
+      "success": true,
+      "worker_id": "C1-T0",
+      "error": null
+    },
+    {
+      "village_code": "007",
+      "village_name": "કુંવારલા - 007",
+      "survey_no": "2",
+      "success": true,
+      "worker_id": "C1-T1",
+      "error": null
+    },
+    {
+      "village_code": "056",
+      "village_name": "આશિયા - 056",
+      "survey_no": "2",
+      "success": false,
+      "worker_id": "C0-T1",
+      "error": "captcha_failed_all_attempts"
+    },
+    {
+      "village_code": "073",
+      "village_name": "કુંમર - 073",
+      "survey_no": "1",
+      "success": false,
+      "worker_id": "C0-T0",
+      "error": "captcha_failed_all_attempts"
+    }
+  ]
+}
